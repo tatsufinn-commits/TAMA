@@ -1,8 +1,8 @@
 {
   "name": "tama",
-  "version": "1.8.0-a",
+  "version": "1.9.0-a",
   "private": true,
-  "description": "TAMA: Academic Knowledge Vault, Socratic Exam Trainer & Mapúa Architecture Scaffolding",
+  "description": "TAMA: 7-Cluster Academic Knowledge Vault, Socratic Exam Trainer & Mapúa Architecture Scaffolding",
   "scripts": {
     "test": "node test-scaffold.js",
     "drill": "node study.js",
@@ -16,6 +16,7 @@
   "keywords": [
     "tama",
     "mapua-architecture",
+    "7-cluster-vault",
     "academic-vault",
     "exam-trainer",
     "socratic-tutor",

@@ -1,30 +1,52 @@
-# 🏛️ ACADEMIC CONTEXT & CURRICULUM MAP (`ACADEMIC_CONTEXT.md`)
-## Mapúa University BS Architecture 3rd-Year Program & PRC ALE Board Coverage
-**Institution:** Mapúa University — School of Architecture, Industrial Design & the Built Environment (ARIDBE)  
-**Program:** Bachelor of Science in Architecture (Quarter-Term / Fast-Paced Curriculum)  
+# 🏛️ ACADEMIC CONTEXT & CURRICULUM INTELLIGENCE MAP (`ACADEMIC_CONTEXT.md`)
+## Mapúa University BS Architecture Program & PRC ALE Licensure Blueprint
+**Institution:** Mapúa University (Intramuros & Makati Campuses)  
+**Academic Unit:** School of Architecture and Planning, Industrial Design and the Built Environment (ARIDBE)  
+**Program Code:** AR — Bachelor of Science in Architecture (14-Week Trimester System)  
+**Education Model:** Learner-Centered Outcomes-Based Education (LC-OBE) — Program Outcomes A–M  
 **Target Milestone:** 3rd-Year Comprehensive Departmentals & Graduation Exit Exams (PRC ALE Blueprint)  
 
 ---
 
-# 1. THE 3RD-YEAR MAPÚA BS ARCHITECTURE CURRICULUM
-
-In the 3rd year at Mapúa, coursework transitions heavily into technical execution, building systems integration, and professional legal governance:
+# 1. THE 7-CLUSTER MAPÚA BS ARCHITECTURE KNOWLEDGE GRAPH
 
 ```text
- ┌────────────────────────────────────────────────────────────────────────────┐
- │               MAPÚA BS ARCHITECTURE 3RD-YEAR COURSE MATRIX                 │
- ├────────────────────────────────────────────────────────────────────────────┤
- │ 🏛️ 1. ARCHITECTURAL DESIGN 5 & 6   │ Complex Space Programming, Zoning,   │
- │                                    │ Institutional & Commercial Buildings │
- │ 🧱 2. BUILDING TECHNOLOGY 3 & 4    │ Heavy Concrete, Post-Tensioning,     │
- │                                    │ Structural Steel Trusses, Specs/Estim│
- │ ⚡ 3. UTILITIES 3 (MEPFS)          │ Central Chilled HVAC, Building Auto, │
- │                                    │ Acoustics, Elevators, Fire Protection│
- │ 📐 4. THEORY OF STRUCTURES & RCD   │ Continuous Beams, Moment Distribution│
- │                                    │ Singly/Doubly Reinforced Beam Sizing │
- │ 📜 5. PROFESSIONAL PRACTICE 1      │ RA 9266, UAP Doc 301, SPP 201-208,   │
- │                                    │ Standard Bidding Documents & Ethics  │
- └────────────────────────────────────────────────────────────────────────────┘
+                        ┌────────────────────────────────────────────┐
+                        │        GE / MATH / SCIENCE FOUNDATIONS      │
+                        │  GED101–117 · MATH12/146 · PHYS101/104-105  │
+                        │  ENG-series · FIL · SS · PE · NSTP          │
+                        └──────────────┬─────────────────────────────┘
+                                       ▼
+        ┌──────────────────────────────────────────────────────────────────┐
+        │               BASIC ARCHITECTURAL KNOWLEDGE                     │
+        │  AR130P Theory of Arch 1 ──► AR132-1 Theory of Arch 2           │
+        │  AR120 HoA1 ──► HoA2 ──► AR123 HoA3 ──► AR124-1 HoA4            │
+        │  AR101P Graphic Design · AR113S VisCom 3 · AR114S-1 VisCom 4    │
+        └───────────────┬──────────────────────────────┬──────────────────┘
+                        ▼                              ▼
+   ┌────────────────────────────────────┐   ┌──────────────────────────────────────┐
+   │ 1. DESIGN STUDIO SPINE (AR)        │   │ 2-4. TECHNICAL & STRUCTURAL SYSTEMS  │
+   │  AR141 AD1 → AR142-1P AD2 → AD3 →  │   │  STRUCTURES: MEC30 → MEC32 → CE131P  │
+   │  AD4 → AR145-1S AD5 → AD6 → AD7 → │   │    → CE134P · CE133/191 (RCD Beams)  │
+   │  AD8                                │   │  BUILDING TECH: AR161 BT1 → AR162-1P │
+   │  (paired with VisCom/CAD/BIM)       │   │    BT2 → BT3 → BT4 → AR165-1P BT5   │
+   │  CAD10L/30L · AR117-1P BIM 1        │   │  UTILITIES: AR153P BU1 → BU2 →      │
+   └───────────────┬────────────────────┘   │    AR155-1 BU3 (MEPFS) · Fire Code   │
+                   ▼                        └───────────────┬──────────────────────┘
+        ┌────────────────────────────────────────────────────┘
+        ▼
+   ┌──────────────────────────────────────────────────────────────────────┐
+   │ 5. PLANNING & ENVIRONMENTAL                                          │
+   │  AR173 Planning 1 (Site/Landscape) → AR173-1P Planning 2 (Urban) →   │
+   │  AR176-1 Planning 3 (Regional/CLUP) · Tropical Design · BP 220/PD 957│
+   └───────────────────────────────┬──────────────────────────────────────┘
+                                   ▼
+   ┌──────────────────────────────────────────────────────────────────────┐
+   │ 6-7. PROFESSIONAL PRACTICE & CAPSTONE RESEARCH                       │
+   │  AR181-1 / AR181-2 ProfPrac 1 & 2 · UAP Doc 301 · SPP 201-208        │
+   │  AR134-1 Research Methods → AR135-1 Essays → AR200 Thesis Writing    │
+   │  → AR200-2 Terminal Design Course (Graduation Exit Defense)          │
+   └──────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -43,9 +65,9 @@ Mapúa Comprehensive Exit Exams are modeled directly on the **PRC Board of Archi
   4. **RA 9266 (The Architecture Act of 2004):** Scope of practice, seal ownership, criminal liabilities, SPP Document 200 series.
 
 ### Part 2: Building Tech, Utilities, Materials & Structures (30% Weight)
-* **Building Materials & Construction:** Concrete mixtures, timber defects, steel shapes, joinery, curtain walls, waterproofing.
-* **Building Utilities (MEPFS):** Plumbing drainage systems, electrical circuit breakers, HVAC refrigeration cycles, acoustic RT60 reverberation calculations.
-* **Structural Design:** Force equilibrium, shear/moment diagrams, bending stress, column buckling, NSCP seismic load factors.
+* **Building Materials & Construction (BT1–BT5):** Concrete mixtures, timber defects, steel shapes, joinery, curtain walls, waterproofing.
+* **Building Utilities (BU1–BU4):** Plumbing drainage systems, electrical circuit breakers, HVAC refrigeration cycles, acoustic RT60 reverberation calculations.
+* **Structural Design (MEC30–CE134P):** Force equilibrium, shear/moment diagrams, bending stress, column buckling, NSCP seismic load factors.
 
 ### Part 3: Architectural Design & Site Planning (40% Weight)
 * Situational design problems requiring simultaneous application of zoning regulations, parking counts, AMBF computation, and space planning layouts.

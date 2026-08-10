@@ -37,7 +37,7 @@ When you start a study session:
   * **Build T05 (Core Building Laws Vault):** Populated PD 1096 NBCP, RA 9514, BP 344, and RA 9266.
   * **Build T06 (3rd-Year Active Courses Vault):** Populated Building Tech 3/4, Utilities 3, Structural Theory, ProfPrac 1, and Arch Design 5.
   * **Build T07 (1st/2nd Year History Archive):** Populated History of Architecture, Theory of Architecture, Building Tech 1-2, Utilities 1-2, and Statics.
-  * **Build T08 (Vault Link Verification):** Created `test-scaffold.js` verifying all 14 references (>300 bytes) with 0 errors.
+  * **Build T08 (Vault Link Verification):** Created `test-scaffold.js` verifying all references (>300 bytes) with 0 errors.
 * **Test Status:** `npm test` passed with 100% green checkmarks.
 
 ---
@@ -95,7 +95,25 @@ When you start a study session:
   * **Build T25 (Visual Flashcard Web-App):** Created `reviewers/flashcard-app/index.html` offering an interactive dark-mode flashcard flipper with Leitner spaced repetition and deck filtering.
   * **Build T26 (Major Plate Defense Checklist):** Created `reviewers/design-studio/MAJOR_PLATE_DEFENSE_CHECKLIST.md` with complete jury defense rubrics for 3rd-Year Design plates.
   * **Build T27 (Rapid Code Search CLI):** Created `query-code.js` (`npm run code [keyword]`) searching building laws, dimensions, and citations in $<0.1\text{s}$.
-* **Current Production State:** Version `TAMA 1.8.0.0.a v` fully operational.
+* **Current Production State:** Version `TAMA 1.8.0.0.a v` operational.
+
+---
+
+### [COMPLETED] Milestone 7: The 7-Cluster Mapúa Knowledge Vault Rehaul (Builds T29 – T32)
+* **Date:** 2026-08-10
+* **Faculty in Charge:** `@curator` / `@architect`
+* **Changes Delivered:**
+  * **Build T29 (7-Cluster Reorganization):** Structured `vault/` into:
+    * `00-INCOMING-DROP-BOX/` (Raw lecture slide drop-off)
+    * `01-BUILDING-LAWS-AND-PROFPRAC/` (PD 1096, RA 9514, BP 344, RA 9266, UAP 301)
+    * `02-DESIGN-STUDIO-SPINE/` (AD1 to AD10 / Space Planning & Site Layouts)
+    * `03-BUILDING-TECHNOLOGY-SERIES/` (BT1 Timber to BT5 Curtain Walls & Post-Tensioning)
+    * `04-BUILDING-UTILITIES-SERIES/` (BU1 Plumbing to BU4 HVAC & Acoustics)
+    * `05-STRUCTURAL-STUDIES-SERIES/` (STRUC1 Statics to STRUC4 RCD Singly Reinforced Beams)
+    * `06-HISTORY-AND-THEORY-SERIES/` (HOA1 Ancient to HOA4 Modernism & TOA Ching Principles)
+    * `07-PLANNING-AND-ENVIRONMENTAL/` (PLAN1 Site Planning, Microclimates & BP 220 / PD 957 Housing)
+  * **Build T30 (Curriculum Intelligence Integration):** Integrated `courses/` research suite mapping Mapúa ARIDBE trimester course sequences and Program Outcomes A–M.
+* **Current Production State:** Version `TAMA 1.9.0.0.a v` fully operational.
 
 ---
 
