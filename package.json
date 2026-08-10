@@ -1,0 +1,21 @@
+{
+  "name": "tama",
+  "version": "1.4.0-a",
+  "private": true,
+  "description": "TAMA: Academic Knowledge Vault, Socratic Exam Trainer & Mapúa Architecture Scaffolding",
+  "scripts": {
+    "test": "node test-scaffold.js",
+    "drill": "node study.js",
+    "exam": "node -e \"console.log('Open reviewers/mock-exams/MAPUA_DEPT_EXAM_SET_01.md or MAPUA_EXIT_EXAM_SIMULATION_SET_02.md for full situational tests!')\""
+  },
+  "keywords": [
+    "tama",
+    "mapua-architecture",
+    "academic-vault",
+    "exam-trainer",
+    "socratic-tutor",
+    "thehub-plugin"
+  ],
+  "author": "Tatsufinn",
+  "license": "ISC"
+}
