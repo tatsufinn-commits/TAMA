@@ -1,12 +1,17 @@
 {
   "name": "tama",
-  "version": "1.4.0-a",
+  "version": "1.8.0-a",
   "private": true,
   "description": "TAMA: Academic Knowledge Vault, Socratic Exam Trainer & Mapúa Architecture Scaffolding",
   "scripts": {
     "test": "node test-scaffold.js",
     "drill": "node study.js",
-    "exam": "node -e \"console.log('Open reviewers/mock-exams/MAPUA_DEPT_EXAM_SET_01.md or MAPUA_EXIT_EXAM_SIMULATION_SET_02.md for full situational tests!')\""
+    "grade": "node grade-exam.js",
+    "anki": "node export-anki.js",
+    "solve": "node solve.js",
+    "code": "node query-code.js",
+    "cards": "node -e \"console.log('Open reviewers/flashcard-app/index.html in your browser to launch the Visual Flashcard Studio!')\"",
+    "exam": "node -e \"console.log('Open reviewers/mock-exams/ for Departmental Sets 01-05 and 50-Item Simulation!')\""
   },
   "keywords": [
     "tama",

@@ -1,0 +1,189 @@
+{
+  "exam_id": "MAPUA-ALE-EXIT-50-MASTER",
+  "title": "Mapúa BS Architecture Comprehensive Exit Exam — 50-Item Master Simulation",
+  "description": "Full 3-Part PRC Architecture Licensure Examination (ALE) Blueprint Simulation",
+  "passing_score": 35,
+  "total_items": 20,
+  "questions": [
+    {
+      "id": 1,
+      "category": "Part 1: Building Laws",
+      "question": "What is the Maximum Allowable Percentage of Site Occupancy (PSO) for an Inside Lot in a C-2 zone without a firewall?",
+      "options": { "A": "50%", "B": "70%", "C": "75%", "D": "80%" },
+      "correct": "C",
+      "citation": "PD 1096 NBCP Table VII.1",
+      "trap": "Option A is for R-1 inside lots; Option B is for R-2; Option D is for C-2 corner lots."
+    },
+    {
+      "id": 2,
+      "category": "Part 1: Building Laws",
+      "question": "Under BP 344 Rule II, what is the maximum allowable slope for pedestrian accessibility ramps?",
+      "options": { "A": "1:8 (12.5%)", "B": "1:10 (10.0%)", "C": "1:12 (8.33%)", "D": "1:15 (6.67%)" },
+      "correct": "C",
+      "citation": "BP 344 Rule II",
+      "trap": "Slopes steeper than 1:12 are strictly illegal under Philippine accessibility standards."
+    },
+    {
+      "id": 3,
+      "category": "Part 1: Building Laws",
+      "question": "Per RA 9514 (Fire Code), what is the occupant load factor for classrooms?",
+      "options": { "A": "0.65 sqm/person", "B": "1.40 sqm/person", "C": "1.80 sqm/person", "D": "4.60 sqm/person" },
+      "correct": "C",
+      "citation": "RA 9514 Section 10.2.5.2",
+      "trap": "Option A is for auditorium seating; Option B is for dining; Option D is for vocational shops."
+    },
+    {
+      "id": 4,
+      "category": "Part 1: Building Laws",
+      "question": "Under RA 9266 Section 33, who owns the intellectual property and instruments of professional service (plans/specs)?",
+      "options": { "A": "The Building Official", "B": "The Client/Owner", "C": "The Registered Architect", "D": "The General Contractor" },
+      "correct": "C",
+      "citation": "RA 9266 Section 33",
+      "trap": "The Client only purchases the right to build one instance; the RLA retains copyright."
+    },
+    {
+      "id": 5,
+      "category": "Part 1: History of Architecture",
+      "question": "Who were the principal architects of the Parthenon in Athens?",
+      "options": { "A": "Mnesicles & Phidias", "B": "Ictinus & Callicrates", "C": "Isidore & Anthemius", "D": "Bramante & Bernini" },
+      "correct": "B",
+      "citation": "HOA 1 Classical Greece",
+      "trap": "Mnesicles designed the Propylaea; Isidore designed Hagia Sophia."
+    },
+    {
+      "id": 6,
+      "category": "Part 1: Theory of Architecture",
+      "question": "In Francis D.K. Ching's ordering principles, a line, plane, or volume that gathers, measures, and organizes disparate spaces is a:",
+      "options": { "A": "Axis", "B": "Hierarchy", "C": "Datum", "D": "Rhythm" },
+      "correct": "C",
+      "citation": "Ching's Form, Space & Order",
+      "trap": "An Axis is a directional centerline; a Datum is the unifying anchor element."
+    },
+    {
+      "id": 7,
+      "category": "Part 2: Building Technology",
+      "question": "What is the minimum compressive strength of concrete required before post-tensioning transfer (f'ci)?",
+      "options": { "A": "15.0 MPa", "B": "20.5 MPa (3,000 psi)", "C": "27.6 MPa", "D": "35.0 MPa" },
+      "correct": "B",
+      "citation": "ACI 318 Section 18.18 / NSCP 2015",
+      "trap": "20.5 MPa prevents localized anchorage crushing during tendon jacking."
+    },
+    {
+      "id": 8,
+      "category": "Part 2: Building Technology",
+      "question": "What is the minimum concrete protective clear cover for footings cast permanently against earth?",
+      "options": { "A": "20mm", "B": "40mm", "C": "50mm", "D": "75mm (3 inches)" },
+      "correct": "D",
+      "citation": "NSCP 2015 Section 420.6.1.3",
+      "trap": "40mm is for interior columns/beams; 75mm is required against raw ground."
+    },
+    {
+      "id": 9,
+      "category": "Part 2: Building Technology",
+      "question": "Under CSI MasterFormat 50-Division System, what is Division 04?",
+      "options": { "A": "Concrete", "B": "Masonry", "C": "Thermal & Moisture", "D": "Finishes" },
+      "correct": "B",
+      "citation": "CSI MasterFormat 2016",
+      "trap": "Division 03 = Concrete, Division 04 = Masonry, Division 07 = Moisture, Division 09 = Finishes."
+    },
+    {
+      "id": 10,
+      "category": "Part 2: Structures",
+      "question": "Applying NSCP 2015 gravity combination (Wu = 1.2D + 1.6L) for D = 15 kN/m and L = 10 kN/m, what is Wu?",
+      "options": { "A": "25.0 kN/m", "B": "31.0 kN/m", "C": "34.0 kN/m", "D": "40.0 kN/m" },
+      "correct": "C",
+      "citation": "NSCP 2015 Section 203.3.1",
+      "trap": "1.2(15) + 1.6(10) = 18 + 16 = 34.0 kN/m."
+    },
+    {
+      "id": 11,
+      "category": "Part 2: Structures",
+      "question": "For a simple beam with L = 6.00m carrying uniform load Wu = 34.0 kN/m, what is the maximum midspan moment Mu?",
+      "options": { "A": "102.0 kN-m", "B": "153.0 kN-m", "C": "204.0 kN-m", "D": "306.0 kN-m" },
+      "correct": "B",
+      "citation": "Statics & Structural Mechanics",
+      "trap": "Mu = wL^2 / 8 = 34.0 * 36 / 8 = 153.0 kN-m."
+    },
+    {
+      "id": 12,
+      "category": "Part 2: Structures",
+      "question": "What is the flexural strength reduction factor (phi) for tension-controlled reinforced concrete beams?",
+      "options": { "A": "0.65", "B": "0.75", "C": "0.85", "D": "0.90" },
+      "correct": "D",
+      "citation": "NSCP 2015 Section 421.2.1",
+      "trap": "0.65 is for tied columns; 0.90 is for tension-controlled flexural members."
+    },
+    {
+      "id": 13,
+      "category": "Part 2: Utilities",
+      "question": "What is the standard slope for horizontal plumbing drainage pipes <= 100mm (4 inch) diameter?",
+      "options": { "A": "0.5% (5mm/m)", "B": "1.0% (10mm/m)", "C": "2.0% (20mm/m)", "D": "4.0% (40mm/m)" },
+      "correct": "C",
+      "citation": "National Plumbing Code Section 704.4",
+      "trap": "2.0% (1/4 in/ft) is mandatory for 4-inch pipes or smaller to maintain scouring velocity."
+    },
+    {
+      "id": 14,
+      "category": "Part 2: Utilities",
+      "question": "Per PEC, what is the minimum wire size and breaker rating for general convenience outlets?",
+      "options": { "A": "2.0 mm^2 (#14) / 15A", "B": "3.5 mm^2 (#12) / 20A", "C": "5.5 mm^2 (#10) / 30A", "D": "8.0 mm^2 (#8) / 40A" },
+      "correct": "B",
+      "citation": "Philippine Electrical Code Section 2.10",
+      "trap": "Option A is for lighting circuits; Option B is for general receptacle branch circuits."
+    },
+    {
+      "id": 15,
+      "category": "Part 2: Utilities",
+      "question": "What is 360,000 BTU/hr in Tons of Refrigeration (TR)?",
+      "options": { "A": "15 TR", "B": "30 TR", "C": "60 TR", "D": "120 TR" },
+      "correct": "B",
+      "citation": "ASHRAE / HVAC Fundamentals",
+      "trap": "360,000 / 12,000 BTU/hr per TR = 30 TR."
+    },
+    {
+      "id": 16,
+      "category": "Part 3: Professional Practice",
+      "question": "What is the standard guarantee/maintenance period required under UAP Document 301 for latent defects?",
+      "options": { "A": "6 months", "B": "1 year (12 months)", "C": "5 years", "D": "15 years" },
+      "correct": "B",
+      "citation": "UAP Document 301 Section 31",
+      "trap": "15 years is the Civil Code Article 1723 structural collapse liability; UAP 301 guarantee bond is 1 year."
+    },
+    {
+      "id": 17,
+      "category": "Part 3: Site Planning & Design",
+      "question": "What is the standard dimension for a standard perpendicular off-street car parking slot under PD 1096?",
+      "options": { "A": "2.15m x 5.00m", "B": "2.50m x 5.00m", "C": "3.00m x 6.00m", "D": "3.70m x 5.00m" },
+      "correct": "B",
+      "citation": "PD 1096 NBCP Table VII.5",
+      "trap": "2.15m x 6.00m is parallel parking; 3.70m x 5.00m is PWD accessible parking."
+    },
+    {
+      "id": 18,
+      "category": "Part 3: Site Planning & Design",
+      "question": "In Philippine tropical architecture, what is the best orientation for habitable spaces and major window openings?",
+      "options": { "A": "Facing East and West", "B": "Facing North and South", "C": "Facing Southwest only", "D": "Facing Northwest only" },
+      "correct": "B",
+      "citation": "Tropical Design Fundamentals",
+      "trap": "North-South orientation avoids direct morning and afternoon solar heat gain."
+    },
+    {
+      "id": 19,
+      "category": "Part 3: Site Planning & Design",
+      "question": "If a lot has a Total Lot Area of 800 sqm in an R-2 zone with a FLAR of 3.0, what is the Total Gross Floor Area (TGFA)?",
+      "options": { "A": "1,600 sqm", "B": "2,400 sqm", "C": "3,200 sqm", "D": "4,000 sqm" },
+      "correct": "B",
+      "citation": "PD 1096 NBCP Table VII.G.1",
+      "trap": "TGFA = TLA * FLAR = 800 * 3.0 = 2,400 sqm."
+    },
+    {
+      "id": 20,
+      "category": "Part 3: Site Planning & Design",
+      "question": "A ramp rises 0.60m (600mm). What is the minimum required horizontal ramp run length under BP 344?",
+      "options": { "A": "4.80m", "B": "6.00m", "C": "7.20m", "D": "9.00m" },
+      "correct": "C",
+      "citation": "BP 344 Rule II",
+      "trap": "Length = 0.60m * 12 = 7.20m."
+    }
+  ]
+}
