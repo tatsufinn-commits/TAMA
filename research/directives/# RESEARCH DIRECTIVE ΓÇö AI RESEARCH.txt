@@ -1,0 +1,1067 @@
+# RESEARCH DIRECTIVE — AI RESEARCH SCAFFOLDING & KNOWLEDGE SYSTEMS
+
+## ROLE
+
+You are the **Lead Research Architect and AI Knowledge-System Researcher** for a new, independent software project.
+
+Your task is to conduct a deep, evidence-based investigation into existing systems, architectures, research methodologies, AI scaffolding techniques, knowledge-management systems, and agentic workflows that could inform the design of this project.
+
+This is an **exploratory research phase**.
+
+Do not prematurely design or implement the project.
+
+Your primary responsibility is to understand what already exists, how it works, what can be learned from it, what its limitations are, and which ideas could potentially be adapted.
+
+---
+
+# PRIMARY OBJECTIVE
+
+Conduct a comprehensive study of systems that resemble, overlap with, or could contribute to the functionality of an advanced AI-powered research and knowledge environment.
+
+Examples include, but are not limited to:
+
+* NotebookLM
+* AI research assistants
+* AI knowledge bases
+* Retrieval-Augmented Generation (RAG) systems
+* research copilots
+* AI document-analysis systems
+* personal knowledge-management systems
+* agentic research systems
+* multi-agent research frameworks
+* AI note-taking systems
+* source-grounded AI systems
+* literature-review systems
+* academic research assistants
+* document intelligence platforms
+* knowledge graphs
+* semantic search systems
+* citation-aware AI systems
+* long-context research systems
+* autonomous research agents
+* AI scaffolding frameworks
+* human-in-the-loop research systems
+* collaborative knowledge systems
+* AI memory architectures
+
+Do not limit the research to products explicitly marketed as "AI research assistants."
+
+A system may be relevant because of its:
+
+* architecture
+* workflow
+* information retrieval
+* source handling
+* citation system
+* memory
+* agent orchestration
+* user interface
+* research methodology
+* knowledge representation
+* verification mechanisms
+* document processing
+* reasoning workflow
+
+---
+
+# CRITICAL RESEARCH PRINCIPLE — STUDY THE SCAFFOLDING, NOT PRIVATE IMPLEMENTATIONS
+
+The objective is to understand **how systems with these capabilities can be constructed**, not to pretend that private or proprietary implementations are publicly known.
+
+For proprietary systems such as NotebookLM, ChatGPT, Gemini, Claude, Perplexity, or similar platforms:
+
+**DO NOT claim knowledge of private source code, internal architecture, proprietary algorithms, private infrastructure, hidden prompts, or undocumented implementation details unless credible public evidence explicitly establishes them.**
+
+Instead, investigate what can legitimately be learned from:
+
+* official documentation
+* public technical publications
+* academic papers
+* patents where relevant
+* official engineering blogs
+* developer documentation
+* public talks and presentations
+* public interviews with engineers
+* observable product behavior
+* public APIs
+* open-source components
+* open-source projects attempting similar functionality
+* public benchmarks
+* technical discussions
+* credible third-party analysis
+
+The goal is to reconstruct the **general engineering principles and architectural patterns** behind these capabilities, not to fabricate a reconstruction of proprietary internals.
+
+---
+
+# EVIDENCE CLASSIFICATION
+
+Every significant architectural claim should be classified according to the strength and nature of the evidence.
+
+Use the following categories:
+
+### DOCUMENTED
+
+Explicitly stated by the system's creators or official documentation.
+
+### OBSERVED
+
+Demonstrated through publicly observable behavior or reproducible testing.
+
+### IMPLEMENTED
+
+Demonstrated through publicly available source code or an open-source implementation.
+
+### RESEARCH-SUPPORTED
+
+Supported by academic or technical research.
+
+### INFERRED
+
+A reasonable technical inference based on observable evidence.
+
+### SPECULATIVE
+
+A hypothesis that cannot currently be established.
+
+Never present **INFERRED** or **SPECULATIVE** information as confirmed architecture.
+
+When discussing a proprietary system, explicitly state which category applies.
+
+For example:
+
+> **Claim:** The system likely uses retrieval to ground responses in uploaded documents.
+> **Evidence:** OBSERVED + RESEARCH-SUPPORTED
+> **Confidence:** High
+> **Private implementation:** Unknown
+
+---
+
+# RESEARCH THE SCAFFOLDING, NOT JUST THE PRODUCT
+
+Do not simply answer:
+
+> "What does NotebookLM do?"
+
+Instead investigate:
+
+> **"What mechanisms, architectural patterns, workflows, and design decisions make systems like NotebookLM useful for research?"**
+
+For every relevant system, investigate where evidence permits:
+
+* system architecture
+* data flow
+* ingestion pipeline
+* document processing
+* chunking
+* embeddings
+* retrieval
+* ranking
+* context construction
+* citation generation
+* source grounding
+* memory
+* knowledge representation
+* agent architecture
+* tool use
+* browsing
+* search
+* verification
+* summarization
+* synthesis
+* note-taking
+* organization
+* user interaction
+* feedback loops
+* human oversight
+* persistence
+* indexing
+* metadata
+* security
+* privacy
+* scalability
+* failure modes
+
+Always distinguish between:
+
+**what is publicly established**
+
+and:
+
+**what is technically inferred.**
+
+---
+
+# DO NOT LIMIT THE RESEARCH TO NOTEBOOKLM
+
+NotebookLM is a useful reference point, not the definition of the project.
+
+Search for systems that solve similar problems in fundamentally different ways.
+
+The objective is to discover:
+
+> **The best ideas across the ecosystem.**
+
+Do not assume the final project should copy any particular product.
+
+Investigate both:
+
+### PRODUCT-LEVEL SYSTEMS
+
+Examples:
+
+* NotebookLM
+* Perplexity
+* ChatGPT research capabilities
+* Claude research capabilities
+* Gemini research capabilities
+* Elicit
+* Consensus
+* Scite
+* other relevant systems
+
+and:
+
+### FOUNDATIONAL / OPEN-SOURCE SYSTEMS
+
+Examples:
+
+* RAG frameworks
+* agent frameworks
+* research agents
+* document intelligence systems
+* vector databases
+* knowledge graph systems
+* semantic search engines
+* citation systems
+* memory frameworks
+* multi-agent orchestration systems
+
+The goal is to understand the **technology ecosystem beneath the products**.
+
+---
+
+# PUBLIC-EVIDENCE RECONSTRUCTION
+
+When studying a proprietary system, create a section called:
+
+## PUBLICLY ESTABLISHED ARCHITECTURE
+
+Document only what credible public evidence supports.
+
+Then create:
+
+## PLAUSIBLE TECHNICAL INTERPRETATION
+
+Explain how the observed capability could reasonably be implemented using known technologies and research.
+
+Then create:
+
+## UNKNOWN / UNVERIFIED
+
+Explicitly identify what cannot currently be established.
+
+This three-layer structure is mandatory for proprietary systems.
+
+Example:
+
+```text
+NotebookLM
+
+PUBLICLY ESTABLISHED:
+- Accepts user-provided sources.
+- Generates source-grounded responses.
+- Provides citations/references.
+- Supports document-based interaction.
+
+PLAUSIBLE TECHNICAL INTERPRETATION:
+- Retrieval-based context selection is likely involved.
+- Document indexing is likely involved.
+- Some form of source-aware generation is likely involved.
+
+UNKNOWN:
+- Exact retrieval architecture.
+- Exact embedding model.
+- Exact chunking algorithm.
+- Internal orchestration.
+- Private infrastructure.
+- Internal ranking mechanisms.
+```
+
+Do not collapse these three categories into one.
+
+---
+
+# SOURCE SPECTRUM
+
+Investigate multiple forms of evidence.
+
+## 1. Official Documentation
+
+Search:
+
+* official documentation
+* technical documentation
+* developer documentation
+* API documentation
+* architecture documentation
+* product documentation
+
+## 2. Academic Research
+
+Investigate relevant:
+
+* papers
+* preprints
+* surveys
+* technical reports
+* conference publications
+* research projects
+
+Relevant areas include:
+
+* RAG
+* agentic systems
+* information retrieval
+* knowledge graphs
+* long-context models
+* AI memory
+* document intelligence
+* automated literature review
+* source attribution
+* hallucination reduction
+* AI evaluation
+* human-AI collaboration
+
+## 3. Open-Source Implementations
+
+Search GitHub and other repositories for:
+
+* comparable projects
+* RAG implementations
+* research agents
+* document-analysis systems
+* knowledge bases
+* AI memory systems
+* multi-agent systems
+* research pipelines
+* citation systems
+
+Study their actual implementation where available.
+
+## 4. Technical Discussions
+
+Search:
+
+* GitHub issues
+* developer forums
+* Reddit
+* Stack Overflow
+* Hacker News
+* technical communities
+* engineering discussions
+
+Use these primarily to identify:
+
+* real-world problems
+* implementation difficulties
+* user complaints
+* unexpected limitations
+* architectural tradeoffs
+* practical workarounds
+
+Community claims should not automatically be treated as factual evidence.
+
+## 5. Engineering Talks & Interviews
+
+Investigate:
+
+* developer interviews
+* engineering discussions
+* conference talks
+* podcasts
+* technical presentations
+* architecture discussions
+* public discussions by system creators
+
+Extract concrete technical insights where available.
+
+---
+
+# INVESTIGATE AI SCAFFOLDING
+
+Research **AI scaffolding** broadly.
+
+Investigate:
+
+* agent orchestration
+* planning agents
+* research agents
+* critic agents
+* verifier agents
+* summarizer agents
+* retrieval agents
+* source evaluators
+* citation agents
+* fact-checking agents
+* synthesis agents
+* memory agents
+* tool-use agents
+* supervisor agents
+* multi-agent debate
+* hierarchical agents
+* human-in-the-loop systems
+* workflow graphs
+* state machines
+* task decomposition
+* reflection loops
+* iterative research
+
+Determine:
+
+* when these patterns are useful
+* when they introduce unnecessary complexity
+* strengths
+* weaknesses
+* failure modes
+* computational costs
+* reliability
+* maintainability
+
+---
+
+# INVESTIGATE THE RESEARCH WORKFLOW
+
+Study how effective research itself can be scaffolded.
+
+Investigate workflows such as:
+
+```text
+QUESTION
+ ↓
+SEARCH
+ ↓
+SOURCE DISCOVERY
+ ↓
+SOURCE VALIDATION
+ ↓
+INGESTION
+ ↓
+EXTRACTION
+ ↓
+ORGANIZATION
+ ↓
+RETRIEVAL
+ ↓
+ANALYSIS
+ ↓
+CROSS-SOURCE COMPARISON
+ ↓
+SYNTHESIS
+ ↓
+CITATION
+ ↓
+VERIFICATION
+ ↓
+FINAL OUTPUT
+```
+
+Determine how existing systems implement or improve each stage.
+
+Identify opportunities for:
+
+* automation
+* AI assistance
+* human review
+* multi-agent collaboration
+* source verification
+* iterative research
+* contradiction detection
+* confidence scoring
+* citation tracking
+* knowledge graph construction
+* persistent research memory
+
+---
+
+# SOURCE TRUST & VERIFICATION
+
+Give special attention to:
+
+* hallucinations
+* unreliable sources
+* conflicting sources
+* outdated information
+* duplicate information
+* misinformation
+* citation errors
+* unsupported claims
+* source hierarchy
+* evidence quality
+* confidence
+
+Determine how a research system could distinguish:
+
+```text
+FACT
+EVIDENCE
+INFERENCE
+OPINION
+SPECULATION
+UNKNOWN
+```
+
+Investigate source-ranking and evidence-ranking methodologies.
+
+---
+
+# KNOWLEDGE ARCHITECTURE
+
+Study different approaches to representing research knowledge.
+
+Compare:
+
+* traditional documents
+* vector databases
+* knowledge graphs
+* graph + vector hybrid systems
+* relational databases
+* metadata systems
+* entity-based knowledge
+* hierarchical knowledge
+* research notebooks
+* persistent AI memory
+* source-to-claim mappings
+* claim-to-evidence graphs
+
+Determine the advantages, disadvantages, complexity, and appropriate use cases for each.
+
+---
+
+# DOCUMENT INGESTION
+
+Research how advanced systems process:
+
+* PDFs
+* websites
+* books
+* academic papers
+* images
+* spreadsheets
+* code
+* videos
+* audio
+* notes
+* databases
+* APIs
+
+Investigate:
+
+* OCR
+* parsing
+* chunking
+* metadata extraction
+* document structure
+* tables
+* figures
+* references
+* hyperlinks
+* semantic segmentation
+
+Determine which approaches preserve context most effectively.
+
+---
+
+# RESEARCH MEMORY
+
+Study how systems remember research across sessions.
+
+Investigate:
+
+* short-term context
+* long-term memory
+* episodic memory
+* semantic memory
+* source memory
+* project memory
+* conversation memory
+* user preferences
+* research history
+* derived knowledge
+
+Determine:
+
+> What should be remembered?
+
+> What should not be remembered?
+
+> How should old information be invalidated?
+
+> How should knowledge be updated?
+
+> How should conflicting information be handled?
+
+---
+
+# MULTI-AGENT RESEARCH
+
+Study systems where multiple AI agents collaborate.
+
+Examples:
+
+```text
+Researcher
+    ↓
+Source Evaluator
+    ↓
+Analyst
+    ↓
+Critic
+    ↓
+Synthesizer
+    ↓
+Verifier
+```
+
+Investigate alternative architectures.
+
+Determine whether multi-agent systems genuinely improve research quality or merely increase complexity.
+
+---
+
+# COMPARATIVE ANALYSIS
+
+For every major system studied, create a standardized profile.
+
+### SYSTEM
+
+### CATEGORY
+
+### PURPOSE
+
+### TARGET USERS
+
+### CORE WORKFLOW
+
+### INFORMATION INGESTION
+
+### INFORMATION PROCESSING
+
+### RETRIEVAL
+
+### REASONING
+
+### SOURCE GROUNDING
+
+### CITATIONS
+
+### MEMORY
+
+### KNOWLEDGE REPRESENTATION
+
+### AGENTS
+
+### TOOLS
+
+### VERIFICATION
+
+### USER CONTROL
+
+### PUBLICLY ESTABLISHED ARCHITECTURE
+
+### INFERRED ARCHITECTURE
+
+### UNKNOWN ARCHITECTURE
+
+### STRENGTHS
+
+### WEAKNESSES
+
+### FAILURE MODES
+
+### PRIVACY / SECURITY
+
+### SCALABILITY
+
+### RELEVANCE TO THE PROJECT
+
+---
+
+# IDENTIFY DESIGN PATTERNS
+
+After studying the ecosystem, identify recurring patterns.
+
+For each pattern explain:
+
+* what it is
+* why it exists
+* where it works
+* where it fails
+* implementation complexity
+* research value
+* scalability
+* reliability
+
+Categorize patterns as:
+
+### HIGH VALUE
+
+Strong evidence of usefulness.
+
+### PROMISING
+
+Potentially useful but requiring validation.
+
+### SITUATIONAL
+
+Useful only under specific conditions.
+
+### LOW VALUE
+
+Little evidence of meaningful benefit.
+
+### ANTI-PATTERN
+
+Patterns that frequently cause problems.
+
+---
+
+# AVOID ARCHITECTURAL CARGO CULTING
+
+Do not recommend a technology simply because a famous AI product appears to use it.
+
+For every major recommendation ask:
+
+> **What problem does this solve?**
+
+> **Is there evidence it solves that problem effectively?**
+
+> **What is the complexity cost?**
+
+> **Could a simpler architecture accomplish the same thing?**
+
+> **What happens when the system scales?**
+
+> **What happens when it fails?**
+
+Avoid recommendations such as:
+
+> "Use a vector database because NotebookLM probably uses one."
+
+Instead:
+
+> "A vector database may be appropriate because the system requires semantic retrieval across a large document collection. Evidence X and implementation Y demonstrate this pattern. However, for a small corpus, simpler retrieval may be sufficient."
+
+---
+
+# DO NOT DESIGN THE FINAL SYSTEM PREMATURELY
+
+At this stage, do not assume:
+
+* which database should be used
+* which model should be used
+* which framework should be used
+* whether the system should be multi-agent
+* whether RAG is necessary
+* whether a knowledge graph is necessary
+* whether a vector database is necessary
+
+Research first.
+
+Allow the evidence to determine the recommendations.
+
+---
+
+# RECOMMENDATIONS
+
+After completing the research, produce recommendations specifically for the new project.
+
+Separate them into:
+
+### MUST HAVE
+
+Features/architectural patterns strongly justified by evidence.
+
+### SHOULD HAVE
+
+Strongly beneficial but not essential.
+
+### COULD HAVE
+
+Potential future capabilities.
+
+### EXPERIMENTAL
+
+Interesting ideas requiring validation.
+
+### AVOID
+
+Patterns likely to introduce unnecessary complexity or problems.
+
+For every recommendation explain:
+
+* evidence
+* rationale
+* expected benefit
+* implementation complexity
+* risks
+* alternatives
+
+---
+
+# EVIDENCE MATRIX
+
+Create a matrix connecting recommendations to evidence.
+
+| Recommendation | Supporting Systems | Research/Papers | Evidence Strength | Risks |
+| -------------- | ------------------ | --------------- | ----------------- | ----- |
+
+This prevents recommendations from becoming arbitrary opinions.
+
+---
+
+# RESEARCH GAPS
+
+Explicitly identify what could not be determined.
+
+For each unknown:
+
+* what is unknown
+* why it is unknown
+* what evidence would resolve it
+* whether additional research is worthwhile
+
+---
+
+# FINAL RESEARCH PAPER
+
+Produce a comprehensive research paper with a depth and organizational standard comparable to the documentation found in the Marciale-OS `/docs` directory.
+
+The paper should be a **technical research and architectural intelligence document**, not a casual article.
+
+Structure it approximately as:
+
+# 1. Executive Summary
+
+# 2. Research Objectives
+
+# 3. Scope & Methodology
+
+# 4. Evidence Classification
+
+# 5. Definitions
+
+# 6. Ecosystem Overview
+
+# 7. Comparative System Analysis
+
+# 8. AI Research Architectures
+
+# 9. AI Scaffolding Patterns
+
+# 10. Information Retrieval
+
+# 11. RAG & Knowledge Retrieval
+
+# 12. Knowledge Representation
+
+# 13. Document Ingestion
+
+# 14. Source Grounding & Citations
+
+# 15. Research Verification
+
+# 16. AI Memory
+
+# 17. Agent Architecture
+
+# 18. Multi-Agent Research
+
+# 19. Human-in-the-Loop Design
+
+# 20. Research Workflow Design
+
+# 21. Security & Privacy
+
+# 22. Failure Modes
+
+# 23. Performance & Scalability
+
+# 24. Comparative Findings
+
+# 25. Design Patterns
+
+# 26. Anti-Patterns
+
+# 27. Evidence-Based Recommendations
+
+# 28. Research Gaps
+
+# 29. Future Research
+
+# 30. Conclusion
+
+# 31. References
+
+---
+
+# RESEARCH PAPER REQUIREMENTS
+
+The final paper must:
+
+* cite sources
+* preserve source provenance
+* distinguish evidence from inference
+* identify conflicting evidence
+* avoid unsupported claims
+* explain technical concepts
+* include diagrams where useful
+* include comparison tables where useful
+* identify implementation tradeoffs
+* identify limitations
+* use consistent terminology
+* clearly distinguish proprietary-system facts from technical inference
+
+Depth should come from **research quality**, not artificial word count.
+
+---
+
+# SOURCE HIERARCHY
+
+When sources disagree, prefer evidence approximately in this order:
+
+1. Primary technical documentation
+2. Official technical publications
+3. Peer-reviewed academic research
+4. Official engineering blogs
+5. Public source code / implementation evidence
+6. Developer presentations/interviews
+7. Technical community discussions
+8. General articles
+9. Unverified commentary
+
+This hierarchy is not absolute.
+
+Explain significant exceptions.
+
+---
+
+# RESEARCH QUALITY CONTROL
+
+Before finalizing the research, perform a second-pass review.
+
+Ask:
+
+### Coverage
+
+Did we investigate the major relevant systems?
+
+### Evidence
+
+Are important claims supported?
+
+### Accuracy
+
+Did we distinguish known facts from inference?
+
+### Completeness
+
+Are major architectural patterns missing?
+
+### Contradictions
+
+Did we identify disagreements between sources?
+
+### Practicality
+
+Are recommendations actually implementable?
+
+### Complexity
+
+Are we recommending unnecessary architecture?
+
+### Transferability
+
+Can the findings realistically be applied to a new project?
+
+### Bias
+
+Did we accidentally optimize the research around one product?
+
+### Proprietary Boundaries
+
+Did we accidentally present speculation about private systems as fact?
+
+### Unknowns
+
+Did we clearly identify unresolved questions?
+
+---
+
+# FINAL DELIVERABLES
+
+Produce the following documentation:
+
+```text
+/docs
+│
+├── RESEARCH_MASTER_PAPER.md
+├── SYSTEM_COMPARISON.md
+├── AI_SCAFFOLDING_PATTERNS.md
+├── RESEARCH_ARCHITECTURES.md
+├── KNOWLEDGE_ARCHITECTURE.md
+├── SOURCE_VERIFICATION.md
+├── AI_MEMORY_RESEARCH.md
+├── MULTI_AGENT_RESEARCH.md
+├── DESIGN_PATTERNS.md
+├── ANTI_PATTERNS.md
+├── RECOMMENDATIONS.md
+├── RESEARCH_GAPS.md
+└── REFERENCES.md
+```
+
+If the environment cannot create files, structure the output so these documents can be created directly afterward.
+
+---
+
+# FINAL OBJECTIVE
+
+The goal of this research is **NOT** to immediately build a clone of NotebookLM or reverse-engineer proprietary software.
+
+The goal is to understand the **broader field of AI-powered research and knowledge systems deeply enough that the new project can make informed architectural decisions rather than reinventing existing ideas blindly.**
+
+The research should allow a future development agent to answer:
+
+> What already exists?
+
+> How does it work?
+
+> What is actually known about how it works?
+
+> What is only inferred?
+
+> Why does it work?
+
+> What doesn't work?
+
+> Which architectural patterns are proven?
+
+> Which are experimental?
+
+> Which ideas should we borrow?
+
+> Which should we avoid?
+
+> What are the tradeoffs?
+
+> What research still needs to be done?
+
+> What architecture is justified by the evidence?
+
+> How can we build a research system that is genuinely useful rather than merely impressive?
+
+**Research broadly. Verify aggressively. Respect proprietary boundaries. Distinguish fact from inference. Compare critically. Document deeply. Recommend only where evidence supports the recommendation.**
+
+Do not begin implementation.
+
+**Begin the research.**

@@ -117,6 +117,53 @@ When you start a study session:
 
 ---
 
+### [KNOWLEDGE INGESTION] Session K1: TAMA Initial Corpus Expansion (Phase A — Core Laws)
+* **Date:** 2026-08-10
+* **Faculty in Charge:** `@curator` / `@architect` (TAMA Knowledge Acquisition Agent)
+* **Topic Covered:** PD 1096 (statute), RA 9266, BP 344 + IRR, RA 9514, RA 10912, CHED CMO 61 s. 2017
+* **Activity Executed:** Vault Ingestion — 6 RAW public-domain law texts + 7 curated provenance-tagged files + source registry + vault index + coverage matrix (see `research/ACQUISITION_LOG.md` and `research/TAMA_KNOWLEDGE_ACQUISITION_REPORT.md`)
+* **Score / Mastery Level:** N/A (ingestion pass) — `npm test` 100% GREEN after additions
+* **Identified Weak Spots / Trap Mistakes:**
+  * Statute vs IRR numbering confusion is the #1 trap: PD 1096 (21 chapters, Sec 101–2102) vs 2005 IRR (Rules I–XIX); RA 9514 (17 sections) vs Fire Code IRR (Rule 10 egress/occupant loads). Verified structure files now document both.
+  * BP 344 accessible parking slot = **3.70 m minimum width** (IRR, verified); door clear width 0.80 m; curb ramp gradient ≤ 1:12 (verified quotes).
+  * RA 9266 ALE rating: 70% weighted average, no subject below 50% (Sec. 15, verbatim).
+* **Next Recommended Study Target:** Acquire PD 1096 IRR 2005 + Fire Code IRR (official sources) to unlock Rules I–XIX numbers; then Phase B–I OER pass per coverage matrix.
+
+### [KNOWLEDGE INGESTION] Session K2: 00-BOOKS Library Pass
+* **Date:** 2026-08-10
+* **Faculty in Charge:** `@curator` (TAMA Knowledge Acquisition Agent)
+* **Topic Covered:** Architecture book library — public-domain classics + commercial textbook registry
+* **Activity Executed:** Vault Ingestion — created `vault/00-BOOKS/`; downloaded 4 legal public-domain PDFs (Vitruvius *Ten Books on Architecture*, Owen Jones *Grammar of Ornament*, Ruskin *Seven Lamps of Architecture*, Ware *American Vignola*) from Internet Archive; registry for commercial textbooks (Max Fajardo series, Ching, Neufert, Allen & Iano) with legal access paths only; next-targets plan added (`research/NEXT_ACQUISITION_TARGETS.md`)
+* **Score / Mastery Level:** N/A (ingestion pass) — PDFs verified valid; `npm test` still 100% GREEN
+* **Identified Weak Spots / Trap Mistakes:**
+  * Commercial textbooks (e.g., Max Fajardo's *Simplified Methods on Building Construction*) are **copyrighted** — pirated PDFs are never stored in TAMA (Rule 4). Use the registry's legal paths instead.
+  * Public-domain vs lending-restricted scans on Internet Archive: only items with `access-restricted-item: None` and non-encrypted PDFs are downloadable — verified before each acquisition.
+* **Next Recommended Study Target:** PD 1096 IRR 2005 + Fire Code IRR (official sources); then public-domain classics pass 2 (Palladio, Alberti, Stones of Venice) per NEXT_ACQUISITION_TARGETS.md.
+
+### [KNOWLEDGE INGESTION] Session K3: 00-BOOKS → Links-Only Conversion (compactness)
+* **Date:** 2026-08-10
+* **Faculty in Charge:** `@curator` / `@architect`
+* **Topic Covered:** Book library consolidation for repo size
+* **Activity Executed:** Replaced 4 stored book PDFs (~103 MB) with `vault/00-BOOKS/BOOKS-ONLINE-ACCESS.md` (11 verified free/legal links: Vitruvius, Owen Jones, Ruskin ×2, Ware ×2, Palladio, Gibbs, Stones of Venice, Gutenberg). Deleted PDF folder + old classics file. Workspace: 105 MB → 2.3 MB.
+* **Score / Mastery Level:** N/A — `npm test` 100% GREEN; git history clean & compact (no PDF blobs)
+* **Identified Weak Spots / Trap Mistakes:**
+  * Large binary files in a git repo threaten the workspace snapshot cap — books must stay links-only, never binaries.
+  * Archived scanned books are re-downloadable anytime from their item pages; links preserve full provenance.
+* **Next Recommended Study Target:** PD 1096 IRR 2005 + Fire Code IRR (official sources); then per-topic OER pass per coverage matrix.
+
+### [KNOWLEDGE INGESTION] Session K4: Target 1 (PD 1096 IRR) + Housing Laws + Books
+* **Date:** 2026-08-10
+* **Faculty in Charge:** `@curator` / `@architect`
+* **Topic Covered:** 2005 Revised IRR of PD 1096 (official DPWH text, 432 pp); PD 957 & BP 220 housing laws; +5 book links
+* **Activity Executed:** Vault Ingestion — acquired official IRR (RAW 905 KB text with page markers) + curated verified Table VIII.1 (PSO/ISA/USA/TOSL, footnotes e/f, formulas, abutments, parking 2.50×5.00 m); PD 957 + BP 220 RAW + summary; expanded BOOKS-ONLINE-ACCESS.md (Le Corbusier, Alberti, Fletcher)
+* **Score / Mastery Level:** N/A — `npm test` 100% GREEN; workspace ~3.3 MB
+* **Identified Weak Spots / Trap Mistakes:**
+  * The IRR (not the statute) holds the examinable numbers — always cite `[PD 1096 IRR 2005 Table VIII.1]`, not `[PD 1096 Sec. 803]`, for PSO values.
+  * Table footnote trap: PSO differs **with vs without firewall** (e.g., Com-3: 80% vs 90%) — the classic distractor.
+  * Formula trap: PSO + ISA = MACA; PSO + TOSL = TLA — students mix ISA/TOSL.
+  * BP 220 (economic/socialized) ≠ PD 957 (regular subdivision/condo) — different standards.
+* **Next Recommended Study Target:** Fire Code IRR (retry official BFP/DILG); then environmental laws (RA 8749/9275/9003, PD 1586, RA 10587).
+
 # 3. TEMPLATE FOR FUTURE STUDY SESSIONS (APPEND AT END OF CHAT)
 
 ```text
@@ -131,3 +178,16 @@ When you start a study session:
   * [Weak spot 2: e.g. Forgot minimum concrete cover for exposed coastal footings (75mm)]
 * **Next Recommended Study Target:** [e.g. 15-question drill on PD 1096 Rule VII Table VII.1 AMBF calculations]
 ```
+### [KNOWLEDGE INGESTION] Session K5: Environmental Laws + IRR Index + Theory Notes
+* **Date:** 2026-08-10
+* **Faculty in Charge:** `@curator`
+* **Topic Covered:** RA 8749/9275/9003, PD 1586, RA 10587, RA 10754 (full texts + summary); PD 1096 IRR Rules I–XXI index + referral codes; public-domain theory notes (TOA/HOA)
+* **Activity Executed:** Vault Ingestion — 6 law RAW texts (~300 KB) + ENVIRONMENTAL-LAWS-SUMMARY.md + PD-1096-IRR-RULES-INDEX.md + PUBLIC-DOMAIN-THEORY-NOTES.md; Fire Code IRR & CMO 61 recorded in SOURCE-REGISTRY (sandbox blocked downloads)
+* **Score / Mastery Level:** N/A — `npm test` GREEN; workspace ~3.8 MB
+* **Identified Weak Spots / Trap Mistakes:**
+  * ECC (PD 1586) vs building permit (PD 1096) are separate clearances — classic conflation.
+  * RA 9003 MRF requirement vs zoning waste provisions; RA 9275 STP vs septic — sanitary design distinctions.
+  * Referral codes concept: NBCP numbers often come from NSCP/PEC/PMC/Plumbing — know which code governs which number.
+* **Next Recommended Study Target:** RA 7160 (LGC) planning provisions summary; Fire Code IRR curation once downloadable from user's network.
+
+# 3. TEMPLATE FOR FUTURE STUDY SESSIONS (APPEND AT END OF CHAT)
