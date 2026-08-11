@@ -1,13 +1,5 @@
 # PD 1096 NBCP — RULE 7 & 8: ZONING, AMBF, TGFA & SETBACKS
 **Authority:** Presidential Decree No. 1096 (National Building Code of the Philippines)  
-> ⚠️ **AUDIT NOTICE (2026-08-10): SUPERSEDED/IN-CONFLICT — READ BEFORE USE.**
-> The PSO values in this file cite **"Table VII.1 (2004 IRR)"** and differ from the
-> officially verified **2005 Revised IRR Table VIII.1** (held in
-> `PD-1096-IRR-2005-VERIFIED-TABLES.md`, extracted verbatim from the official DPWH 2005 text).
-> Example conflicts: R-2 shown here as 70/75% vs verified 55/60% (R-2 basic) / 60-70% (R-2 max);
-> C-2 shown 75/80% vs verified 75/85% (Com-2 with firewall). The verified Table VIII.1 is the
-> **current authoritative source** for exam use. This file is preserved as HISTORICAL reference
-> (2004-edition/study-guide lineage) and pending consolidation by @architect.
 **High-Yield Score:** 9.8 / 10 (Tested heavily on Mapúa Departmentals and PRC ALE)  
 
 ---
