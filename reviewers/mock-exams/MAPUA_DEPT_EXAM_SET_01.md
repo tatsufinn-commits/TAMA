@@ -1,6 +1,13 @@
 # MAPÚA BS ARCHITECTURE DEPARTMENTAL MOCK EXAM — SET 01
 **Domain:** PD 1096 NBCP (Rules 7 & 8), RA 9514 Fire Code, BP 344 & Building Tech  
 **Instructions:** Answer all 10 situational design problems. Answer key with full distractor trap rationale is provided at the bottom.
+> ⚠️ **AUDIT NOTICE (2026-08-10):** **Q4 answer (1.12 m, cited to RA 9514 Sec. 10.2.5.4) is UNVERIFIED** — Fire Code IRR not held; it also conflicts with the verified PD 1096 2005 IRR value of 1.10 m for >50 occupants. Re-check after Fire Code IRR acquisition.
+>
+> _Original notice:_ This set cites "Table VII.1 of the 2004 Revised IRR".
+> The officially verified **2005 Revised IRR Table VIII.1** (held in the vault) is the current
+> authoritative table. For C-2/Com-2 the AMBF answer here (75% → 450 m²) still matches the
+> verified no-firewall value; however R-2/other rows differ (e.g., R-2 verified 55/60% vs the
+> 70/75% shown in the old table). Future exam sets must cite `PD-1096-IRR-2005-VERIFIED-TABLES.md`.
 
 ---
 

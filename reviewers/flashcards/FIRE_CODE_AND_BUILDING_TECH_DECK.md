@@ -1,6 +1,13 @@
 # ⚡ RA 9514 FIRE CODE & BUILDING TECH — ACTIVE RECALL FLASHCARD DECK
 **Format:** Front (Question / Metric Prompt) $\rightarrow$ Back (Exact Standard & Citation)  
-**High-Yield Rank:** 9.6 / 10  
+**High-Yield Rank:**
+
+> ⚠️ **POST-AUDIT VERIFICATION (2026-08-10):** All cards citing `[RA 9514 Sec. 10.2.5.x]` are
+> **UNVERIFIED** — these are Fire Code IRR-level sections and the IRR full text is not yet held.
+> The stair-width card (1.12 m for ≥50 occupants) conflicts with the **verified** PD 1096 2005 IRR
+> value of 1.10 m (>50 occupants); resolve after Fire Code IRR acquisition. PD 1096-sourced cards
+> remain valid.
+ 9.6 / 10  
 
 ---
 

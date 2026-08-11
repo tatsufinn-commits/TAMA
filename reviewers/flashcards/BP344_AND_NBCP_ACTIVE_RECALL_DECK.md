@@ -1,6 +1,13 @@
 # ⚡ BP 344 & PD 1096 NBCP — ACTIVE RECALL FLASHCARD DECK
 **Format:** Front (Question / Metric Prompt) $\rightarrow$ Back (Exact Law Metric & Citation)  
-**High-Yield Rank:** 9.8 / 10  
+**High-Yield Rank:** 9.8 / 10
+
+> ⚠️ **POST-AUDIT (2026-08-10):** Cards 4, 39, 45 cite legacy "Table VII.1/VII.5" numbering.
+> Verified 2005 IRR values: parking slot **2.50 × 5.00 m** (VII.4-area, confirmed); PSO/TOSL values
+> differ from the legacy table — use `PD-1096-IRR-2005-VERIFIED-TABLES.md` (Table VIII.1) as the
+> authoritative source. Card 39's "TOSL ≥ 50%" and Card 45's "TOSL ≥ 25%" are legacy-edition claims;
+> verified Table VIII.1 gives TOSL per occupancy (e.g., R-2 basic 45/40, Com-2 25/15).
+  
 
 ---
 

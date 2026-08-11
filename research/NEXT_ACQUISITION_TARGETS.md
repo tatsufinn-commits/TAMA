@@ -35,3 +35,32 @@
 
 ## Stopping rule
 A target is done when: official/authoritative source acquired (or legally unobtainable → recorded), curated + provenance-tagged, mapped to course/topic, indexed, and logged. Diminishing returns → stop and document.
+
+---
+
+## AUDIT-DERIVED QUEUE (2026-08-10 System Audit — additions)
+
+| # | Target | Why | Priority |
+|---|---|---|---|
+| 13 | **Stair-width verification pass** — confirm ≥50-occupant stair width (1.10 m claim) against IRR RAW text; only corridor 1.10 m + headroom 2.0 m + min 0.75 m directly verified | Resolve UNVERIFIED cheat-sheet rows | HIGH (legal integrity) |
+| 14 | **Fire Code IRR download (user network)** — official BFP 2019 RIRR; then curate egress tables & update EGRESS-AND-OCCUPANT-LOADS.md citation lineage | Unblocks #2 | HIGH |
+| 15 | **RA 7160 (LGC) planning-provisions summary** | Pending #6; planning depth | MEDIUM |
+| 16 | **Vault consolidation decision** (14 mirror pairs → canonical+pointer or symlink; @architect) | Remove duplicate maintenance burden | MEDIUM (architectural — needs confirmation) |
+| 17 | **Contradiction follow-up**: retire/annotate any remaining 2004-edition numbers in decks/cheat sheets that conflict with verified 2005 IRR | Legal integrity | HIGH |
+
+
+---
+
+## POST-AUDIT STATUS (2026-08-10 — updated by integrity mission)
+
+| # | Target | Status |
+|---|---|---|
+| 13 | Stair-width verification (≥50 → 1.10 m) | ✅ **RESOLVED** — VERIFIED against official 2005 IRR (also: ≤50 → 0.90 m; private <10 → 0.75 m; rise ≤200 mm; headroom ≥2.00 m). Cheat-sheet corrected. |
+| 14 | Fire Code IRR download (user network) | ⏳ Still required — official URL + 2025 snapshot recorded in SOURCE-REGISTRY §6; sandbox capped at 1 MB |
+| 15 | RA 7160 (LGC) planning summary | ⬜ Pending (post-gate) |
+| 16 | Vault consolidation (mirror pairs) | 🟡 **PROPOSAL READY** — `docs/VAULT_CONSOLIDATION_PROPOSAL.md` (Options A/B/C) — awaits human authorization |
+| 17 | Legacy-citation cleanup | ✅ **IN PROGRESS→DONE (Phase III/IV)** — all legacy 2004/Table VII.1 citations annotated; fire-code values flagged UNVERIFIED pending #14 |
+| 18 | TOA movement depth · BT4 specs/QS · RC worked examples | ⬜ Post-gate educational priorities (per KNOWLEDGE_DEBT_REGISTER H2–H4) |
+| 19 | CMO 61 full text | ⬜ Pending authoritative source (FOI/official mirror) |
+
+**Acquisition gate (directive §22): 🟡 CONTROLLED** — targeted acquisition only (Fire Code IRR via user network; authoritative source acquisition) until consolidation decision + C1 resolved.
