@@ -126,7 +126,54 @@ When you start a study session:
 * **Changes Delivered:**
   * **Build T39 (PLAN1 Canonical Manual):** Ingested `vault/07-PLANNING-AND-ENVIRONMENTAL/PLAN1-SITE-PLANNING-AND-ECOLOGY/PLAN1-CANONICAL-SITE-PLANNING-AND-GRADING-MANUAL.md` and mirrored to `vault/07-PLANNING-AND-ENVIRONMENTAL/` (10-Section Canonical Manual, slope suitability matrix 0%–18%+, PD 705 §15 steep slope prohibition, PD 1067 Art. 51 Water Code riverbank easements 3m/20m/40m, contour interpolation formulas, cut-and-fill balancing, Rational Method stormwater runoff formula Q = CIA/360, retaining wall weep holes & drainage mechanics, Kevin Lynch 5 city elements, worked scenario: 10% hillside building pad earthwork balance & 2.5-hectare campus runoff calculation, 2 ASCII diagrams, and a 10-Question Socratic Board Simulation Drill).
 * **Current Production State:** Version `TAMA 2.5.0.0.a v` operational. Both Architectural Design Studio (AD5) and Site Planning (PLAN1) are at Level 5 Comprehensive depth.
-* **Next Recommended Study Target:** **Phase 2 Expansion: `STRUC1-CANONICAL-STATICS-AND-TRUSS-MANUAL.md` or `HOA1-CANONICAL-ANCIENT-TO-GOTHIC-COMPENDIUM.md`**.
+
+---
+
+### [COMPLETED] Milestone 14: Canonical STRUC1 Statics, Shear-Moment & Truss Manual (Build T40)
+* **Date:** 2026-08-11
+* **Faculty in Charge:** `@curator` (Lead Architectural Researcher) / `@engineer`
+* **Changes Delivered:**
+  * **Build T40 (STRUC1 Canonical Manual):** Ingested `vault/05-STRUCTURAL-STUDIES-SERIES/STRUC1-STATICS-AND-EQUILIBRIUM/STRUC1-CANONICAL-STATICS-SHEAR-MOMENT-AND-TRUSS-MANUAL.md` and mirrored to `vault/02-HISTORY-ARCHIVE/STATICS-STRENGTH-MATERIALS/` (10-Section Canonical Engineering Manual, 3 equations of static equilibrium, determinacy check m + r = 2j, standard beam formulas matrix: simply supported wL^2/8, center load PL/4, off-center Pab/L, cantilever -wL^2/2, 3 zero-force member rules, worked scenario 1: 8m overhanging beam V-M diagram with zero shear x0=2.667m, Mmax=+71.11 kNm, Msupp=-40 kNm & inflection point x=5.333m, worked scenario 2: 6-panel Pratt roof truss analysis by Method of Sections, rectangular beam section properties I=bh^3/12 & S=bh^2/6, flexure formula sigma=My/I, 2 ASCII diagrams, and a 10-Question Socratic Board Simulation Drill).
+* **Current Production State:** Version `TAMA 2.6.0.0.a v` operational.
+
+---
+
+### [COMPLETED] Milestone 15: Canonical HOA1 Prehistoric to Gothic Architecture Compendium (Build T41)
+* **Date:** 2026-08-11
+* **Faculty in Charge:** `@curator` (Lead Architectural Researcher) / `@mentor`
+* **Changes Delivered:**
+  * **Build T41 (HOA1 Canonical Compendium):** Ingested `vault/06-HISTORY-AND-THEORY-SERIES/HOA1-ANCIENT-TO-RENAISSANCE/HOA1-CANONICAL-PREHISTORIC-TO-GOTHIC-ARCHITECTURE-COMPENDIUM.md` and mirrored to `vault/02-HISTORY-ARCHIVE/HOA-1-TO-4/` (10-Section Canonical History Manual, trabeated to arcuated to skeletal structural evolution, Egyptian mastabas & Imhotep Step Pyramid, Greek 3 classical orders: Doric, Ionic, Corinthian, Parthenon optical refinements: stylobate curvature, column entasis & inward tilt, Roman concrete Opus Caementicium, Pantheon 43.30m unreinforced dome & 9m oculus, Colosseum superimposed orders, Early Christian basilica plan, Byzantine Hagia Sophia pendentives, Romanesque pilgrimage chevet/ambulatory, High Gothic triad: pointed arch, ribbed groin vault & flying buttress, Saint-Denis & Abbot Suger Lux Nova, Vitruvian intercolumniation Eustyle 2.25D, 3 ASCII diagrams, and a 10-Question Socratic Board Simulation Drill).
+* **Current Production State:** Version `TAMA 2.7.0.0.a v` operational. All major academic knowledge spines (Building Laws, Studio Design, Planning, Structural Engineering & Architectural History) now have authoritative Level 5 Canonical Manuals!
+
+---
+
+### [COMPLETED] Milestone 16: Canonical STRUC3 Indeterminate Moment Distribution Manual (Build T42)
+* **Date:** 2026-08-11
+* **Faculty in Charge:** `@curator` (Lead Architectural Researcher) / `@engineer`
+* **Changes Delivered:**
+  * **Build T42 (STRUC3 Canonical Manual):** Ingested `vault/05-STRUCTURAL-STUDIES-SERIES/STRUC3-THEORY-OF-STRUCTURES/STRUC3-CANONICAL-INDETERMINATE-MOMENT-DISTRIBUTION-MANUAL.md` and mirrored to `vault/01-CURRENT-COURSES/STRUCTURAL-THEORY/` (10-Section Canonical Engineering Manual, Hardy Cross moment distribution physics, Fixed-End Moments table: wL^2/12 & PL/8, member stiffness K=4EI/L vs modified K'=3EI/L, distribution factor DF=K/sum(K), carry-over factor COF=+0.5, worked scenario: 2-span continuous RC beam with fixed end A, interior support B, and pinned end C, iterative distribution table converging to M_A=-100.60 kNm and M_B=-68.81 kNm, reactions R_A=95.30kN, R_B=131.90kN, R_C=12.80kN, continuous beam rebar placement, ACI moment coefficients, 2 ASCII diagrams, and a 10-Question Socratic Board Simulation Drill).
+* **Current Production State:** Version `TAMA 2.8.0.0.a v` operational.
+
+---
+
+### [COMPLETED] Milestone 17: Canonical BU2 Electrical Power, Lighting & FDAS Manual (Build T43)
+* **Date:** 2026-08-11
+* **Faculty in Charge:** `@curator` (Lead Architectural Researcher) / `@engineer`
+* **Changes Delivered:**
+  * **Build T43 (BU2 Canonical Manual):** Ingested `vault/04-BUILDING-UTILITIES-SERIES/BU2-ELECTRICAL-AND-MECHANICAL/BU2-CANONICAL-ELECTRICAL-LIGHTING-AND-FDAS-MANUAL.md` and mirrored to `vault/02-HISTORY-ARCHIVE/UTILITIES-1-2/` (10-Section Canonical Utilities Manual, Philippine Electrical Code PEC 2017 Part 1, 230V/60Hz single-phase & 400V/230V three-phase systems, branch circuit conductor minimums: 2.0mm² for 15A lighting, 3.5mm² for 20A general power, 80% continuous load rule, voltage drop caps 3% branch / 5% total, Zonal Cavity Lumen Method illumination math, IESNA lux matrix: 500 Lux drafting studios, 300-400 Lux classrooms/offices, FDAS NFPA 72 smoke detector 9.0m coverage radius / 80m² area, heat detector 5.3m radius / 45m², MCP 1.10-1.40m height, emergency ATS generator <=10s transfer, worked scenario 1: 96m² Mapúa drafting studio 500 Lux design with 21 LED troffers in 3x7 grid, worked scenario 2: commercial kitchen 4.6kW branch circuit sizing with 5.5mm² wire and 30A MCCB, 2 ASCII diagrams, and a 10-Question Socratic Board Simulation Drill).
+* **Current Production State:** Version `TAMA 2.9.0.0.a v` operational. All 7 Academic Clusters in TAMA are now comprehensively populated with Level 5 Canonical Manuals!
+
+---
+
+### [COMPLETED] Milestone 18: 100-Item Grand Master Exit Simulation & Socratic Brain Sync (Build T44)
+* **Date:** 2026-08-11
+* **Faculty in Charge:** `@curator` (Lead Architectural Researcher) / `@examiner` / `@mind`
+* **Changes Delivered:**
+  * **100-Item Grand Master Exit Simulation:** Created `reviewers/mock-exams/MAPUA_EXIT_EXAM_100_ITEM_GRAND_SIMULATION.md` and `MAPUA_EXIT_EXAM_100_ITEM_GRAND_SIMULATION.json` covering all 7 knowledge clusters (Building Laws 1–25, History & Theory 26–35, Planning 36–40, Building Tech 41–52, Utilities 53–64, Structures 65–75, Design Studio 76–85, and Integrated Comprehensive Calculations 86–100) with complete Socratic citations and distractor trap breakdowns.
+  * **Automated Exam Grader Upgrade:** Upgraded `grade-exam.js` to automatically parse and grade the 100-item simulation, compute category scores, and log results directly to the study logbook.
+  * **TheHUB + TAMA Live Socratic Brain Sync:** Upgraded `TheHUB 1.5.5.2.3 a v/TAMAplugin/mapua-brain-preset.js` and mirrored to `tamaplugin/` with the complete 7-cluster formula library and Socratic reasoning heuristics.
+  * **Workspace Storage Cleanup:** Purged all deprecated historical zip archives across workspace roots, keeping only current production release archives.
+* **Current Production State:** Version `TAMA 3.0.0.0.a v` operational. Comprehensive 100-item exam engine and live AI Socratic sync active!
 
 ---
 
