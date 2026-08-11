@@ -91,6 +91,154 @@
 ### SOURCE-REGISTRY/ (updated)
 - Fire Code IRR 2019 (official BFP URL + wayback + mirrors) §6 · CMO 61 full text §7 — both RECORDS (sandbox blocked)
 
+### 01-CURRENT-COURSES/UTILITIES-3-MEPFS/ (updated)
+- [CUR] MEPFS-WORKED-CALCULATIONS.md *(new)* — lighting lumen method, Sabine RT, plumbing FU, electrical load — 4 worked examples + 6 traps (Level 3 push)
+
+### 00-CORE-BUILDING-LAWS/RA-10066-HERITAGE/ *(new)*
+- [RAW] RAW/RA-10066_HERITAGE-ACT_FULLTEXT_2009.txt *(new)* — full text from WIPO Lex (official)
+- [CUR] RA-10066-HERITAGE-ACT-SUMMARY.md *(new)* — verified section structure + definitions (ICP/NCT/PRECUP/Heritage Zone) + exam angles
+
+### 02-HISTORY-ARCHIVE/HOA-1-TO-4/PERIOD-MODULES/ (updated)
+- [CUR] HOA-MODERNISM-PERIOD-MODULE.md *(new)* — Sullivan→Niemeyer masters, 5 points, movements (Art Nouveau→Postmodern), traps — completes period sweep (Gothic/Renaissance/Modernism)
+
+### 07-PLANNING-AND-ENVIRONMENTAL/ (updated)
+- [CUR] PHILIPPINE-GREEN-BUILDING.md *(new)* — BERDE categories (official docs verified) + PGBC thresholds (flagged) + instrument distinction + traps
+
+### 02-HISTORY-ARCHIVE/HOA-1-TO-4/PERIOD-MODULES/ (updated)
+- [CUR] HOA-RENAISSANCE-PERIOD-MODULE.md *(new)* — Brunelleschi/Alberti/Bramante/Michelangelo/Palladio, sub-periods, building types, traps
+
+### 07-PLANNING-AND-ENVIRONMENTAL/PLAN1-SITE-PLANNING-AND-ECOLOGY/ (updated)
+- [CUR] TROPICAL-DESIGN-PHILIPPINES.md *(new)* — PH climate imperatives, passive strategies (orientation/config/façade/ventilation/solar control), vernacular precedent, traps
+
+### 02-HISTORY-ARCHIVE/HOA-1-TO-4/PERIOD-MODULES/ *(new)*
+- [CUR] HOA-GOTHIC-PERIOD-MODULE.md *(new)* — Period→Context→Characteristics→Works→Influence + 5 structural innovations + exam traps
+
+### 02-HISTORY-ARCHIVE/BUILDING-TECH-1-2/ (updated)
+- [CUR] BUILDING-ASSEMBLIES-DEPTH.md *(new)* — foundations/walls/floors/roofs/stairs/envelope systems + selection logic + PH application + traps
+
+### 01-CURRENT-COURSES/STRUCTURAL-THEORY/ (updated)
+- [CUR] FRAME-ANALYSIS-WITH-SIDESWAY.md *(new)* — non-sway→sway superposition procedure, shear equation, worked framework, 6 traps
+
+### 07-PLANNING-AND-ENVIRONMENTAL/ (updated)
+- [CUR] CLUP-AND-ZONING-PROCESS.md *(new)* — 12-step HLURB/DHSUD CLUP process, 3-volume structure, ZO as regulatory bridge, institutional roles, traps
+
+### 01-CURRENT-COURSES/BUILDING-TECH-3-4/ (updated)
+- [CUR] BT5-CURTAIN-WALLS-AND-ADVANCED-SYSTEMS.md *(new)* — curtain-wall systems (stick/unitized/structural glazing), prestressed mechanisms (bond vs anchorage), advanced systems, traps
+
+### 02-HISTORY-ARCHIVE/HOA-1-TO-4/PERIOD-MODULES/ (updated)
+- [CUR] HOA-ROMANESQUE-BAROQUE-MODULE.md *(new)* — Romanesque (5 features) + Baroque (masters Bernini/Borromini/Guarini/Mansart) + the 3-period comparison table — period sweep now COMPLETE (Romanesque/Gothic/Renaissance/Baroque/Modernism)
+
+### 01-CURRENT-COURSES/ARCH-DESIGN-5/ (updated)
+- [CUR] PHILIPPINE-ARCHITECTURAL-CASE-STUDIES.md *(new)* — 14-field cases: Santo Domingo (Zaragoza), FEU (Antonio), Bahay na Bato (Vigan)
+- [CUR] STUDIO-PROJECT-BRIEF-TEMPLATES.md *(new)* — standard brief format + 6 leveled practice briefs (AD2→AD7) for programming drills
+
+### reviewers/flashcards/ (updated)
+- [DECK] EXPANSION_DEPTH_ACTIVE_RECALL_DECK.md *(new)* — 25 cards from expansion content (statics→heritage→periods), each citing its vault file
+
+### reviewers/mock-exams/ (updated)
+- [EXAM] MAPUA_DEPT_EXAM_SET_06_DEPTH_INTEGRATION.md *(new)* — 15 situational items + trap rationale, drawn from the new depth vault files
+
+### 01-CURRENT-COURSES/ARCH-DESIGN-5/ (updated)
+- [CUR] ARCHITECTURAL-CASE-STUDIES.md *(new)* — 14-field case framework + 5 verified cases (Fallingwater, Villa Savoye, CCP-Locsin, Coconut Palace-Mañosa, San Carlo-Borromini) + PH/international queue
+
+### 01-CURRENT-COURSES/ARCH-DESIGN-5/ (updated)
+- [CUR] PHILIPPINE-ARCHITECTURAL-CASE-STUDIES.md *(new)* — 14-field cases: Santo Domingo (Zaragoza), FEU (Antonio), Bahay na Bato (Vigan)
+- [CUR] STUDIO-PROJECT-BRIEF-TEMPLATES.md *(new)* — standard brief format + 6 leveled practice briefs (AD2→AD7) for programming drills
+
+### reviewers/flashcards/ (updated)
+- [DECK] EXPANSION_DEPTH_ACTIVE_RECALL_DECK.md *(new)* — 25 cards from expansion content (statics→heritage→periods), each citing its vault file
+
+### reviewers/mock-exams/ (updated)
+- [EXAM] MAPUA_DEPT_EXAM_SET_06_DEPTH_INTEGRATION.md *(new)* — 15 situational items + trap rationale, drawn from the new depth vault files
+
+### 01-CURRENT-COURSES/ARCH-DESIGN-5/ (updated)
+- [CUR] ARCHITECTURAL-DESIGN-PROCESS.md *(new)* — programming→SD→DD→CD phases + tools (bubble/adjacency/efficiency) + site analysis + traps (SPP 201/202-linked)
+
+### 02-HISTORY-ARCHIVE/BUILDING-TECH-1-2/ (updated)
+- [CUR] PHILIPPINE-CONSTRUCTION-MATERIALS-PRACTICE.md *(new)* — CHB dims/estimation, confined masonry, roofing, traditional materials, PH practice + traps
+
+### 01-CURRENT-COURSES/STRUCTURAL-THEORY/ (updated)
+- [CUR] MOMENT-DISTRIBUTION-WORKED-EXAMPLE.md *(new)* — full procedure + iterative worked example (two-span beam) + 6 traps
+
+### 02-HISTORY-ARCHIVE/ (updated)
+- [CUR] STATICS-STRENGTH-MATERIALS/STRENGTH-OF-MATERIALS-AND-TRUSS-ANALYSIS.md *(new)* — σ=P/A, σ=Mc/I, δ=PL/AE, Euler, deflection cases + 3 worked examples + truss method-of-joints procedure + traps (MIT OCW/LibreTexts/SJSU-triangulated)
+
+### 01-CURRENT-COURSES/UTILITIES-3-MEPFS/ (updated)
+- [CUR] MEPFS-WORKED-CALCULATIONS.md *(new)* — lighting lumen method, Sabine RT, plumbing FU, electrical load — 4 worked examples + 6 traps (Level 3 push)
+
+### 00-CORE-BUILDING-LAWS/RA-10066-HERITAGE/ *(new)*
+- [RAW] RAW/RA-10066_HERITAGE-ACT_FULLTEXT_2009.txt *(new)* — full text from WIPO Lex (official)
+- [CUR] RA-10066-HERITAGE-ACT-SUMMARY.md *(new)* — verified section structure + definitions (ICP/NCT/PRECUP/Heritage Zone) + exam angles
+
+### 02-HISTORY-ARCHIVE/HOA-1-TO-4/PERIOD-MODULES/ (updated)
+- [CUR] HOA-MODERNISM-PERIOD-MODULE.md *(new)* — Sullivan→Niemeyer masters, 5 points, movements (Art Nouveau→Postmodern), traps — completes period sweep (Gothic/Renaissance/Modernism)
+
+### 07-PLANNING-AND-ENVIRONMENTAL/ (updated)
+- [CUR] PHILIPPINE-GREEN-BUILDING.md *(new)* — BERDE categories (official docs verified) + PGBC thresholds (flagged) + instrument distinction + traps
+
+### 02-HISTORY-ARCHIVE/HOA-1-TO-4/PERIOD-MODULES/ (updated)
+- [CUR] HOA-RENAISSANCE-PERIOD-MODULE.md *(new)* — Brunelleschi/Alberti/Bramante/Michelangelo/Palladio, sub-periods, building types, traps
+
+### 07-PLANNING-AND-ENVIRONMENTAL/PLAN1-SITE-PLANNING-AND-ECOLOGY/ (updated)
+- [CUR] TROPICAL-DESIGN-PHILIPPINES.md *(new)* — PH climate imperatives, passive strategies (orientation/config/façade/ventilation/solar control), vernacular precedent, traps
+
+### 02-HISTORY-ARCHIVE/HOA-1-TO-4/PERIOD-MODULES/ *(new)*
+- [CUR] HOA-GOTHIC-PERIOD-MODULE.md *(new)* — Period→Context→Characteristics→Works→Influence + 5 structural innovations + exam traps
+
+### 02-HISTORY-ARCHIVE/BUILDING-TECH-1-2/ (updated)
+- [CUR] BUILDING-ASSEMBLIES-DEPTH.md *(new)* — foundations/walls/floors/roofs/stairs/envelope systems + selection logic + PH application + traps
+
+### 01-CURRENT-COURSES/STRUCTURAL-THEORY/ (updated)
+- [CUR] FRAME-ANALYSIS-WITH-SIDESWAY.md *(new)* — non-sway→sway superposition procedure, shear equation, worked framework, 6 traps
+
+### 07-PLANNING-AND-ENVIRONMENTAL/ (updated)
+- [CUR] CLUP-AND-ZONING-PROCESS.md *(new)* — 12-step HLURB/DHSUD CLUP process, 3-volume structure, ZO as regulatory bridge, institutional roles, traps
+
+### 01-CURRENT-COURSES/BUILDING-TECH-3-4/ (updated)
+- [CUR] BT5-CURTAIN-WALLS-AND-ADVANCED-SYSTEMS.md *(new)* — curtain-wall systems (stick/unitized/structural glazing), prestressed mechanisms (bond vs anchorage), advanced systems, traps
+
+### 02-HISTORY-ARCHIVE/HOA-1-TO-4/PERIOD-MODULES/ (updated)
+- [CUR] HOA-ROMANESQUE-BAROQUE-MODULE.md *(new)* — Romanesque (5 features) + Baroque (masters Bernini/Borromini/Guarini/Mansart) + the 3-period comparison table — period sweep now COMPLETE (Romanesque/Gothic/Renaissance/Baroque/Modernism)
+
+### 01-CURRENT-COURSES/ARCH-DESIGN-5/ (updated)
+- [CUR] PHILIPPINE-ARCHITECTURAL-CASE-STUDIES.md *(new)* — 14-field cases: Santo Domingo (Zaragoza), FEU (Antonio), Bahay na Bato (Vigan)
+- [CUR] STUDIO-PROJECT-BRIEF-TEMPLATES.md *(new)* — standard brief format + 6 leveled practice briefs (AD2→AD7) for programming drills
+
+### reviewers/flashcards/ (updated)
+- [DECK] EXPANSION_DEPTH_ACTIVE_RECALL_DECK.md *(new)* — 25 cards from expansion content (statics→heritage→periods), each citing its vault file
+
+### reviewers/mock-exams/ (updated)
+- [EXAM] MAPUA_DEPT_EXAM_SET_06_DEPTH_INTEGRATION.md *(new)* — 15 situational items + trap rationale, drawn from the new depth vault files
+
+### 01-CURRENT-COURSES/ARCH-DESIGN-5/ (updated)
+- [CUR] ARCHITECTURAL-CASE-STUDIES.md *(new)* — 14-field case framework + 5 verified cases (Fallingwater, Villa Savoye, CCP-Locsin, Coconut Palace-Mañosa, San Carlo-Borromini) + PH/international queue
+
+### 01-CURRENT-COURSES/ARCH-DESIGN-5/ (updated)
+- [CUR] PHILIPPINE-ARCHITECTURAL-CASE-STUDIES.md *(new)* — 14-field cases: Santo Domingo (Zaragoza), FEU (Antonio), Bahay na Bato (Vigan)
+- [CUR] STUDIO-PROJECT-BRIEF-TEMPLATES.md *(new)* — standard brief format + 6 leveled practice briefs (AD2→AD7) for programming drills
+
+### reviewers/flashcards/ (updated)
+- [DECK] EXPANSION_DEPTH_ACTIVE_RECALL_DECK.md *(new)* — 25 cards from expansion content (statics→heritage→periods), each citing its vault file
+
+### reviewers/mock-exams/ (updated)
+- [EXAM] MAPUA_DEPT_EXAM_SET_06_DEPTH_INTEGRATION.md *(new)* — 15 situational items + trap rationale, drawn from the new depth vault files
+
+### 01-CURRENT-COURSES/ARCH-DESIGN-5/ (updated)
+- [CUR] ARCHITECTURAL-DESIGN-PROCESS.md *(new)* — programming→SD→DD→CD phases + tools (bubble/adjacency/efficiency) + site analysis + traps (SPP 201/202-linked)
+
+### 02-HISTORY-ARCHIVE/BUILDING-TECH-1-2/ (updated)
+- [CUR] PHILIPPINE-CONSTRUCTION-MATERIALS-PRACTICE.md *(new)* — CHB dims/estimation, confined masonry, roofing, traditional materials, PH practice + traps
+
+### 01-CURRENT-COURSES/STRUCTURAL-THEORY/ (updated)
+- [CUR] MOMENT-DISTRIBUTION-WORKED-EXAMPLE.md *(new)* — full procedure + iterative worked example (two-span beam) + 6 traps
+
+### 02-HISTORY-ARCHIVE/ (updated)
+- [CUR] HOA-1-TO-4/PHILIPPINE-ARCHITECTURE-HISTORY.md *(new)* — PH periods (kubo→colonial→modern), National Artists table (CCP-verified), conflict record (Nakpil 1972/1973), PH glossary, traps
+- [CUR] STATICS-STRENGTH-MATERIALS/STATICS-FUNDAMENTALS-AND-WORKED-EXAMPLES.md *(new)* — vectors/FBD/equilibrium + 3 fully-worked beam examples + 10 common mistakes (MIT OCW-triangulated)
+
+### Top-Level
+- [CUR] COMMON-MISTAKES-AND-EXAM-TRAPS.md *(new)* — cross-course trap catalog (L=law, S=structures, U=MEPFS, H=history) for @mentor/@examiner/@drillmaster
+
 ## 00-BOOKS/ *(new — book library, LINKS-ONLY & compact)*
 - `README.md` — folder policy (links-only; no PDFs stored)
 - `BOOKS-ONLINE-ACCESS.md` — ★ verified free & legal links: Vitruvius, Owen Jones, Ruskin (Seven Lamps + Stones of Venice), Ware, Palladio, Gibbs, **Le Corbusier (Towards a New Architecture), Alberti (De re aedificatoria), Banister Fletcher (Comparative Method)**, Gutenberg mirrors

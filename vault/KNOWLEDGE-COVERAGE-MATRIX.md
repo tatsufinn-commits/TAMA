@@ -66,3 +66,23 @@
 4. BP 220 / PD 957 / zoning laws (public domain, quick wins).
 5. Environmental laws (RA 8749, RA 9275, RA 9003, PD 1586, RA 10587).
 6. Phases C–I: per-topic OER (university modules, government publications, open standards).
+
+---
+
+## DEPTH ASSESSMENT (2026-08-10 — Coverage ≠ Depth per Master Directive §8)
+
+Depth levels: 0 Unknown · 1 Awareness · 2 Foundational · 3 Functional (examples/procedures) · 4 Advanced · 5 Comprehensive
+
+| Domain | Breadth | Depth | Notes (what raised/lowers depth) |
+|---|---|---|---|
+| PD 1096 law suite (statute+IRR+BP344+9514+957+220+env) | ● | **4** | Verified RAW texts + tables + traps; lacks full Fire Code IRR + CMO 61 (recorded) |
+| Structures (statics→RCD) | ◐ | **3** | Formulas + NEW fundamentals & worked examples; needs strength-of-materials depth + truss methods |
+| Building Technology (BT1–5) | ◐ | **2** | Summaries only; needs materials/assemblies depth + PH construction practice |
+| Building Utilities (MEPFS) | ◐ | **2** | System summaries + formulas; needs worked calcs (lighting/acoustics/plumbing sizing) |
+| HOA (world) | ◐ | **2–3** | Timeline + monuments; per-period depth modules missing |
+| HOA (Philippine) | ●(new) | **3** | NEW PH architecture + National Artists file; needs RA 10066 + case studies |
+| TOA | ◐ | **2–3** | Ching principles + public-domain classics notes; needs movement-by-movement depth |
+| Planning & Environmental | ◐ | **2** | Lynch + site planning + environmental laws; needs zoning/CLUP case depth |
+| Professional Practice | ◐ | **3** | RA 9266/SPP/CPD verified; needs UAP Doc 301 detail + contracts depth |
+| Common Mistakes / Exam Traps | ●(new) | **3** | NEW cross-course trap catalog (L/S/U/H series) — direct agent fuel |
+| Design Studio (AD series) | ◐ | **2** | Programming/zoning file; needs design-process depth + case studies |
