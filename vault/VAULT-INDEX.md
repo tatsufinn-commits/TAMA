@@ -86,6 +86,18 @@
 - [CUR] PD-1096-IRR-RULES-INDEX.md *(new)* — Rules I–XXI verified + referral-code concept (Sec. 103)
 
 ### 02-HISTORY-ARCHIVE/TOA-1-TO-2/ (updated)
+- [CUR] THEORY-MOVEMENTS-AND-THEORISTS.md *(new)* — functionalism→structuralism→semiotics→phenomenology→critical regionalism→postmodernism; theorist quick-table; traps
+
+### 01-CURRENT-COURSES/BUILDING-TECH-3-4/ (updated)
+- [CUR] BT4-SPECIFICATIONS-AND-QUANTITY-SURVEYING.md *(new)* — spec types/writing guidelines, QS 4-step process, takeoff rules, unit-rate analysis, worked CHB example
+
+### 01-CURRENT-COURSES/STRUCTURAL-THEORY/ (updated)
+- [CUR] RCD-SINGLY-REINFORCED-BEAM-WORKED-EXAMPLES.md *(new)* — NSCP/ACI strength method + 2 fully worked examples (analysis & design) + traps
+
+### 02-HISTORY-ARCHIVE/UTILITIES-1-2/ (updated)
+- [CUR] PLUMBING-AND-ELECTRICAL-DESIGN-DEPTH.md *(new)* — fixture-unit/Hunter method, drainage/venting, electrical load, 2 worked examples, PH-code flags
+
+### 02-HISTORY-ARCHIVE/TOA-1-TO-2/ (updated)
 - [CUR] PUBLIC-DOMAIN-THEORY-NOTES.md *(new)* — classics orientation (Vitruvius, Alberti, Ruskin, Jones, Ware, Le Corbusier, Fletcher) + book links
 
 ### SOURCE-REGISTRY/ (updated)
@@ -101,7 +113,18 @@
 ### 02-HISTORY-ARCHIVE/HOA-1-TO-4/PERIOD-MODULES/ (updated)
 - [CUR] HOA-MODERNISM-PERIOD-MODULE.md *(new)* — Sullivan→Niemeyer masters, 5 points, movements (Art Nouveau→Postmodern), traps — completes period sweep (Gothic/Renaissance/Modernism)
 
+### 07-PLANNING-AND-ENVIRONMENTAL/PLAN1/ (updated)
+- [CUR] SITE-DEVELOPMENT-GRADING-DRAINAGE.md *(new)* — contours, slope analysis, grading principles, drainage, cut/fill, worked pad concept (QUT/Untermann-based)
+
+### 01-CURRENT-COURSES/UTILITIES-3-MEPFS/ (updated)
+- [CUR] VERTICAL-TRANSPORTATION-ELEVATORS-ESCALATORS.md *(new)* — elevator types/selection matrix, escalators, fire-alarm interface (IBC/NFPA-based, PH flagged)
+
+### 02-HISTORY-ARCHIVE/HOA-1-TO-4/PERIOD-MODULES/ (updated)
+- [CUR] HOA-REGIONAL-SEA-ISLAMIC-MODULE.md *(new)* — SE Asia vernacular + monumental types, Islamic framework + monuments, PH links, traps
+
 ### 07-PLANNING-AND-ENVIRONMENTAL/ (updated)
+- [CUR] PLAN1-SITE-PLANNING-AND-ECOLOGY/SITE-PLANNING-AND-MICROCLIMATES.md *(pre-existing, added to index 2026-08-10 audit)*
+- [CUR] PLAN2-URBAN-DESIGN-AND-HOUSING/KEVIN-LYNCH-AND-URBAN-NODES.md *(pre-existing, added to index 2026-08-10 audit)*
 - [CUR] PHILIPPINE-GREEN-BUILDING.md *(new)* — BERDE categories (official docs verified) + PGBC thresholds (flagged) + instrument distinction + traps
 
 ### 02-HISTORY-ARCHIVE/HOA-1-TO-4/PERIOD-MODULES/ (updated)
@@ -119,7 +142,18 @@
 ### 01-CURRENT-COURSES/STRUCTURAL-THEORY/ (updated)
 - [CUR] FRAME-ANALYSIS-WITH-SIDESWAY.md *(new)* — non-sway→sway superposition procedure, shear equation, worked framework, 6 traps
 
+### 07-PLANNING-AND-ENVIRONMENTAL/PLAN1/ (updated)
+- [CUR] SITE-DEVELOPMENT-GRADING-DRAINAGE.md *(new)* — contours, slope analysis, grading principles, drainage, cut/fill, worked pad concept (QUT/Untermann-based)
+
+### 01-CURRENT-COURSES/UTILITIES-3-MEPFS/ (updated)
+- [CUR] VERTICAL-TRANSPORTATION-ELEVATORS-ESCALATORS.md *(new)* — elevator types/selection matrix, escalators, fire-alarm interface (IBC/NFPA-based, PH flagged)
+
+### 02-HISTORY-ARCHIVE/HOA-1-TO-4/PERIOD-MODULES/ (updated)
+- [CUR] HOA-REGIONAL-SEA-ISLAMIC-MODULE.md *(new)* — SE Asia vernacular + monumental types, Islamic framework + monuments, PH links, traps
+
 ### 07-PLANNING-AND-ENVIRONMENTAL/ (updated)
+- [CUR] PLAN1-SITE-PLANNING-AND-ECOLOGY/SITE-PLANNING-AND-MICROCLIMATES.md *(pre-existing, added to index 2026-08-10 audit)*
+- [CUR] PLAN2-URBAN-DESIGN-AND-HOUSING/KEVIN-LYNCH-AND-URBAN-NODES.md *(pre-existing, added to index 2026-08-10 audit)*
 - [CUR] CLUP-AND-ZONING-PROCESS.md *(new)* — 12-step HLURB/DHSUD CLUP process, 3-volume structure, ZO as regulatory bridge, institutional roles, traps
 
 ### 01-CURRENT-COURSES/BUILDING-TECH-3-4/ (updated)
@@ -173,7 +207,18 @@
 ### 02-HISTORY-ARCHIVE/HOA-1-TO-4/PERIOD-MODULES/ (updated)
 - [CUR] HOA-MODERNISM-PERIOD-MODULE.md *(new)* — Sullivan→Niemeyer masters, 5 points, movements (Art Nouveau→Postmodern), traps — completes period sweep (Gothic/Renaissance/Modernism)
 
+### 07-PLANNING-AND-ENVIRONMENTAL/PLAN1/ (updated)
+- [CUR] SITE-DEVELOPMENT-GRADING-DRAINAGE.md *(new)* — contours, slope analysis, grading principles, drainage, cut/fill, worked pad concept (QUT/Untermann-based)
+
+### 01-CURRENT-COURSES/UTILITIES-3-MEPFS/ (updated)
+- [CUR] VERTICAL-TRANSPORTATION-ELEVATORS-ESCALATORS.md *(new)* — elevator types/selection matrix, escalators, fire-alarm interface (IBC/NFPA-based, PH flagged)
+
+### 02-HISTORY-ARCHIVE/HOA-1-TO-4/PERIOD-MODULES/ (updated)
+- [CUR] HOA-REGIONAL-SEA-ISLAMIC-MODULE.md *(new)* — SE Asia vernacular + monumental types, Islamic framework + monuments, PH links, traps
+
 ### 07-PLANNING-AND-ENVIRONMENTAL/ (updated)
+- [CUR] PLAN1-SITE-PLANNING-AND-ECOLOGY/SITE-PLANNING-AND-MICROCLIMATES.md *(pre-existing, added to index 2026-08-10 audit)*
+- [CUR] PLAN2-URBAN-DESIGN-AND-HOUSING/KEVIN-LYNCH-AND-URBAN-NODES.md *(pre-existing, added to index 2026-08-10 audit)*
 - [CUR] PHILIPPINE-GREEN-BUILDING.md *(new)* — BERDE categories (official docs verified) + PGBC thresholds (flagged) + instrument distinction + traps
 
 ### 02-HISTORY-ARCHIVE/HOA-1-TO-4/PERIOD-MODULES/ (updated)
@@ -191,7 +236,18 @@
 ### 01-CURRENT-COURSES/STRUCTURAL-THEORY/ (updated)
 - [CUR] FRAME-ANALYSIS-WITH-SIDESWAY.md *(new)* — non-sway→sway superposition procedure, shear equation, worked framework, 6 traps
 
+### 07-PLANNING-AND-ENVIRONMENTAL/PLAN1/ (updated)
+- [CUR] SITE-DEVELOPMENT-GRADING-DRAINAGE.md *(new)* — contours, slope analysis, grading principles, drainage, cut/fill, worked pad concept (QUT/Untermann-based)
+
+### 01-CURRENT-COURSES/UTILITIES-3-MEPFS/ (updated)
+- [CUR] VERTICAL-TRANSPORTATION-ELEVATORS-ESCALATORS.md *(new)* — elevator types/selection matrix, escalators, fire-alarm interface (IBC/NFPA-based, PH flagged)
+
+### 02-HISTORY-ARCHIVE/HOA-1-TO-4/PERIOD-MODULES/ (updated)
+- [CUR] HOA-REGIONAL-SEA-ISLAMIC-MODULE.md *(new)* — SE Asia vernacular + monumental types, Islamic framework + monuments, PH links, traps
+
 ### 07-PLANNING-AND-ENVIRONMENTAL/ (updated)
+- [CUR] PLAN1-SITE-PLANNING-AND-ECOLOGY/SITE-PLANNING-AND-MICROCLIMATES.md *(pre-existing, added to index 2026-08-10 audit)*
+- [CUR] PLAN2-URBAN-DESIGN-AND-HOUSING/KEVIN-LYNCH-AND-URBAN-NODES.md *(pre-existing, added to index 2026-08-10 audit)*
 - [CUR] CLUP-AND-ZONING-PROCESS.md *(new)* — 12-step HLURB/DHSUD CLUP process, 3-volume structure, ZO as regulatory bridge, institutional roles, traps
 
 ### 01-CURRENT-COURSES/BUILDING-TECH-3-4/ (updated)

@@ -86,3 +86,58 @@ Depth levels: 0 Unknown · 1 Awareness · 2 Foundational · 3 Functional (exampl
 | Professional Practice | ◐ | **3** | RA 9266/SPP/CPD verified; needs UAP Doc 301 detail + contracts depth |
 | Common Mistakes / Exam Traps | ●(new) | **3** | NEW cross-course trap catalog (L/S/U/H series) — direct agent fuel |
 | Design Studio (AD series) | ◐ | **2** | Programming/zoning file; needs design-process depth + case studies |
+
+---
+
+# RECONCILED AUDIT INVENTORY — 2026-08-10 (SYSTEM AUDIT)
+
+> The tables above are **HISTORICAL** (last updated during acquisition passes). This reconciled
+> inventory was built from the **actual filesystem** during the 2026-08-10 System Audit and is the
+> current system of record for coverage.
+
+## A. Vault file inventory (actual, by domain) — 87 files total
+
+| Domain | Files (actual) | Depth (audited) |
+|---|---|---|
+| **Core Laws (00-CORE-BUILDING-LAWS)** | 27 curated + RAW texts: PD 1096 statute+IRR 2005 (verified tables, rules index, chapter index), RA 9266, RA 9514, BP 344+IRR, RA 10912, RA 10066, PD 957, BP 220, 6 environmental laws, CMO 61 summary, source registry | **4 — ADVANCED** (RAW official texts + verified tables; Fire Code IRR & CMO 61 full text recorded-not-held) |
+| **Books (00-BOOKS)** | 3 curated (links-only policy, 16 verified links, textbook registry) | **2 — FOUNDATIONAL** (links + registry; no stored texts) |
+| **Current Courses (01-CURRENT-COURSES)** | 15 curated: AD process, case studies (5), PH cases (3), brief templates, BT3-4 + BT5, MEPFS calcs, moment distribution + worked ex, sidesway frames, contracts | **3 — FUNCTIONAL** (procedures + worked examples) |
+| **History Archive (02-HISTORY-ARCHIVE)** | 13 curated: statics fundamentals + worked ex, SOM+trusses, PH architecture, 5 HOA period modules, assemblies, PH materials, TOA theory notes + Ching, utilities, HOA timeline | **3+ — FUNCTIONAL/ADVANCED** (period sweep complete) |
+| **Planning & Env (07-PLANNING-AND-ENVIRONMENTAL)** | 6 curated: site planning/microclimates, Lynch, tropical design, green building, CLUP process | **3 — FUNCTIONAL** |
+| **Series mirrors (01/02/03/04/05/06 BUILDING-* etc.)** | 14 identical mirrors of files above (see Duplicate Register) | mirror of canonical |
+| **Top-level** | VAULT-INDEX (canonical), KNOWLEDGE-COVERAGE-MATRIX (this), COMMON-MISTAKES-AND-EXAM-TRAPS | — |
+
+## B. Depth legend applied at audit
+0 UNKNOWN · 1 AWARENESS · 2 FOUNDATIONAL · 3 FUNCTIONAL · 4 ADVANCED · 5 COMPREHENSIVE
+
+## C. Current coverage state (reconciled)
+
+| Domain | Breadth | Depth | Authority | PH context | Assessment-ready |
+|---|---|---|---|---|---|
+| Law & regulation corpus | ● | 4 | TIER 1 (official texts) | ● | ● (SET 01, decks) |
+| Structures (statics→frames) | ● | 3+ | TIER 1-2 (MIT OCW etc.) | ◐ (NSCP flagged) | ● (SET 04, 06) |
+| MEPFS | ◐ | 3 | TIER 2-3 | ◐ (codes flagged) | ● (SET 05, 06) |
+| Building Technology | ◐ | 3 | TIER 2-3 | ● (PH materials) | ◐ |
+| HOA (5 periods + PH) | ● | 3+ | TIER 1-2 | ● | ◐ (deck) |
+| TOA | ◐ | 2-3 | TIER 2 | ◐ | ◐ |
+| Planning & Environmental | ◐ | 3 | TIER 1-3 | ● | ◐ |
+| Studio & Design | ◐ | 3 | TIER 2-3 | ● | ● (SET 06, briefs) |
+| Professional Practice | ◐ | 3 | TIER 1 (RA 9266) | ● | ◐ |
+| Case studies | ● (8 cases) | 3 | TIER 2-3 | ● | ◐ |
+
+## D. Known issues at audit (see TAMA_SYSTEM_AUDIT_REPORT.md)
+1. 14 identical mirror duplicates (series folders) — consolidation pending @architect decision.
+2. RULE-7-8-ZONING-AMBF.md (both mirrors) — annotated SUPERSEDED/IN-CONFLICT vs verified Table VIII.1.
+3. Fire Code IRR & CMO 61 full texts — recorded, not held (sandbox/404).
+4. Version docs reconciled to 1.9.0.0.a v (was split 1.2.0.0.a vs 1.9.0.0.a).
+
+---
+
+## COURSE-EXPANSION MISSION UPDATE (2026-08-10)
+
+| Cluster | Depth before | Depth after | Added |
+|---|---|---|---|
+| TOA (AR130P/132-1) | 2 | **3** | THEORY-MOVEMENTS-AND-THEORISTS.md |
+| BT4 (AR164-1) | 2 | **3** | BT4-SPECIFICATIONS-AND-QUANTITY-SURVEYING.md |
+| Structures RC (CE133/191) | 3 | **3+** | RCD-SINGLY-REINFORCED-BEAM-WORKED-EXAMPLES.md |
+| BU1-2 (AR153P/BU2) | 1.5 | **3** | PLUMBING-AND-ELECTRICAL-DESIGN-DEPTH.md |
