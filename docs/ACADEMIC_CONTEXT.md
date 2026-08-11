@@ -89,3 +89,15 @@ $$\text{TGFA} = \text{TLA} \times \text{Floor to Lot Area Ratio (FLAR)} \quad (\
 ### 4. Continuous Beam Maximum Moment ($wL^2/8$ vs Fixed End Moments):
 $$M_u = \frac{W_u \cdot L^2}{8} \quad (\text{Simply Supported Uniform Load})$$
 $$W_u = 1.2D + 1.6L \quad (\text{NSCP Factored Ultimate Load Combination})$$
+
+---
+
+# 4. PRIMARY DIGITAL CURRICULUM CLOUD REPOSITORY
+
+* **Repository Name:** TAMA Digital Reviewers & Slide Library  
+* **Hosting Platform:** Google Drive (Cloud Archive)  
+* **Resource URL:** `https://drive.google.com/drive/folders/1q5iXLUJ6hshigHmFlkCNNe9b8Zfv7d6P?usp=drive_link`  
+* **Key Holdings:**
+  1. Complete 13-Week Slide Decks (`W1` Pre-Historic to `W13` Pritzker Laureates).
+  2. Actual Mapúa ARIDBE Departmental Exam Papers (`Deptl-Exam_ARIDBE2025-AR133-1P-1st-Tsem.pdf`).
+  3. Commercial Architecture Textbooks: Max B. Fajardo Jr. *Planning and Designers Handbook* (2nd ed.) and Sir Banister Fletcher *A History of Architecture*.

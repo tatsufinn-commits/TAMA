@@ -421,3 +421,13 @@ When you start a study session:
 * **Activity Executed:** Ingestion of 7 authoritative multi-module files adhering to the **5-Layer Academic Course Standard**, synchronized with `vault/VAULT-INDEX.md` and indexed across all suites.
 * **Score / Mastery Level:** `npm test` 100% GREEN · `npm run audit` 10/10 checks (0 fail) · `npm run ktest` 18/18 PASS.
 * **System Status:** Master Academic Knowledge Goldmine operational across all 13 clusters.
+
+### [GOVERNANCE & CLOUD REPOSITORY UPGRADE] Session K23: Google Drive Digital Library Integration (Law IX)
+* **Date:** 2026-08-11
+* **Faculty in Charge:** `@architect` / `@curator`
+* **Topic Covered:** Cloud Repository Integration & Governance Documentation:
+  1. Formally established **Law IX (The Cloud Repository & Ephemeral Ingestion Mandate)** in `docs/AI_RULES.md`.
+  2. Registered **K-EXT-GDRIVE-001 (TAMA Google Drive Resource Hub)** as a Tier-1 Curated Primary Source in `docs/KNOWLEDGE_GOVERNANCE_REGISTRY.md`.
+  3. Equipped `@curator` and `@examiner` in `docs/AGENTS.md` with operational authority to query the Drive for missing week slide decks (W1–W13), Pritzker monographs, Fajardo Handbook, and actual Mapúa Departmental Exam papers.
+  4. Added **Scenario 7 (Google Drive Cloud Extraction)** to `docs/PROMPT_PLAYBOOK.md` enforcing the single-file ephemeral download protocol to protect the 128 MB workspace limit.
+* **Score / Mastery Level:** `npm test` 100% GREEN · `npm run audit` 10/10 checks (0 fail) · `npm run ktest` 18/18 PASS.

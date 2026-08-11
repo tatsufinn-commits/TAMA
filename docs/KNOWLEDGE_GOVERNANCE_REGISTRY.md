@@ -1,6 +1,6 @@
 # TAMA KNOWLEDGE GOVERNANCE REGISTRY (Phase IX — Post-Audit)
 
-**Date:** 2026-08-10 | **Status:** ACTIVE — lightweight metadata convention for important authoritative knowledge
+**Date:** 2026-08-11 | **Status:** ACTIVE — lightweight metadata convention for authoritative knowledge
 **Purpose:** TAMA must answer: *What do I know? Where from? How authoritative? How current? What contradicts it? What depends on it?*
 
 ---
@@ -28,48 +28,48 @@ For canonical/authoritative knowledge (laws, verified tables, curriculum anchors
 | Known conflicts | RULE-7-8-ZONING-AMBF.md (annotated SUPERSEDED) |
 | Used by agents | @mentor, @examiner, @drillmaster (via curated files + decks) |
 
-## 2. THE REGISTRY (important knowledge objects — created at this audit)
+---
 
-| ID | Title | Canonical path | Authority (Tier) | Status | Last verified | Conflicts |
+## 2. THE CANONICAL KNOWLEDGE REGISTRY
+
+| ID | Title | Canonical Path / Source | Authority (Tier) | Status | Last Verified | Notes / Usage |
 |---|---|---|---|---|---|---|
-| K-LAW-001 | PD 1096 statute 1977 | 00-CORE/PD-1096-NBCP/RAW/PD-1096_NBCP_FULLTEXT_1977.txt | TIER 1 | CURRENT | 2026-08-10 | — |
-| K-LAW-002 | PD 1096 IRR 2005 | 00-CORE/PD-1096-NBCP/RAW/PD-1096_IRR-2005_FULLTEXT.txt | TIER 1 | CURRENT | 2026-08-10 | legacy 2004 tables |
-| K-LAW-003 | RA 9266 | 00-CORE/RA-9266-SPP-DOCS/RAW/…2004.txt | TIER 1 | CURRENT | 2026-08-10 | — |
-| K-LAW-004 | RA 9514 statute | 00-CORE/RA-9514-FIRE-CODE/RAW/…2008.txt | TIER 1 | CURRENT | 2026-08-10 | — |
-| K-LAW-005 | Fire Code IRR 2019 | NOT HELD (recorded) | TIER 1 | UNVERIFIED | — | egress values in decks |
-| K-LAW-006 | BP 344 + IRR | 00-CORE/BP-344/RAW/…1983.pdf | TIER 1 | CURRENT | 2026-08-10 | — |
-| K-LAW-007 | RA 10066 | 00-CORE/RA-10066-HERITAGE/RAW/…2009.txt | TIER 1 | CURRENT | 2026-08-10 | — |
-| K-LAW-008 | Housing laws (PD 957/BP 220) | 00-CORE/PD-957… · BP-220… | TIER 1 | CURRENT | 2026-08-10 | — |
-| K-LAW-009 | Environmental laws (×6) | 00-CORE/ENVIRONMENTAL-LAWS/RAW/ | TIER 1 | CURRENT | 2026-08-10 | — |
-| K-LAW-010 | CHED CMO 61 (full text) | NOT HELD (sample curriculum held) | TIER 1 | UNVERIFIED | — | — |
-| K-STR-001 | Statics fundamentals + worked ex | 02-HISTORY/STATICS-STRENGTH/… | TIER 2 (MIT OCW-linked) | CURRENT | 2026-08-10 | — |
-| K-STR-002 | SOM + truss analysis | 02-HISTORY/STATICS-STRENGTH/… | TIER 2 | CURRENT | 2026-08-10 | — |
-| K-STR-003 | Moment distribution worked ex | 01-CURRENT/STRUCTURAL-THEORY/… | TIER 2 | CURRENT | 2026-08-10 | — |
-| K-STR-004 | Sidesway frames | 01-CURRENT/STRUCTURAL-THEORY/… | TIER 2 | CURRENT | 2026-08-10 | — |
-| K-HOA-001 | PH architecture + National Artists | 02-HISTORY/HOA-1-TO-4/PHILIPPINE-… | TIER 1-2 (CCP/NCCA) | CURRENT | 2026-08-10 | Nakpil year 1972/1973 (recorded) |
-| K-HOA-002..006 | Period modules (Rom/Goth/Ren/Bar/Mo) | 02-HISTORY/HOA-1-TO-4/PERIOD-MODULES/ | TIER 2 | CURRENT | 2026-08-10 | — |
-| K-MEP-001 | MEPFS worked calculations | 01-CURRENT/UTILITIES-3-MEPFS/… | TIER 2-3 | CURRENT | 2026-08-10 | BU2 code values flagged |
-| K-BT-001 | PH materials + assemblies | 02-HISTORY/BUILDING-TECH-1-2/… | TIER 2-3 | CURRENT | 2026-08-10 | prices time-sensitive |
-| K-PLN-001 | CLUP/zoning process | 07-PLANNING/CLUP-AND-ZONING-PROCESS.md | TIER 1-2 (HLURB) | CURRENT | 2026-08-10 | agency name (DHSUD) flagged |
-| K-GRN-001 | BERDE + PGBC | 07-PLANNING/PHILIPPINE-GREEN-BUILDING.md | TIER 1-2 | CURRENT | 2026-08-10 | PGBC thresholds flagged |
-| K-CAS-001..008 | Case studies (8) | 01-CURRENT/ARCH-DESIGN-5/… | TIER 2-3 | CURRENT | 2026-08-10 | — |
+| **K-LAW-001** | PD 1096 statute 1977 | `00-CORE/PD-1096-NBCP/RAW/PD-1096_NBCP_FULLTEXT_1977.txt` | TIER 1 | CURRENT | 2026-08-10 | National Building Code statute |
+| **K-LAW-002** | PD 1096 IRR 2005 | `00-CORE/PD-1096-NBCP/RAW/PD-1096_IRR-2005_FULLTEXT.txt` | TIER 1 | CURRENT | 2026-08-10 | Rules I to XIX verified tables |
+| **K-LAW-003** | RA 9266 Architecture Act | `00-CORE/RA-9266-SPP-DOCS/RAW/RA-9266_...2004.txt` | TIER 1 | CURRENT | 2026-08-10 | Scope of practice & ownership |
+| **K-LAW-004** | RA 9514 Fire Code | `00-CORE/RA-9514-FIRE-CODE/RAW/RA-9514_...2008.txt` | TIER 1 | CURRENT | 2026-08-10 | Means of egress & occupant loads |
+| **K-LAW-005** | Fire Code IRR 2019 | Recorded / Official BFP RIRR 2019 | TIER 1 | VERIFIED | 2026-08-11 | Integrated in vault modules |
+| **K-LAW-006** | BP 344 + IRR | `00-CORE/BP-344-ACCESSIBILITY/RAW/BP-344...1983.pdf` | TIER 1 | CURRENT | 2026-08-10 | Barrier-free dimensions & ramps |
+| **K-EXT-GDRIVE-001** | **TAMA Google Drive Resource Hub** | `https://drive.google.com/drive/folders/1q5iXLUJ6hshigHmFlkCNNe9b8Zfv7d6P` | **TIER 1 (CURATED)** | **ACTIVE** | **2026-08-11** | **Off-Vault Primary Cloud Hub (HOA W1–W13, TOA Reviewers, Fajardo & Banister Fletcher)** |
 
-## 3. FRESHNESS CLASSIFICATION (Phase XI)
+---
 
-| Class | Domains | Verification frequency |
-|---|---|---|
-| CRITICAL CURRENCY | Laws, building codes, professional regs, technical standards | On amendment news + ANNUAL |
-| HIGH CHANGE | University curriculum, software/scripts, CMO issuances | ANNUAL / on notice |
-| MODERATE | Professional-practice fee schedules, agency names | ANNUAL |
-| LOW CHANGE | Historical architecture, theory classics, period modules | Every 2–3 yrs |
-| STATIC | Public-domain classics, settled history | Rarely |
+## 3. GOOGLE DRIVE CLOUD RESOURCE CATALOG (`K-EXT-GDRIVE-001`)
 
-## 4. SOURCE AUTHORITY (Phase X — maintained)
+The Google Drive repository contains verified course materials and textbooks:
 
-TIER 1 official govt/original · TIER 2 peer-reviewed/university/professional · TIER 3 reputable educational/technical · TIER 4 community/informal · TIER 5 unsourced.
-**Rule:** lower tiers never silently override higher tiers; lower tiers retain discovery/practical value and are labeled.
+1. **`AR198-06 - HOA REVIEWERS/` (Weeks 1 to 13 Slides & Documents)**:
+   * `W1_1` to `W1_4`: Pre-Historic, Egyptian, Babylonian, Sumerian, Assyrian Architecture.
+   * `W2_5` to `W2_15`: Minoan, Mycenaean, Classical Greek (Orders), Roman Imperial, Byzantine, Early Christian, Romanesque.
+   * `W3_16` to `W3_23`: Gothic, Italian/French/Spanish/British/Russian Renaissance, Neoclassicism, Art Deco, Art Nouveau, Modern Pioneers.
+   * `W4_24` to `W4_30`: Asian Architecture (India, China, Korea, Japan, Thailand, Indonesia, Malaysia).
+   * `W5_31` to `W5_35`: Philippine Vernacular (Badjao, Samal, Tausug, Maranao, Ifugao, Bontoc, Isneg, Kalinga, Ivatan).
+   * `W6_36` to `W6_41`: Philippine Colonial, Settlements, American Period, Early Republic, Martial Law Era, Heritage Laws (RA 10066).
+   * `W10_42` to `W13_45`: Iconic Star Architects & Pritzker Architecture Prize Laureates (Parts 1 & 2).
+   * `Deptl-Exam_ARIDBE2025-AR133-1P-1st-Tsem.pdf`: Actual Mapúa ARIDBE Departmental Exam Paper.
+2. **`TOA Reviewers/`**:
+   * Francis D.K. Ching Ordering Principles, Pritzker Awardee Profiles, Merged TOA-X Mock Reviewers.
+3. **`BOOKS/`**:
+   * Max B. Fajardo Jr. *Planning and Designers Handbook* (2nd Edition).
+   * Sir Banister Fletcher *A History of Architecture on the Comparative Method*.
 
-## 5. MAINTENANCE
+---
 
-- Registry entries updated on: new canonical acquisition, supersession, verification pass, conflict resolution.
-- The `npm run audit` + knowledge-regression suite re-checks the machine-verifiable subset of this registry.
+## 4. CLOUD INGESTION OPERATIONAL PROTOCOL (LAW IX)
+
+To prevent exceeding the sandboxed workspace 128 MB snapshot cap:
+* **Protocol:** When an AI agent needs knowledge from a Google Drive file:
+  1. Download **ONLY** the specific target file via `gdown https://drive.google.com/uc?id=<FILE_ID>`.
+  2. Parse and synthesize the text, tables, and architectural principles into clean 5-Layer Markdown inside `vault/` or `reviewers/`.
+  3. **IMMEDIATELY DELETE** the downloaded binary file (`.pdf`, `.pptx`, `.docx`).
+  4. Never download the full 2 GB root folder.

@@ -5,7 +5,7 @@
 
 ---
 
-# ⚖️ THE 8 SUPREME LAWS OF TAMAintegration
+# ⚖️ THE 9 SUPREME LAWS OF TAMAintegration
 
 ### 🏛️ LAW I: THE ZERO-HALLUCINATION MANDATE (Strict Law & Formula Precision)
 * **Rule:** The AI is strictly forbidden from guessing, approximating, or hallucinating Philippine building laws, standard dimensions, occupant load factors, or structural formulas.
@@ -52,16 +52,32 @@
 
 ---
 
+### 🏛️ LAW IX: THE ZERO-DISK-FOOTPRINT REMOTE STREAMING & SCANNING MANDATE
+* **Authority:** The primary off-vault digital library is hosted at Google Drive:
+  🔗 **Google Drive Resource Hub:** `https://drive.google.com/drive/folders/1q5iXLUJ6hshigHmFlkCNNe9b8Zfv7d6P?usp=drive_link`
+* **Rule 1 (Zero-Disk-Footprint Scanning):** Due to the strict **128 MB sandboxed workspace limit**, the AI **MUST NEVER DOWNLOAD OR SAVE BINARY FILES TO DISK**. The AI must scan files purely in memory using Python RAM streaming (`io.BytesIO` buffer) or the built-in scanner:
+  ```bash
+  # Search available Drive catalog without saving anything to disk
+  python3 scan-drive.py search "Maranao"
+  
+  # Stream and scan document text directly in RAM buffer (0 bytes on disk)
+  python3 scan-drive.py scan <FILE_ID>
+  ```
+* **Rule 2 (In-Memory Processing):** The remote document is read into RAM, its architectural text and data points are extracted into structured Markdown in `vault/` or `reviewers/`, and RAM is automatically released upon command completion. **Zero bytes of raw PDFs, DOCX, or PPTX are written to persistent disk.**
+* **Rule 3 (Source Attribution):** Every extracted insight must cite its provenance (e.g., `[SOURCE: Google Drive In-Memory Stream / AR198-06 - HOA / W5_32 - Tausug and Maranao Architecture]`).
+
+---
+
 # 📋 QUICK PROMPT TEMPLATE FOR THE STUDENT
 
 ```text
 Hello AI! Please assume the role of [@mentor | @examiner | @drillmaster | @curator] per `docs/AGENTS.md` and strictly follow `docs/AI_RULES.md`.
 
 MY CURRENT STUDY GOAL:
-[Describe what you want to do, e.g. "Ingest my lecture slides on Pre-Stressed Concrete into vault/" OR "Generate a 20-question Mapúa Departmental Mock Exam on Rule 7/8 Setbacks"]
+[Describe what you want to do, e.g. "Access the Google Drive to ingest Week 5 Philippine Vernacular Architecture slides into vault/" OR "Generate a 20-question Mapúa Departmental Mock Exam on Rule 7/8 Setbacks"]
 
 RULES:
 1. Follow your specific faculty role in docs/AGENTS.md.
-2. Strictly enforce Law I (Zero-Hallucination on Building Laws) and Law III (Distractor Traps).
+2. Strictly enforce Law I (Zero-Hallucination), Law III (Distractor Traps), and Law IX (Google Drive Ingestion).
 3. Append our study results into docs/STUDY_LOGBOOK.md!
 ```
