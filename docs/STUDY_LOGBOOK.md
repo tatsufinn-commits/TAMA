@@ -99,7 +99,34 @@ When you start a study session:
   * **Build T36 (BP 344 Canonical Compendium):** Ingested `vault/00-CORE-BUILDING-LAWS/BP-344-ACCESSIBILITY/BP-344-CANONICAL-ACCESSIBILITY-COMPENDIUM.md` and mirrored to `vault/01-BUILDING-LAWS-AND-PROFPRAC/BP-344-ACCESSIBILITY/` (10-Section Canonical Manual, standard wheelchair turning radius $1.50\text{m}$, $1:12$ max ramp slope, $6.00\text{m}$ max run per landing, $0.70\text{m}/0.90\text{m}$ dual handrails with $0.30\text{m}$ extensions, $0.10\text{m}$ curb lips, $0.80\text{m}$ clear door opening, $1.70\text{m} \times 1.80\text{m}$ accessible toilet stall, $3.70\text{m}$ parking stall width, 2 worked calculation scenarios: University entrance ramp & 320-slot mall parking allocation, 2 ASCII diagrams, and a 10-Question Socratic Board Simulation Drill).
   * **Flashcard Deck Expansion:** Upgraded `reviewers/flashcards/BP344_AND_NBCP_ACTIVE_RECALL_DECK.md` from 8 to 20 comprehensive active recall flashcards.
 * **Current Production State:** Version `TAMA 2.2.0.0.a v` operational. Both major Philippine life safety & accessibility codes (RA 9514 & BP 344) are at Level 5 Comprehensive depth.
-* **Next Recommended Study Target:** **Phase 2 Expansion: `RA-9266-CANONICAL-SPP-DOCUMENTS-COMPENDIUM.md` or `AD5-CANONICAL-SPACE-PROGRAMMING-MANUAL.md`**.
+
+---
+
+### [COMPLETED] Milestone 11: Canonical Architecture Act & SPP 200 Series Compendium (Build T37)
+* **Date:** 2026-08-11
+* **Faculty in Charge:** `@curator` (Lead Architectural Researcher) / `@mentor`
+* **Changes Delivered:**
+  * **Build T37 (RA 9266 & SPP Canonical Compendium):** Ingested `vault/00-CORE-BUILDING-LAWS/RA-9266-SPP-DOCS/RA-9266-CANONICAL-ARCHITECTURE-ACT-AND-SPP-COMPENDIUM.md` and mirrored to `vault/01-BUILDING-LAWS-AND-PROFPRAC/RA-9266-ARCHITECTURE-ACT/` (10-Section Canonical Reference, Architecture definition under §3, ALE qualifications & 70%/50% passing scores under §§13–15, dry-sealing criminal prohibition under §32, ownership of plans under §33, 75% RLA corporate ownership under §34, full SPP 201–208 matrix, SPP 202 5-phase progressive fee release schedule: SD 15%, DD 20%, CD 40%, Bidding 5%, CA 20%, MDPE compensation formulas with 1.5–2.5 multiplier, 2 worked calculation scenarios: 6-storey commercial building fee schedule & MDPE feasibility study, UAP Doc 301 contract hierarchy, CIAC arbitration under EO 1008, 15-year civil liability under Art. 1723 Civil Code, ASCII workflows, and a 10-Question Socratic Board Simulation Drill).
+* **Current Production State:** Version `TAMA 2.3.0.0.a v` operational. All 4 Pillars of Philippine Architectural Practice & Building Codes (PD 1096, RA 9514, BP 344, RA 9266) are now at Level 5 Comprehensive depth.
+
+---
+
+### [COMPLETED] Milestone 12: Canonical AD5 Space Programming & Zoning Manual (Build T38)
+* **Date:** 2026-08-11
+* **Faculty in Charge:** `@curator` (Lead Architectural Researcher) / `@architect`
+* **Changes Delivered:**
+  * **Build T38 (AD5 Canonical Manual):** Ingested `vault/02-DESIGN-STUDIO-SPINE/AD5-AD6-SITE-AND-LANDSCAPE/AD5-CANONICAL-SPACE-PROGRAMMING-AND-ZONING-MANUAL.md` and mirrored to `vault/01-CURRENT-COURSES/ARCH-DESIGN-5/` (10-Section Canonical Manual, 4-tier spatial privacy hierarchy, circulation multiplier matrix +15% to +45%, 4-tier adjacency matrix scoring, East-West solar orientation, West-facing service buffer cores, worked scenario: 4-storey medical clinic space programming & vertical stacking feasibility, 2 ASCII diagrams, and a 10-Question Socratic Board Simulation Drill).
+* **Current Production State:** Version `TAMA 2.4.0.0.a v` operational.
+
+---
+
+### [COMPLETED] Milestone 13: Canonical PLAN1 Site Planning, Grading & Hydrology Manual (Build T39)
+* **Date:** 2026-08-11
+* **Faculty in Charge:** `@curator` (Lead Architectural Researcher) / `@drillmaster`
+* **Changes Delivered:**
+  * **Build T39 (PLAN1 Canonical Manual):** Ingested `vault/07-PLANNING-AND-ENVIRONMENTAL/PLAN1-SITE-PLANNING-AND-ECOLOGY/PLAN1-CANONICAL-SITE-PLANNING-AND-GRADING-MANUAL.md` and mirrored to `vault/07-PLANNING-AND-ENVIRONMENTAL/` (10-Section Canonical Manual, slope suitability matrix 0%–18%+, PD 705 §15 steep slope prohibition, PD 1067 Art. 51 Water Code riverbank easements 3m/20m/40m, contour interpolation formulas, cut-and-fill balancing, Rational Method stormwater runoff formula Q = CIA/360, retaining wall weep holes & drainage mechanics, Kevin Lynch 5 city elements, worked scenario: 10% hillside building pad earthwork balance & 2.5-hectare campus runoff calculation, 2 ASCII diagrams, and a 10-Question Socratic Board Simulation Drill).
+* **Current Production State:** Version `TAMA 2.5.0.0.a v` operational. Both Architectural Design Studio (AD5) and Site Planning (PLAN1) are at Level 5 Comprehensive depth.
+* **Next Recommended Study Target:** **Phase 2 Expansion: `STRUC1-CANONICAL-STATICS-AND-TRUSS-MANUAL.md` or `HOA1-CANONICAL-ANCIENT-TO-GOTHIC-COMPENDIUM.md`**.
 
 ---
 
