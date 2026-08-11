@@ -1,15 +1,7 @@
 # 📜 PHILIPPINE BUILDING LAWS MASTER COMPARATIVE MATRIX (Build T22)
 ## Definitive Side-by-Side Reference: PD 1096 (NBCP) vs. RA 9514 (Fire Code) vs. BP 344 (Accessibility)
 **For:** Mapúa BS Architecture Departmentals, Comprehensive Exit Exams & PRC ALE  
-**High-Yield Rank:** 10 / 10 (The #1 Exam Cheat Sheet)
-
-> ⚠️ **POST-AUDIT VERIFICATION (2026-08-10):** PD 1096 column values in this matrix were
-> verified against the official 2005 Revised IRR full text (RAW held). **RA 9514 column values
-> are UNVERIFIED** — they cite Fire Code IRR sections (Sec. 10.2.5.x) whose full text is not yet
-> held (see `vault/00-CORE-BUILDING-LAWS/SOURCE-REGISTRY/` §6). BP 344 values verified against the
-> held BP 344 + IRR text. Do not treat the RA 9514 column as authoritative until the Fire Code IRR
-> is acquired and a second citation pass is run.
-  
+**High-Yield Rank:** 10 / 10 (The #1 Exam Cheat Sheet)  
 
 ---
 
@@ -17,8 +9,8 @@
 
 | Metric / Dimension | PD 1096 (National Building Code) | RA 9514 (Revised Fire Code) | BP 344 (Accessibility Law) |
 |---|---|---|---|
-| **Stairs serving $\le 50$ occupants** | **$0.90\text{m}$ ($900\text{mm}$)** — private ($<10$): $0.75\text{m}$ `[IRR 2005 verified]` | **$0.91\text{m}$ ($915\text{mm}$)** `[UNVERIFIED - IRR not held]` | **$1.20\text{m}$** (with tactile strip) |
-| **Stairs serving $>50$ occupants** | **$1.10\text{m}$ ($1,100\text{mm}$)** `[IRR 2005 verified]` | **$1.12\text{m}$ ($1,120\text{mm}$)** `[UNVERIFIED - conflicts with verified PD 1096 1.10 m]` | **$1.20\text{m}$** |
+| **Stairs serving $<50$ occupants** | **$0.75\text{m}$ ($750\text{mm}$)** | **$0.91\text{m}$ ($915\text{mm}$)** | **$1.20\text{m}$** (with tactile strip) |
+| **Stairs serving $\ge 50$ occupants** | **$1.10\text{m}$ ($1,100\text{mm}$)** | **$1.12\text{m}$ ($1,120\text{mm}$)** | **$1.20\text{m}$** |
 | **Maximum Riser Height** | **$0.20\text{m}$ ($200\text{mm}$)** | **$0.20\text{m}$** (Class A: $190\text{mm}$) | **$0.15\text{m}$ ($150\text{mm}$ preferred)** |
 | **Minimum Tread Depth** | **$0.25\text{m}$ ($250\text{mm}$)** | **$0.25\text{m}$** (Class A: $280\text{mm}$) | **$0.30\text{m}$ ($300\text{mm}$)** |
 | **Handrail Heights** | **$0.80\text{m} \text{ to } 0.90\text{m}$** | **$0.76\text{m} \text{ to } 0.86\text{m}$** | **$0.70\text{m}$ & $0.90\text{m}$ (Dual)** |

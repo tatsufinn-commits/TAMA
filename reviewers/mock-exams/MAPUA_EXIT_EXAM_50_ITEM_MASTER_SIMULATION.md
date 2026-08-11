@@ -6,8 +6,7 @@
 
 # PART 1: HISTORY, THEORY, PLANNING & BUILDING LAWS (ITEMS 1–15)
 
-### Q1. PD 1096 NBCP PSO Table
-> ⚠️ **POST-AUDIT (2026-08-10):** citation corrected from legacy "Table VII.1" to the verified **2005 IRR Table VIII.1** (Com-2 without firewall = **75%** — this answer coincides with the legacy value; R-2/other rows would NOT coincide).
+### Q1. PD 1096 NBCP Table VII.1
 What is the Maximum Allowable Percentage of Site Occupancy (PSO) for an **Inside Lot** in a **C-2** commercial zone without a firewall?
 * **A)** 50%
 * **B)** 70%

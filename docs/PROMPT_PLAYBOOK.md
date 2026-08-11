@@ -131,21 +131,3 @@ YOUR TASK:
 3. Formulate a 3-Day Targeted Study Schedule prioritizing high-yield building laws and structural mechanics.
 4. List the exact 5 calculation traps I am most likely to encounter on the exam!
 ```
-
----
-
-### Scenario 7: Google Drive In-Memory Scanning & Course Expansion (Law IX)
-* **Goal:** Instruct the AI to scan specific files from the TAMA Google Drive Resource Hub in-memory (0 bytes on disk) to enrich course modules.
-
-```text
-Hello AI! Please assume the role of [@curator] per `docs/AGENTS.md` and strictly follow `docs/AI_RULES.md` (specifically Law IX: Zero-Disk-Footprint In-Memory Scanning).
-
-PRIMARY CLOUD REPOSITORY:
-🔗 TAMA Google Drive: https://drive.google.com/drive/folders/1q5iXLUJ6hshigHmFlkCNNe9b8Zfv7d6P?usp=drive_link
-
-TARGET IN-MEMORY SCAN:
-- Execute in-memory scan: `python3 scan-drive.py scan <FILE_ID>`
-- Extract core architectural principles, dimensions, and exam traps into 5-Layer Markdown in `vault/`.
-- STRICT CONSTRAINT: Do NOT download or save raw binary files (.pdf, .pptx, .docx) to disk!
-- Append study notes to `docs/STUDY_LOGBOOK.md`.
-```
