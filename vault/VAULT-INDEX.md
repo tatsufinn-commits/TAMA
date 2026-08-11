@@ -305,3 +305,20 @@
 - `courses/` — full Mapúa curriculum research (16 documents)
 - `research/` — AI research scaffolding study + this mission's `ACQUISITION_LOG.md` & `TAMA_KNOWLEDGE_ACQUISITION_REPORT.md`
 - `reviewers/` — mock exams, flashcards, formula cheatsheets (pre-existing)
+
+## 03-BUILDING-TECHNOLOGY-SERIES/ (NEW MULTI-MODULE EXPANSION)
+- [CUR] BT2-CONSTRUCTION-DRAWINGS-AND-FRAMING/BT2-WORKING-DRAWINGS-AND-SUBSTRUCTURES.md — BT2 working drawings, shallow footings, punching shear & framing
+
+## 05-STRUCTURAL-STUDIES-SERIES/ (NEW MULTI-MODULE EXPANSION)
+- [CUR] STRUC2-STRENGTH-OF-MATERIALS/STRUC2-FLEXURE-SHEAR-AND-BUCKLING.md — STRUC2 flexure, transverse shear, deflections & Euler column buckling
+
+## 01-BUILDING-LAWS-AND-PROFPRAC/ (NEW MULTI-MODULE EXPANSION)
+- [CUR] PROF-PRACTICE-2-SPP-DOCS/PROFPRAC2-SPP-FEES-AND-ARBITRATION.md — PP2 SPP 201–208, methods of compensation & CIAC arbitration
+
+## 04-BUILDING-UTILITIES-SERIES/ (NEW MULTI-MODULE EXPANSION)
+- [CUR] BU2-ELECTRICAL-AND-MECHANICAL/BU2-ELECTRICAL-POWER-LIGHTING-FDAS.md — BU2 3-phase power, PEC branch circuits, lumen method & FDAS
+
+## 06-HISTORY-AND-THEORY-SERIES/ (NEW MULTI-MODULE EXPANSION)
+- [CUR] HOA2-BYZANTINE-ISLAMIC-ROMANESQUE-GOTHIC/HOA2-MEDIEVAL-AND-SACRED-ARCHITECTURE.md — HOA2 Byzantine, Islamic, Romanesque & Gothic sacred systems
+- [CUR] HOA3-RENAISSANCE-BAROQUE-NEOCLASSIC/HOA3-RENAISSANCE-BAROQUE-INDUSTRIAL.md — HOA3 Brunelleschi, Palladio, Borromini, Crystal Palace & Chicago School
+- [CUR] HOA4-MODERN-CONTEMPORARY-PHILIPPINE/HOA4-MODERNISM-CONTEMPORARY-PHILIPPINES.md — HOA4 Bauhaus, 5 Points, Organic, Locsin, Mañosa & Philippine modernism
