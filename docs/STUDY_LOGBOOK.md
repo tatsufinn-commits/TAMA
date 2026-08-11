@@ -363,3 +363,46 @@ When you start a study session:
   * Governed building footprint is strictly the lesser bounding area between Table VIII.1 PSO formula and physical setback lines.
   * Architectural drawings are Instruments of Service under RA 9266 Sec. 33; payment grants single-site license only.
 * **Next Recommended Study Target:** Phase 2: Technical Foundations & Engineering Sequence (`02-HISTORY-ARCHIVE`: Statics, Strength of Materials, BU1 Plumbing, BU2 Electrical, BT1 Timber Species).
+
+### [ACADEMIC LEVEL-5 EXPANSION] Session K19: Phase 2 — Technical Foundations & Engineering Sequence Upgrade
+* **Date:** 2026-08-11
+* **Faculty in Charge:** `@curator` / `@mentor` / `@architect` / `@examiner`
+* **Topic Covered:** Foundation & Engineering Courses (`02-HISTORY-ARCHIVE`):
+  1. Building Tech 1 & 2: Anisotropic wood physics, Philippine commercial timber groups (Yakal, Guijo, Narra, Apitong, Lauan), board foot ($Bd.Ft.$) lumber costing, traditional joinery (mortise/tenon, dovetail, scarf), concrete mix batching (Class AA, A, B, C), and Blondel stair geometry ($2R + T = 630\text{mm}$).
+  2. Building Utilities 1 & 2: Gravity DWV hydraulics, self-scouring velocity ($0.6\text{ m/s}$), trap seal siphoning, 3-chamber septic tank design math (digestion 2/3 vs leaching 1/3), Hunter's WSFU probability theory, PEC branch circuit wire ampacities (#14, #12, #10 THHN), and residential load schedules.
+  3. Structural Mechanics (Statics & Strength of Materials): Differential beam relationships ($dV/dx = -w, dM/dx = V$), location of $M_{max}$ at $V=0$, composite T-beam centroid ($\bar{y}$) & moment of inertia ($I_{NA}$ via Parallel Axis Theorem), flexure formula ($\sigma = My/I$), horizontal beam shear ($\tau_{max} = 1.5 V/A$), and Pratt roof truss Method of Sections.
+* **Activity Executed:** Complete overhaul of 8 foundational modules across `vault/02-HISTORY-ARCHIVE/` to the **5-Layer Academic Course Standard**.
+* **Score / Mastery Level:** `npm test` 100% GREEN · `npm run audit` 0 FAIL · `npm run ktest` 18/18 PASS.
+* **Identified Weak Spots / Trap Mistakes:**
+  * Cantilever balcony moment reversal: $M_{max} = -wL^2/2$ requires main rebar at the TOP of the slab.
+  * Rectangular beam peak horizontal shear: $\tau_{max} = 1.5 (V/A)$ at the neutral axis ($50\%$ higher than average shear $V/A$).
+  * Stair handrail extension: BP 344 mandates $0.30\text{m}$ horizontal extension beyond top/bottom risers.
+  * Timber strong vs weak axis: $I = bh^3/12$ means on-edge placement is 4× stronger than flat placement.
+* **Next Recommended Study Target:** Phase 3: Planning, Environmental Studies, History & Theory Suite (`06-HISTORY-AND-THEORY`, `07-PLANNING-AND-ENVIRONMENTAL`).
+
+### [ACADEMIC LEVEL-5 EXPANSION] Session K20: Phase 3 — Planning, Environmental, History & Theory Suite Upgrade
+* **Date:** 2026-08-11
+* **Faculty in Charge:** `@curator` / `@architect` / `@mentor` / `@examiner`
+* **Topic Covered:** Planning, Environmental & Architectural Humanities (`07-PLANNING-AND-ENVIRONMENTAL`, `06-HISTORY-AND-THEORY`, `02-HISTORY-ARCHIVE`):
+  1. Planning 1, 2 & 3: DHSUD 12-step Enhanced CLUP process, Zoning Ordinances, Geometric population projection math ($P_t = P_0(1+r)^t$), urban land demand, Kevin Lynch's 5 Elements (*The Image of the City*), and the definitive BP 220 vs PD 957 comparison matrix (lot areas, setbacks, rowhouse 20-unit limits, road rights-of-way).
+  2. Environmental Architecture & Green Building: Philippine Green Building Code (PGBC mandatory thresholds) vs BERDE voluntary ratings, Window-to-Wall Ratio ($WWR \le 40\%$), $SHGC \le 0.40$, solar geometry math (Vertical Shadow Angle $VSA = 60^\circ$ for horizontal sunshade overhang sizing), site grading slope thresholds ($>18\%$ PD 705 protected forest), and Rational Method stormwater peak runoff ($Q = CIA/360$).
+  3. History & Theory of Architecture: Classical Greek and Roman Orders (Doric, Ionic, Corinthian, Tuscan, Composite), world architectural historiography (Pantheon, Hagia Sophia, Saint-Denis, Brunelleschi's herringbone dome, Borromini, Crystal Palace, Villa Savoye 5 Points, Fallingwater), Philippine architectural history (Vernacular *Fale*, *Torogan*, *Bahay Kubo*; Spanish Colonial *Bahay na Bato* anatomy; RA 10066 National Cultural Treasures; National Artists for Architecture), Francis D.K. Ching's Form/Space/Order, and critical modern theorists (Sullivan, Mies, Le Corbusier, Venturi, Frampton, Norberg-Schulz).
+* **Activity Executed:** Complete overhaul of Planning, Green Building, History, and Theory suites across `vault/07-PLANNING-AND-ENVIRONMENTAL/` and `vault/02-HISTORY-ARCHIVE/` to the **5-Layer Academic Course Standard**.
+* **Score / Mastery Level:** `npm test` 100% GREEN · `npm run audit` 0 FAIL · `npm run ktest` 18/18 PASS.
+* **Identified Weak Spots / Trap Mistakes:**
+  * BP 220 rowhouse limit: Capped at 20 units or $100\text{m}$ max length before an alley/pathwalk is mandatory.
+  * Steep slope protection: Under PD 705, lands with slope $>18\%$ are non-alienable forest reserves.
+  * Brunelleschi's dome technique: Used herringbone brick pattern (*spina di pesce*) with a double-shell to build without centering falsework.
+  * Ordering Principle Datum vs Axis: A Datum organizes disparate irregular shapes by gathering them along a continuous plane/volume.
+* **Next Recommended Study Target:** Phase 4: Reviewers, Mock Exam Engine, Solver Expansion & Final Master Synthesis (`solve.js`, Mock Exam Sets 01–06, Anki TSV Decks).
+
+### [MASTER SYNTHESIS & REVIEWER UPGRADE] Session K21: Phase 4 — Socratic Reviewers, Math Engine & Full System Master Completion
+* **Date:** 2026-08-11
+* **Faculty in Charge:** `@architect` / `@mentor` / `@examiner` / `@drillmaster` / `@curator`
+* **Topic Covered:** Complete Academic Engine Upgrades across All 7 Clusters:
+  1. Expanded `solve.js` to 8 full calculation modules with dual interactive and direct CLI argument modes (PD 1096 Zoning, NSCP Factored Moments, RCD Singly Reinforced Quadratic Steel Solver, Post-Tensioning Load Balancing $w_{bal}=8Pe/L^2$, Sabine Acoustics $RT_{60}$, Central HVAC Tonnage & CFM, Stormwater Hydrology $Q=CIA/360$, and BP 220 / PD 957 Housing Subdivision Lot Yield).
+  2. Verified and executed Anki Mobile Flashcard Exporter (`export-anki.js`), generating updated `anki_import_deck.tsv` with active recall cards across all 7 clusters.
+  3. Validated all Departmental Mock Exam Sets (01, 03, 04, 05, 06) and the 50-Item Exit Exam Master Simulation against verified Philippine statutory texts (PD 1096 2005 IRR, RA 9514, BP 344, RA 9266, BP 220, PD 957, NSCP 2015).
+* **Activity Executed:** Master completion and end-to-end regression validation of the **TAMA Academic Knowledge Engine** operating under the **5-Layer Academic Course Standard**.
+* **Score / Mastery Level:** `npm test` 100% GREEN · `npm run audit` 10/10 checks (0 fail) · `npm run ktest` 18/18 PASS.
+* **Master System Status:** Version `TAMA 1.9.5 Master Academic Edition` fully operational.
