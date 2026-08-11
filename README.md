@@ -1,5 +1,5 @@
 # 🏛️ TAMA (Academic Knowledge Vault & Mapúa Exam Engine)
-> **Official Version:** `TAMA 1.9.0.0.a v`  
+> **Official Version:** `TAMA 1.2.0.0.a v`  
 > *A local-first, source-grounded academic knowledge vault, Socratic exam simulator, and active recall engine designed for Mapúa BS Architecture 3rd-Year Departmentals & Comprehensive Exit Exams.*
 
 ---

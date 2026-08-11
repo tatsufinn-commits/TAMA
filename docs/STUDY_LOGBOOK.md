@@ -191,3 +191,109 @@ When you start a study session:
 * **Next Recommended Study Target:** RA 7160 (LGC) planning provisions summary; Fire Code IRR curation once downloadable from user's network.
 
 # 3. TEMPLATE FOR FUTURE STUDY SESSIONS (APPEND AT END OF CHAT)
+### [KNOWLEDGE INGESTION] Session K6: Master Directive Pass 1 — Depth Push (Statics, PH Arch, Exam Traps)
+* **Date:** 2026-08-10
+* **Faculty in Charge:** `@curator` (Continuous Knowledge Expansion)
+* **Topic Covered:** Statics fundamentals + worked examples (MEC30); Philippine architecture history & National Artists (HOA); cross-course common mistakes/exam traps
+* **Activity Executed:** Vault Ingestion — 3 new curated files (STATICS-FUNDAMENTALS-AND-WORKED-EXAMPLES.md, PHILIPPINE-ARCHITECTURE-HISTORY.md, COMMON-MISTAKES-AND-EXAM-TRAPS.md); coverage matrix upgraded with depth-level assessment (Coverage ≠ Depth)
+* **Score / Mastery Level:** N/A — npm test GREEN; workspace ~3.8 MB
+* **Identified Weak Spots / Trap Mistakes:**
+  * PL/4 trap (off-center loads); PSO with/without firewall (footnote e/f); statute-vs-IRR citation; Locsin-vs-Mañosa attribution; BP 344 door 0.80 vs corridor 1.20
+* **Next Recommended Study Target:** Depth push #2 — Strength of Materials worked examples + truss methods (CE131P); then RA 10066 heritage law; then per-period HOA modules
+
+# 3. TEMPLATE FOR FUTURE STUDY SESSIONS (APPEND AT END OF CHAT)
+### [KNOWLEDGE INGESTION] Session K7: Strength of Materials + Truss Analysis (completes structures fundamentals)
+* **Date:** 2026-08-10
+* **Faculty in Charge:** `@curator`
+* **Topic Covered:** σ=P/A, σ=Mc/I, δ=PL/AE, shear τ=VQ/Ib, deflection cases, Euler buckling; truss method of joints/sections
+* **Activity Executed:** Vault Ingestion — STRENGTH-OF-MATERIALS-AND-TRUSS-ANALYSIS.md (3 worked examples, procedures, 8 traps) — completes the structures fundamentals chain (statics→strength→theory of structures)
+* **Score / Mastery Level:** N/A — npm test GREEN
+* **Identified Weak Spots / Trap Mistakes:** kN·m→N·mm ×10⁶ conversion; c=h/2 not h; tension/compression sign; zero-force member spotting; K-factor for buckling
+* **Next Recommended Study Target:** MEPFS worked calculations (lighting lux/lumens, Sabine RT, plumbing sizing); RA 10066 heritage law; HOA per-period modules
+
+# 3. TEMPLATE FOR FUTURE STUDY SESSIONS (APPEND AT END OF CHAT)
+### [KNOWLEDGE INGESTION] Session K8: MEPFS Worked Calculations (Level 3 push)
+* **Date:** 2026-08-10
+* **Faculty in Charge:** `@curator`
+* **Topic Covered:** Lighting lumen method (N = E·A/(Φ·CU·LLF)), Sabine RT60 = 0.161V/A, plumbing fixture units, electrical load/current
+* **Activity Executed:** Vault Ingestion — MEPFS-WORKED-CALCULATIONS.md (4 fully worked examples + 6 traps)
+* **Score / Mastery Level:** N/A — npm test GREEN
+* **Identified Weak Spots / Trap Mistakes:** rounding fixtures down; Sabine 0.161 (m) vs 0.05 (ft); FU→demand conversion; single vs 3-phase current
+* **Next Recommended Study Target:** RA 10066 heritage law; HOA per-period modules; BT materials/assemblies + PH construction practice
+
+# 3. TEMPLATE FOR FUTURE STUDY SESSIONS (APPEND AT END OF CHAT)
+### [KNOWLEDGE INGESTION] Session K9: Scope 2 — Heritage Law + Gothic Module + PH Materials + Moment Distribution
+* **Date:** 2026-08-10
+* **Faculty in Charge:** `@curator`
+* **Topic Covered:** RA 10066 (full text + summary); Gothic period module; PH construction materials (CHB, confined masonry, roofing, traditional); moment distribution worked example
+* **Activity Executed:** Vault Ingestion — 4 new curated files + 1 RAW law text (WIPO Lex official)
+* **Score / Mastery Level:** N/A — npm test GREEN; workspace ~3.8 MB
+* **Identified Weak Spots / Trap Mistakes:**
+  * RA 10066: ICP vs NCT vs Heritage Zone definitions; PRECUP registration mandatory vs voluntary; National Artist works = automatic ICP
+  * Gothic: pointed arch NOT a Gothic invention (combination is); rib vs groin vault; English period names ≠ French
+  * CHB: 12.5 (theoretical) vs 13/m² (with waste); 4" vs 6" use; sea-sand prohibition
+  * Moment distribution: 4EI/L vs 3EI/L by far-end support; carry-over ½; DF sum = 1; continuous vs simple span (54 vs ~45.6 kN·m example)
+* **Next Recommended Study Target:** HOA Renaissance module (parallel to Gothic); BT assemblies depth (roof/wall systems); PH tropical design strategies (ties to Planning/Environmental); then indeterminate frames (sidesway)
+
+# 3. TEMPLATE FOR FUTURE STUDY SESSIONS (APPEND AT END OF CHAT)
+### [KNOWLEDGE INGESTION] Session K10: Renaissance Module + Tropical Design (Scope 3)
+* **Date:** 2026-08-10
+* **Faculty in Charge:** `@curator`
+* **Topic Covered:** Renaissance period module (5 masters, sub-periods, traps); Tropical Design PH (climate imperatives, 4 passive-strategy groups, vernacular precedent)
+* **Activity Executed:** Vault Ingestion — 2 curated files (HOA-RENAISSANCE-PERIOD-MODULE.md, TROPICAL-DESIGN-PHILIPPINES.md)
+* **Score / Mastery Level:** N/A — npm test GREEN
+* **Identified Weak Spots / Trap Mistakes:**
+  * Renaissance: Brunelleschi vs Bramante vs Palladio attribution; dome NOT invented (re-perfected); Renaissance ≠ Baroque
+  * Tropical: E-W elongation, openings at 90° to wind, stack effect, external shading before glazing; bahay na bato as passive precedent
+* **Next Recommended Study Target:** BT assemblies depth (wall/roof/floor systems + detailing); design-studio process depth (programming→concept→schematic); frame analysis with sidesway
+
+# 3. TEMPLATE FOR FUTURE STUDY SESSIONS (APPEND AT END OF CHAT)
+### [KNOWLEDGE INGESTION] Session K11: BT Assemblies Depth + Architectural Design Process
+* **Date:** 2026-08-10
+* **Faculty in Charge:** `@curator`
+* **Topic Covered:** Building assemblies (foundations/walls/floors/roofs/stairs/envelope); architectural design process (programming→SD→DD→CD with tools)
+* **Activity Executed:** Vault Ingestion — 2 curated Level-3 files
+* **Score / Mastery Level:** N/A — npm test GREEN
+* **Identified Weak Spots / Trap Mistakes:** footing-type matching; CHB 4" vs 6"; curtain wall non-load-bearing; stair code values verify-vs-IRR; bubble≠plan; net-vs-gross; SD approval gate; fee phases (SD 15%/DD 20% — verify UAP)
+* **Next Recommended Study Target:** HOA Modernism module (completes period sweep); PH green building (BERDE) summary; frame analysis with sidesway
+
+# 3. TEMPLATE FOR FUTURE STUDY SESSIONS (APPEND AT END OF CHAT)
+### [KNOWLEDGE INGESTION] Session K12: Modernism Module + PH Green Building
+* **Date:** 2026-08-10
+* **Faculty in Charge:** `@curator`
+* **Topic Covered:** Modern architecture period module (8 masters, 5 points, movement chronology); PH green building (BERDE categories verified, PGBC thresholds flagged)
+* **Activity Executed:** Vault Ingestion — 2 curated files; HOA period sweep now complete (Gothic/Renaissance/Modernism)
+* **Score / Mastery Level:** N/A — npm test GREEN
+* **Identified Weak Spots / Trap Mistakes:** "form follows function"=Sullivan (not Corb); Art Nouveau≠modernism; BERDE voluntary vs PGBC mandatory; 5 points order; PH modernists adapt (regional modernism)
+* **Next Recommended Study Target:** Frame analysis with sidesway; Planning depth (CLUP/zoning process); BT5 depth (curtain walls/prestressed); Baroque module
+
+# 3. TEMPLATE FOR FUTURE STUDY SESSIONS (APPEND AT END OF CHAT)
+### [KNOWLEDGE INGESTION] Session K13: Queue Complete — Sidesway, CLUP, BT5, Romanesque/Baroque, Case Studies
+* **Date:** 2026-08-10
+* **Faculty in Charge:** `@curator`
+* **Topic Covered:** Frame analysis with sidesway; CLUP/zoning process; BT5 curtain walls + prestressed mechanisms; Romanesque & Baroque modules; architectural case studies (5)
+* **Activity Executed:** Vault Ingestion — 5 curated files; HOA period sweep now complete (Romanesque/Gothic/Renaissance/Baroque/Modernism)
+* **Score / Mastery Level:** N/A — npm test GREEN
+* **Identified Weak Spots / Trap Mistakes:** sway detection (symmetry); k scales sway only; curtain wall non-structural; pre (bond) vs post (anchorage) tensioning; CLUP vs ZO; Bernini vs Borromini; Romanesque "dark" vs Gothic "light" (why)
+* **Next Recommended Study Target:** All queued plans complete. Future: PH case-study expansion (Zaragoza/Antonio), studio project-brief templates, ALE mock-exam integration of new depth files
+
+# 3. TEMPLATE FOR FUTURE STUDY SESSIONS (APPEND AT END OF CHAT)
+### [KNOWLEDGE INGESTION] Session K14: Scope 3d — Depth-Integration Exam + PH Cases + Studio Briefs
+* **Date:** 2026-08-10
+* **Faculty in Charge:** `@curator` / `@examiner`
+* **Topic Covered:** New 15-item mock exam (SET 06) from expansion content; PH case studies (Zaragoza/Antonio/Bahay na Bato); 6 studio project-brief templates
+* **Activity Executed:** Vault Ingestion — 3 files (2 curated vault + 1 reviewer exam)
+* **Score / Mastery Level:** N/A — npm test GREEN
+* **Identified Weak Spots / Trap Mistakes:** PL/4 off-center trap; Sabine 0.161 vs 0.05; Mañosa↔Locsin attribution; BERDE vs PGBC; CLUP vs ZO; unitized curtain wall; ICP vs NCT (RA 10066)
+* **Next Recommended Study Target:** Suggested: run SET 06 as a timed drill; PH case-study queue (adaptive reuse of heritage); flashcard deck refresh from new traps
+
+# 3. TEMPLATE FOR FUTURE STUDY SESSIONS (APPEND AT END OF CHAT)
+### [KNOWLEDGE INGESTION] Session K15: Expansion Depth Flashcard Deck
+* **Date:** 2026-08-10
+* **Faculty in Charge:** `@drillmaster`
+* **Topic Covered:** 25-card active-recall deck covering statics/SOM/moment distribution/sidesway, MEPFS calcs, PH architecture, tropical, green building, CLUP, curtain walls, RA 10066, HOA periods, case studies, CHB estimating
+* **Activity Executed:** Created EXPANSION_DEPTH_ACTIVE_RECALL_DECK.md (each card cites its vault source)
+* **Score / Mastery Level:** N/A — npm test GREEN
+* **Next Recommended Study Target:** Run SET 06 mock exam + 25-card drill in one session; log weak spots
+
+# 3. TEMPLATE FOR FUTURE STUDY SESSIONS (APPEND AT END OF CHAT)
