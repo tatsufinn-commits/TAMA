@@ -297,3 +297,50 @@ When you start a study session:
 * **Next Recommended Study Target:** Run SET 06 mock exam + 25-card drill in one session; log weak spots
 
 # 3. TEMPLATE FOR FUTURE STUDY SESSIONS (APPEND AT END OF CHAT)
+### [SYSTEM AUDIT] Session A1: Full System Audit + Reconciliation + Safe Self-Repair
+* **Date:** 2026-08-10
+* **Faculty in Charge:** `@architect` / `@curator`
+* **Topic Covered:** Full-system audit (171 files); documentation reconciliation; contradiction detection; safe repairs
+* **Activity Executed:** Audit + repairs — annotated RULE-7-8 mirrors (SUPERSEDED vs verified 2005 IRR Table VIII.1), annotated SET 01 (citation lineage), reconciled VAULT-INDEX (+2) and KNOWLEDGE-COVERAGE-MATRIX (actual-filesystem inventory), reconciled version strings to 1.9.0.0.a v, appended audit queue (#13–17). Report: `research/TAMA_SYSTEM_AUDIT_REPORT.md`.
+* **Score / Mastery Level:** N/A — npm test 100% GREEN
+* **Identified Weak Spots / Trap Mistakes:** 2004-edition PSO values (70/75% R-2) still live in legacy decks — verified 2005 IRR (55/60% R-2) governs; Fire Code deck cites IRR-level sections not yet held (UNVERIFIED); mirror pairs double maintenance burden
+* **Next Recommended Study Target:** Queue #13 (stair-width verification) → #14 (Fire Code IRR curation) → consolidation decision
+
+# 3. TEMPLATE FOR FUTURE STUDY SESSIONS (APPEND AT END OF CHAT)
+### [SYSTEM AUDIT] Session A2: Post-Audit Integrity Mission (Phases I–XII)
+* **Date:** 2026-08-10
+* **Faculty in Charge:** `@architect` / `@curator`
+* **Topic Covered:** Stair-width verification; Fire Code IRR status; citation & legacy cleanup; consolidation proposal; decision-authority model; automated audit + regression tests; governance registry; knowledge debt
+* **Activity Executed:**
+  * Phase I: **stair-width VERIFIED** vs official 2005 IRR (>50 → 1.10 m; ≤50 → 0.90 m; <10 → 0.75 m) — cheat-sheet corrected
+  * Phase II: Fire Code IRR — official source confirmed (2019 rev + 2025 snapshot), acquisition blocked by 1 MB sandbox cap → recorded
+  * Phase III/IV: fire-code citations flagged UNVERIFIED (deck, cheat-sheet, SET 01); exit-exam Q1 + BP344 deck cards annotated; legacy 2004 refs retired-from-current-use (annotated, preserved)
+  * Phase V: VAULT_CONSOLIDATION_PROPOSAL (Options A/B/C) — awaiting authorization
+  * Phase VI: DECISION_AUTHORITY_SPEC (🟢/🟡/🔴 + override protocol)
+  * Phase VII/VIII: **npm run audit** (10 checks, 0 fail) + **npm run ktest** (18/18 pass) implemented
+  * Phase IX–XI: KNOWLEDGE_GOVERNANCE_REGISTRY (metadata convention, registry, freshness, source tiers)
+  * KNOWLEDGE_DEBT_REGISTER created; research queue updated
+* **Score / Mastery Level:** audit 10 checks (9 PASS/1 WARN mirrors) · ktest 18/18 · npm test GREEN
+* **Next Recommended Study Target:** Consolidation authorization (Option B) → Fire Code IRR download from user's network → 2nd citation pass → post-gate educational research (TOA/BT4/RC)
+
+# 3. TEMPLATE FOR FUTURE STUDY SESSIONS (APPEND AT END OF CHAT)
+### [KNOWLEDGE INGESTION] Session K16: Course Knowledge Expansion Mission (Phase 1)
+* **Date:** 2026-08-10
+* **Faculty in Charge:** `@curator` / `@architect`
+* **Topic Covered:** Course inventory (13 clusters); TOA movement depth; BT4 specs/QS; RC worked examples; BU1-2 design depth
+* **Activity Executed:** Vault Ingestion — 4 dense course-knowledge files + COURSE_INVENTORY + 2 global reports; registries updated (index/matrix/log/debt)
+* **Score / Mastery Level:** npm test + audit + ktest to be re-run
+* **Identified Weak Spots / Trap Mistakes:** TOA structuralism≠user democracy; Venturi≠Mies; RC φ=0.90 tension-controlled; FU non-linear conversion; WC drain min 3"; PH code values UNVERIFIED
+* **Next Recommended Study Target:** Planning 1 site-development depth; Utilities 3 elevators/fire; HOA regional; TOA essay banks
+
+# 3. TEMPLATE FOR FUTURE STUDY SESSIONS (APPEND AT END OF CHAT)
+### [KNOWLEDGE INGESTION] Session K17: Course Expansion Phase 2 — Planning 1, BU3, HOA regional
+* **Date:** 2026-08-10
+* **Faculty in Charge:** `@curator`
+* **Topic Covered:** Site development (grading/drainage/circulation); vertical transportation (elevators/escalators + fire interface); SE Asia & Islamic regional architecture
+* **Activity Executed:** Vault Ingestion — 3 dense files
+* **Score / Mastery Level:** npm test/audit/ktest to be re-run
+* **Identified Weak Spots / Trap Mistakes:** ponding/grading low points; hydraulic-vs-traction selection; muqarnas structural role; horseshoe-arch origin; torogan vs kubo; PH code values flagged UNVERIFIED
+* **Next Recommended Study Target:** TOA essay banks; per-cluster RESOURCES.md; professional-practice fees/admin depth
+
+# 3. TEMPLATE FOR FUTURE STUDY SESSIONS (APPEND AT END OF CHAT)

@@ -1,5 +1,5 @@
 # 🏛️ TAMA (Academic Knowledge Vault & Mapúa Exam Engine)
-> **Official Version:** `TAMA 1.2.0.0.a v`  
+> **Official Version:** `TAMA 1.9.0.0.a v`  
 > *A local-first, source-grounded academic knowledge vault, Socratic exam simulator, and active recall engine designed for Mapúa BS Architecture 3rd-Year Departmentals & Comprehensive Exit Exams.*
 
 ---
@@ -34,7 +34,7 @@ When chatting with any AI model (Ollama, Claude, ChatGPT), invoke the specialize
 ```text
 TAMA/
 ├── package.json                         # Scripts & testing harness (v1.2.0-a)
-├── VERSIONING_GUIDE.md                  # Semantic versioning guide (TAMA 1.2.0.0.a v)
+├── VERSIONING_GUIDE.md                  # Semantic versioning guide (TAMA 1.9.0.0.a v)
 ├── README.md                            # Main academic manual
 ├── vault/                               # The Knowledge Dropbox
 │   ├── 00-CORE-BUILDING-LAWS/           # PD 1096 NBCP, RA 9514 Fire Code, BP 344, RA 9266
