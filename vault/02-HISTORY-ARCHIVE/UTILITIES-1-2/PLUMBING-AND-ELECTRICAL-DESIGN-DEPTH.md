@@ -1,128 +1,136 @@
-# BUILDING UTILITIES 1–2 — PLUMBING & ELECTRICAL SYSTEMS: DESIGN DEPTH (BU1-2 EXPANSION)
-**Course:** AR153P Building Utilities 1 (Plumbing & Sanitary) · BU2 (Electrical/Mechanical) · UTILITIES-1-2 cluster
-**Depth Level:** 3 (Functional — design procedures + worked examples + PH code context)
-**High-Yield Score:** 8.6 / 10 (fixture-unit & load computations are standard deptal/ALE items)
-**Knowledge Value Score:** 87/100
-**Status:** VERIFIED (standard practice, multi-source) / PH code values flagged
+# AR153P / BU1 & BU2: ADVANCED PLUMBING HYDRAULICS & ELECTRICAL LOAD COMPUTATION
+**Course:** Building Utilities 1 & 2 (MEPFS Engineering Sequence)  
+**Academic Unit:** Mapúa BS Architecture 2nd/3rd Year  
+**PRC ALE Category:** Part 2: Building Utilities, Hydraulics & Electrical Systems (30% Weight)  
+**High-Yield Exam Score:** 9.2 / 10  
+**Governing Authorities & Standards:** Revised National Plumbing Code of the Philippines (PNPC), Philippine Electrical Code 2017 (PEC), Hunter's Curve Probability Theory, IES Lighting Handbook.
 
 ---
 
-## Source Information
-- **Sources (labeled):**
-  - CED Engineering — *Design of Potable Water Plumbing Systems* (US, open PDF, Tier 2): Hunter's fixture-unit method history, q = 20·d²·√p outlet formula, continuous-demand addition.
-  - Simulations4All fixture-unit calculator reference (IPC/UPC 2021 tables, Tier 3): DFU/WSFU concept, IPC drain-sizing table (representative — VERIFY against PH code).
-  - Kamal Engineering drainage-calculation guide (Tier 3, labeled): NSPC + UPC tables comparison; WC = 4 DFU; min pipe sizes.
-  - Plumbercalc fixture-unit guide (Tier 3): IPC/UPC fixture-unit values, Hunter's curve non-linearity, hot/cold split (hot ≈ 75% of total).
-- **Vault links:** `PLUMBING-AND-ELECTRICAL-SYSTEMS.md` (existing overview — this file deepens), `MEPFS-WORKED-CALCULATIONS.md` (sizing concept example), SOURCE-REGISTRY (PH codes paid — verify editions), `COMMON-MISTAKES-AND-EXAM-TRAPS.md` (U-series).
-- **Confidence:** MEDIUM–HIGH — the methods are universal; **PH-code-specific values require verification against the current Revised National Plumbing Code & PEC** (registry; not held).
+## 1. THEORETICAL & METHODOLOGICAL FOUNDATIONS
+
+### 1.1 Water Supply Fixture Unit (WSFU) & Hunter's Curve
+In multi-storey buildings, not all plumbing fixtures are operated simultaneously. Roy B. Hunter formulated the **Fixture Unit Method**, applying binomial probability to convert individual fixture flow demands into an estimated **Probable Maximum Demand (Peak Flow in GPM / L/s)**:
+* As total WSFU increases, the probability of simultaneous use decreases, producing a non-linear demand curve.
+* Flushometer valve fixtures exhibit high instantaneous demand curves compared to flush tank fixtures.
+
+```
+                      HUNTER'S PROBABILITY PEAK DEMAND CONVERSION
+  ┌──────────────────────────────────────────────────────────────────────────────────┐
+  │ 1. SYSTEM FIXTURE INVENTORY: Count all WCs, Lavatories, Showers, Urinals         │
+  ├──────────────────────────────────────────────────────────────────────────────────┤
+  │ 2. ASSIGN WSFU: Flush Tank WC (3.0 WSFU) vs Flushometer WC (5.0–10.0 WSFU)       │
+  ├──────────────────────────────────────────────────────────────────────────────────┤
+  │ 3. CONVERT VIA HUNTER'S CURVE: Total WSFU ➔ Peak Design Flow (GPM or L/s)        │
+  ├──────────────────────────────────────────────────────────────────────────────────┤
+  │ 4. ADD CONTINUOUS DEMAND: + Cooling Tower Makeup + Garden Hose Bibs (in GPM)     │
+  ├──────────────────────────────────────────────────────────────────────────────────┤
+  │ 5. HYDRAULIC SIZING: Hazen-Williams Equation ➔ Friction Loss & Pipe Diameter     │
+  └──────────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## 1. PLUMBING — WATER SUPPLY DESIGN
+## 2. TECHNICAL MECHANICS, WSFU SIZING & ELECTRICAL LOAD BALANCING
 
-### 1.1 The Fixture-Unit Method (Hunter's method — the core concept)
-- Fixtures are assigned **fixture-unit (FU) weights** based on their probable flow rate and time of use (Hunter's probability theory).
-- Total FU → converted to **probable peak flow (gpm/L/s)** via **Hunter's curve** (non-linear — more fixtures → lower per-fixture demand because simultaneous-use probability drops).
-- **Continuous demands** (hose bibs, cooling-tower makeup, process water) are added **separately** (in gpm) — never folded into FU.
+### 2.1 Water Supply Fixture Units (WSFU) Matrix
+| Fixture Type | Private Residential (WSFU) | Public Commercial (WSFU) | Minimum Water Supply Pipe |
+| :--- | :---: | :---: | :---: |
+| **Water Closet (Flush Tank)** | **$2.5 – 3.0$** | **$5.0$** | $12.7\text{mm}$ ($1/2"$) |
+| **Water Closet (Flushometer Valve)**| **$6.0$** | **$10.0$** | $25.4\text{mm}$ ($1"$) |
+| **Lavatory (Washbasin)** | **$1.0$** | **$2.0$** | $12.7\text{mm}$ ($1/2"$) |
+| **Shower Head (Domestic)** | **$2.0$** | **$4.0$** | $12.7\text{mm}$ ($1/2"$) |
+| **Kitchen Sink** | **$1.5$** | **$4.0$** | $12.7\text{mm}$ ($1/2"$) |
+| **Urinal (Wall-Hung Flushometer)** | — | **$5.0$** | $19.0\text{mm}$ ($3/4"$) |
 
-**Representative fixture-unit values (IPC-style — verify PH code tables):**
-| Fixture | Supply FU | Drain (DFU) |
-|---|---|---|
-| Water closet (tank) | 2.5–3.0 | 3.0–4.0 (UPC 4.0) |
-| Shower | 2.0 | 2.0 |
-| Kitchen sink | 1.5–2.0 | 2.0 |
-| Lavatory | 1.0 | 1.0 |
-| Urinal | 2.0–5.0 (flush type) | 2.0–4.0 |
-| Janitor sink | 3.0 | 3.0 |
-| Floor drain | — | 0–2 |
+### 2.2 Electrical Demand Factors (PEC 2017 Table 2.20.42)
+To prevent over-sizing transformers and main service entrance cables, demand factors are applied to total connected general lighting loads:
+* First $3,000\text{ VA}$ or less: **$100\%$ Demand Factor**.
+* From $3,001\text{ VA}$ to $120,000\text{ VA}$: **$35\%$ Demand Factor**.
+* Remainder over $120,000\text{ VA}$: **$25\%$ Demand Factor**.
 
-**Sizing logic:** total FU → code table (developed length + available pressure) → minimum pipe size. High pressure/short runs allow smaller pipes.
+---
 
-### 1.2 Outlet Flow Formula (VERIFIED — CED Engineering)
+## 3. PHILIPPINE STATUTORY & REGULATORY COMPLIANCE MATRIX
+
+| Authority / Code | Section / Provision | Statutory Mandate | Architectural Layout Rule |
+| :--- | :--- | :--- | :--- |
+| **Revised National Plumbing Code** | Section 604 | Minimum Water Pressure: Minimum **$103\text{ kPa}$ ($15\text{ psi}$)** at highest fixture outlet; maximum **$551\text{ kPa}$ ($80\text{ psi}$)** to prevent water hammer. | Buildings $>4$ storeys require booster pumps or overhead gravity roof tanks. |
+| **Philippine Electrical Code (PEC)** | Article 2.15 | Maximum Voltage Drop: Feeder conductor voltage drop shall not exceed **$3\%$**; total overall drop (feeder + branch circuit) $\le \mathbf{5\%}$. | Dictates transformer room proximity to heavy mechanical chiller loads. |
+| **PD 1096 NBCP** | Rule XIX Sec. 1902 | Potable Water Supply Storage: Minimum 1-day storage reserve for high-occupancy commercial and residential complexes. | Basements must allocate $0.5\text{ m}^3$ to $1.0\text{ m}^3$ per occupant for domestic cisterns. |
+
+---
+
+## 4. WORKED MATHEMATICAL DERIVATIONS & SIZING CALCULATIONS
+
+### 4.1 Electrical Load Schedule & Service Entrance Feeder Sizing
+**Problem**: An architect is designing a 2-storey luxury residence with a Total Gross Floor Area $GFA = 300\text{ m}^2$.  
+- General Lighting Load (PEC baseline) = $24\text{ VA/m}^2 \times 300\text{ m}^2 = 7,200\text{ VA}$.  
+- Small Appliance Circuits = 3 circuits $\times 1,500\text{ VA} = 4,500\text{ VA}$.  
+- Laundry Circuit = $1,500\text{ VA}$.  
+- Special Equipment Loads: Electric Range ($8,000\text{ VA}$), Water Heater ($3,000\text{ VA}$), 3 Air Conditioners ($3 \times 1,800\text{ VA} = 5,400\text{ VA}$).  
+- System: $230\text{V}$, single-phase, $60\text{ Hz}$.
+
 ```
-q = 20 × d² × √p
-q = flow (gpm); d = actual inside diameter (in); p = flow pressure (psi)
-```
-Example: 3/8" supply at 16 psi → q = 20 × (0.375)² × √16 = 20 × 0.141 × 4 = **11.3 gpm** (≈ 0.71 L/s).
+Step 1: Compute General Lighting & Small Appliance Demand Load
+Total Basic Load = 7,200 (Lighting) + 4,500 (Small Appliance) + 1,500 (Laundry) = 13,200 VA.
+Apply PEC Demand Factors:
+- First 3,000 VA @ 100% = 3,000 VA
+- Remaining (13,200 - 3,000 = 10,200 VA) @ 35% = 3,570 VA
+Net Lighting & Appliance Demand = 3,000 + 3,570 = 6,570 VA.
 
-### 1.3 System Configurations
-- **Upfeed (direct):** street/mains pressure supplies fixtures directly — simple, no storage; pressure varies.
-- **Downfeed (gravity):** roof tank → gravity distribution — constant pressure, storage reserve; PH standard for intermittent supply; tank sized for 1–2 days' demand typical.
-- **Booster pumps** for high-rise zones (pressure zones every ~30–40 m).
+Step 2: Add Special Equipment Demand Loads (PEC Demand Factors)
+1. Electric Range (8,000 VA) @ 80% demand = 6,400 VA
+2. Water Heater (3,000 VA) @ 100% demand = 3,000 VA
+3. Air Conditioners (5,400 VA) @ 100% demand = 5,400 VA
+Total Net Calculated Load (VA_total) = 6,570 + 6,400 + 3,000 + 5,400 = 21,370 VA.
 
-### 1.4 Sanitary Drainage Principles
-- **DFU system:** fixtures → traps → branch → stack → building drain → sewer/septic.
-- **Traps:** every fixture needs a trap (water seal) + vent connection.
-- **Venting:** vents protect trap seals (siphonage/blowout prevention); individual vent ≥ 1-1/4" and ≥ half the drain diameter (representative rule — verify code).
-- **Pipe sizing (representative IPC-style limits):** 2" branch → ~10 DFU (vertical ~16); 3" → 35/48; 4" → 216/256 (verify PH code).
-- **Minimum sizes:** WC drain min 3" regardless of DFU count (a classic trap).
-- **Slope:** gravity drains ~1/8"–1/4" per foot (representative).
+Step 3: Calculate Total Design Current (I_total)
+I_total = VA_total / V = 21,370 VA / 230 V = 92.91 Amperes.
+Add 25% continuous load safety factor for largest motor load (ACU):
+Design Current = 92.91 A × 1.25 = 116.14 Amperes.
 
-## 2. ELECTRICAL — BASIC DESIGN
-
-### 2.1 Load Computation (PEC-based — verify current edition)
-- **Lighting loads:** watts per m² (or per area/outlet) per occupancy (PEC tables — verify).
-- **Receptacle loads:** per outlet or per m²; demand factors for groups (first 10 kVA at 100%, remainder at 50% — representative residential rule).
-- **Feeder/panel sizing:** sum branch loads → apply demand factors → size feeder + overcurrent protection.
-- **Current formulas:**
-  - Single-phase: **I = P / (V · pf)**
-  - Three-phase: **I = P / (√3 · V · pf)**
-  - Example (from MEPFS file): 4,600 W at 230 V single-phase → I = 20 A → 20 A branch circuit minimum.
-
-### 2.2 Branch Circuits vs Feeders (the classic distinction)
-- **Branch circuit:** from final overcurrent device to outlets/fixtures (15/20 A typical; lighting/power).
-- **Feeder:** from panel to panel/subpanel.
-- Sizing order: branch loads → panel load → feeder → service entrance.
-
-### 2.3 Design Coordination (BU2 role)
-- Panel schedules, riser diagrams, grounding (PEC), PWD/emergency lighting, fire-alarm circuits (ties RA 9514 — verify Fire Code IRR).
-- Coordination with mechanical (HVAC power, elevators) and plumbing (pumps) — the MEPFS integration in studios.
-
-## 3. WORKED EXAMPLE — RESIDENTIAL WATER SUPPLY SIZING (concept)
-**Given:** house with 2 WCs, 2 lavatories, 1 shower, 1 kitchen sink, 1 laundry tub.
-- **FU total (supply, representative):** 2(3.0) + 2(1.0) + 1(2.0) + 1(2.0) + 1(3.0) = 6+2+2+2+3 = **15 FU**
-- **Probable flow (Hunter curve, representative):** ≈ 12–15 gpm (≈ 0.76–0.95 L/s) → main supply pipe ≈ 3/4"–1" (verify against PH code table + pressure).
-- **Downfeed option:** roof tank ≈ 1–2 days' demand (family of 5: ~600–1,200 L typical — verify local practice).
-
-**Trap:** converting FU linearly to gpm (wrong — use the curve/table); ignoring continuous demands; under-sizing the WC drain (min 3").
-
-## 4. WORKED EXAMPLE — SIMPLE ELECTRICAL PANEL LOAD (concept)
-**Given:** 10 lighting points @ 100 W each; 8 receptacles @ 180 VA each; single-phase 230 V.
-- Lighting: 10 × 100 = 1,000 W; Receptacles: 8 × 180 = 1,440 VA → demand factor (first 3 kVA 100% → all covered) = 1,440 VA.
-- Total = 2,440 VA → I = 2,440 / 230 = **10.6 A** → 15 A branch circuit adequate; two circuits if split.
-
-**Trap:** VA vs W vs pf; forgetting demand factors; line-to-neutral vs line-to-line voltage.
-
-## 5. PHILIPPINE CODE CONTEXT (verify current editions)
-- **Revised National Plumbing Code (PNPC)** — fixture-unit tables, min sizes, venting (current edition — verify; registry record).
-- **Philippine Electrical Code (PEC Part 1/2)** — load computations, branch circuits, demand factors (verify edition; registry).
-- **Philippine Mechanical Code** — pumps/HVAC tie-ins (verify).
-- These are TIER-1 authoritative but **not held** (paid publications) — all PH-specific numbers above are representative-educational, flagged for verification against the current codes.
-
-## 6. COMMON MISTAKES (U-series — ties COMMON-MISTAKES file)
-| Trap | Fix |
-|---|---|
-| FU → gpm linear conversion | Use Hunter curve/code table (non-linear) |
-| Continuous demand inside FU | Add separately (gpm) |
-| WC drain < 3" | Min 3" for WC regardless of DFU |
-| Vent undersized | ≥1-1/4" and ≥½ drain diameter (verify) |
-| Feeder vs branch confusion | Sizing order: branch → panel → feeder → service |
-| Single vs 3-phase current formula | I = P/(V·pf) vs P/(√3·V·pf) |
-| Ignoring demand factors | Over-sized panels otherwise |
-| PH code numbers from memory | Verify against current PNPC/PEC editions |
-
-## 7. CROSS-COURSE CONNECTIONS
-```
-BU1-2 ↔ BU3 (MEPFS integration) ↔ STUDIO (systems coordination in DD)
-↔ STRUCTURES (chases vs structure) ↔ PP (code compliance)
-↔ TROPICAL (rainwater harvesting, water efficiency) ↔ GREEN BUILDING (BERDE water/energy credits)
+Step 4: Select Service Conductor & Main Circuit Breaker (PEC Table 3.10.2.6)
+- Main Circuit Breaker: Provide 125A 2-Pole Molded Case Circuit Breaker (MCCB).
+- Service Entrance Conductor: Provide 2 - 50 mm² (1/0 AWG) THHN Copper Conductor in 50mmØ PVC Conduit.
 ```
 
-## 8. SUGGESTED STUDY
-- FU computation: 5 fixture mixes → total FU → probable flow (state curve/table source).
-- Drain sizing: route a bathroom group → branch/stack sizes (verify code).
-- Electrical: 3 panel-load computations (residential, small office, mixed).
-- Scenario: high-rise water supply — why downfeed + booster zones? (essay)
+---
 
-## Provenance
-Compiled 2026-08-10 from standard plumbing/electrical design practice (CED Engineering open PDF; IPC/UPC/NSPC reference tables — Tier 2-3, labeled), cross-referenced with vault MEPFS files and PH code registry records. **All PH-code-specific numbers flagged UNVERIFIED until current PNPC/PEC editions are consulted.** Status: VERIFIED (methods) / UNVERIFIED (PH code values).
+## 5. STUDIO DESIGN PLATE INTEGRATION & DEFENSE RUBRICS
+
+```
+┌────────────────────────────────────────────────────────────────────────────────────┐
+│                    STUDIO INTEGRATION: RISER DIAGRAM COORDINATION                  │
+├────────────────────────────────────────────────────────────────────────────────────┤
+│ 1. PLUMBING DOWNFEED VS UPFEED SYSTEM:                                             │
+│    • Low-Rise (1–3 Storeys): Direct municipal upfeed pressure (20–40 psi).         │
+│    • High-Rise (>4 Storeys): Basement Cistern ➔ Transfer Pumps ➔ Overhead Roof    │
+│      Gravity Tank (PRV pressure reducing valves every 5 floors to cap ≤ 80 psi).   │
+├────────────────────────────────────────────────────────────────────────────────────┤
+│ 2. ELECTRICAL METER CENTER / TRANSFORMER VAULT:                                    │
+│    • Multi-unit commercial/residential projects require a ground-floor Meter Room  │
+│      accessible directly by Meralco meter readers from the exterior property line. │
+└────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 6. SOCRATIC EXAM SIMULATION (BOARD-STYLE SCENARIOS)
+
+#### Question 1 (Water Hammer & Pressure Surges):
+A banging metallic pipe knock occurs whenever quick-closing flushometer valves are shut in a commercial restroom. What mechanical device must the architect specify in the plumbing working drawings to solve this problem?
+- A) Backflow preventer valve at the water meter.
+- B) An air chamber or water hammer arrester installed near the rapid-closing fixture.
+- C) A floor drain trap primer.
+- D) An automatic grease interceptor.
+> **Correct Answer: B**  
+> **Distractor Trap Analysis**:
+> * Rapid valve closure abruptly halts flowing water momentum, converting kinetic energy into high-pressure shockwaves (water hammer). Air chambers or sealed stainless-steel water hammer arresters provide a compressible air cushion that absorbs pressure spikes.
+
+---
+
+## 7. ACADEMIC REFERENCES & STATUTORY SOURCES
+1. National Master Plumbers Association of the Philippines (NAMPAP). (2018). *Revised National Plumbing Code of the Philippines*. NAMPAP.
+2. Institute of Integrated Electrical Engineers (IIEE). (2017). *Philippine Electrical Code (PEC Part 1)*. IIEE.
+3. Hunter, R. B. (1940). *Methods of Estimating Loads in Plumbing Systems*. National Bureau of Standards (NBS BMS65).

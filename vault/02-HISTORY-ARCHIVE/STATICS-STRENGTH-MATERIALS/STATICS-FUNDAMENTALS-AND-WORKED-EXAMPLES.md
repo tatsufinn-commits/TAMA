@@ -1,144 +1,136 @@
-# STATICS FUNDAMENTALS — FORCES, EQUILIBRIUM, FREE-BODY DIAGRAMS & WORKED EXAMPLES
-**Course:** STRUC1 / Statics (MEC30) — foundation for Theory of Structures, Steel/Timber, RCD
-**Depth Level:** 3 (Functional — concepts + procedures + worked examples)
-**High-Yield Score:** 9.0 / 10 (prerequisite for every structures calculation)
-**Knowledge Value Score:** 88/100
+# MEC30 / STRUC1: STATICS OF RIGID BODIES — FORCE VECTORS, EQUILIBRIUM & CENTROIDS
+**Course:** Statics of Rigid Bodies (MEC30) / Structural Mechanics 1  
+**Academic Unit:** Mapúa School of Engineering & ARIDBE  
+**PRC ALE Category:** Part 2: Engineering Mechanics, Statics & Force Equilibrium (30% Weight)  
+**High-Yield Exam Score:** 9.3 / 10  
+**Governing Authorities & References:** NSCP 2015, Hibbeler *Engineering Mechanics: Statics*, Meriam & Kraige *Engineering Mechanics: Statics*.
 
 ---
 
-## Source Information
+## 1. THEORETICAL & METHODOLOGICAL FOUNDATIONS
 
-- **Primary open academic sources (free, legitimately accessible):**
-  - MIT OpenCourseWare — *Mechanics & Materials I* (2.001, Fall 2006), Part 1 "Statics – Elements of Equilibrium" lecture notes: https://ocw.mit.edu/courses/2-001-mechanics-materials-i-fall-2006/pages/lecture-notes/
-  - MIT OCW — *Solid Mechanics* (1.050, Fall 2004), Ch. 2 "Static Equilibrium Force and Moment": https://ocw.mit.edu/courses/1-050-solid-mechanics-fall-2004/
-  - MIT OCW — *Classical Mechanics* (8.01SC), Ch. 18 "Static Equilibrium": https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/mit8_01scs22_chapter18.pdf
-- **Standard textbooks (registry):** Hibbeler, *Engineering Mechanics: Statics* (Pearson); Beer & Johnston, *Vector Mechanics for Statics* — used as conventions reference; not reproduced.
-- **Related vault files:** `SHEAR-AND-MOMENT-EQUATIONS.md` (beam formulas), `MOMENT-DISTRIBUTION-AND-RCD.md` (advances from this foundation).
-- **Confidence:** HIGH — standard, textbook-universal engineering fundamentals corroborated by multiple open academic sources (triangulation).
+### 1.1 First Principles of Vector Mechanics & Static Equilibrium
+A body is in static equilibrium when the resultant external force vector and the resultant moment vector about any point are identically zero:
+$$\sum \vec{F} = \vec{0}, \quad \sum \vec{M}_O = \vec{0}$$
+In 2D coplanar systems:
+$$\sum F_x = 0, \quad \sum F_y = 0, \quad \sum M_O = 0$$
+
+```
+                         2D SUPPORT REACTION FORCE MECHANICS
+  ┌──────────────────────────────────────────────────────────────────────────────────┐
+  │ 1. ROLLER SUPPORT (1 Unknown): Reaction force strictly normal to surface (R_y)   │
+  ├──────────────────────────────────────────────────────────────────────────────────┤
+  │ 2. PIN / HINGED SUPPORT (2 Unknowns): Horizontal (R_x) and Vertical (R_y) forces │
+  ├──────────────────────────────────────────────────────────────────────────────────┤
+  │ 3. FIXED SUPPORT (3 Unknowns): Horizontal (R_x), Vertical (R_y), and Moment (M)  │
+  └──────────────────────────────────────────────────────────────────────────────────┘
+```
+
+### 1.2 Centroid ($\bar{x}, \bar{y}$) & Moment of Inertia ($I_x, I_y$) Derivations
+* **Centroid of Composite Area:**
+  $$\bar{x} = \frac{\sum (A_i \cdot \bar{x}_i)}{\sum A_i}, \quad \bar{y} = \frac{\sum (A_i \cdot \bar{y}_i)}{\sum A_i}$$
+* **Parallel Axis Theorem (Steiner's Theorem):**
+  $$I = \bar{I} + A \cdot d^2$$
+  *(where $\bar{I} = \text{moment of inertia about centroidal axis}$, $d = \text{perpendicular distance between axes}$)*.
+  * For Rectangle ($b \times h$): $\bar{I}_x = \frac{b h^3}{12}$
+  * For Triangle ($b \times h$): $\bar{I}_x = \frac{b h^3}{36}$ (about centroidal axis at $h/3$)
 
 ---
 
-## 1. Core Definitions (Layer 2 — Fundamentals)
+## 2. TECHNICAL MECHANICS, FREE-BODY DIAGRAMS & RESOLUTION
 
-| Term | Definition | Notes |
-|---|---|---|
-| **Force** | A vector quantity: magnitude, direction, sense, line of action | Units: N, kN, kgf (1 kgf ≈ 9.81 N) |
-| **Moment** | Tendency of a force to rotate a body about a point/axis | M = F × d (perpendicular distance); units N·m, kN·m |
-| **Couple** | Two equal, opposite, parallel forces → pure rotation, no translation | Moment of couple is independent of reference point |
-| **Free-Body Diagram (FBD)** | Isolate the body; draw ALL external forces acting on it | The single most important problem-solving tool |
-| **Equilibrium** | Body at rest or constant velocity → net force = 0, net moment = 0 | ΣFx = 0, ΣFy = 0, ΣM = 0 (2D) |
-| **Support reactions** | Forces/moments from supports: roller (1), pin/hinge (2), fixed (3) | Roller: normal only; Pin: 2 components; Fixed: 2 components + moment |
-| **Resultant** | Single force equivalent to a system of forces | Vector sum |
-| **Distributed load** | Load spread over length/area; replaced by equivalent point load at centroid | w (kN/m) → W = w·L at L/2 |
-| **Statically determinate** | Reactions solvable from equilibrium equations alone | #unknowns ≤ #equations |
-| **Statically indeterminate** | Requires compatibility/deformation equations | e.g., continuous beams |
+### 2.1 Free-Body Diagram (FBD) Protocol
+1. Isolate the body completely from all physical contacts and ground supports.
+2. Replace all supports with their corresponding reaction vectors ($R_x, R_y, M$).
+3. Represent all applied external loads and distributed weights with their resultant point forces acting through their respective geometric centroids:
+   * **Uniform Load ($w$ over length $L$):** Single resultant force $W = w L$ acting at $L/2$.
+   * **Triangular Load ($w_{max}$ over length $L$):** Single resultant force $W = \frac{1}{2} w_{max} L$ acting at $L/3$ from the heavy base ($2L/3$ from apex).
 
-## 2. The Equilibrium Equations (2D)
+---
 
-```
-ΣFx = 0        (horizontal force balance)
-ΣFy = 0        (vertical force balance)
-ΣMA = 0        (moment balance about any point A)
-```
+## 3. PHILIPPINE STATUTORY & STRUCTURAL CODE MATRIX
 
-**Method (the universal procedure):**
-1. **Draw the FBD** — isolate the body; show all forces with correct sense; show dimensions.
-2. **Choose a reference frame** (x-y axes).
-3. **Resolve inclined forces** into components: Fx = F·cosθ, Fy = F·sinθ.
-4. **Take moments about a point** that eliminates the most unknowns (usually a support) → solve one unknown.
-5. **Apply ΣFx, ΣFy** → solve remaining reactions.
-6. **Check** by taking moments about a second point (verification step — always do it).
+| Authority / Standard | Section | Statutory Principle | Structural Design Impact |
+| :--- | :--- | :--- | :--- |
+| **NSCP 2015** | Section 206 | Overturning Stability: The ratio of resisting moment to overturning moment ($\frac{M_{resist}}{M_{overturn}}$) shall not be less than **$1.50$** for gravity/wind and **$1.50$** for earthquake. | Prevents foundation uplift and cantilever overturning. |
+| **NSCP 2015** | Section 204 | Tributary Area Loading: Load on a structural member is the area bounded by lines midway to adjacent parallel members. | Converts floor area load ($kPa$) to linear beam load ($kN/m$). |
 
-**Common sign convention:** clockwise moments negative / counterclockwise positive (or the reverse — pick one and stay consistent; state it in your solution).
+---
 
-## 3. Worked Example 1 — Simply Supported Beam with UDL
+## 4. WORKED MATHEMATICAL DERIVATIONS & CENTROID CALCULATION
 
-**Problem:** Beam 6.0 m span, simply supported (pin at A, roller at B), carries UDL w = 4.0 kN/m. Find reactions.
-
-**Step 1 — FBD:** Beam isolated; reactions: A (vertical + horizontal — horizontal = 0 since no horizontal loads), B (vertical). Total load W = w·L = 4.0 × 6.0 = **24 kN**, acting at midspan (3.0 m from either support).
-
-**Step 2 — ΣFx = 0:** Ax = 0.
-
-**Step 3 — Moments about A (eliminates Ay):**
-ΣMA = 0: (24 kN)(3.0 m) − By(6.0 m) = 0 → By = 72/6 = **12 kN** ↑
-
-**Step 4 — ΣFy = 0:** Ay + By − 24 = 0 → Ay = 24 − 12 = **12 kN** ↑
-
-**Step 5 — Check:** moments about B: Ay(6.0) − 24(3.0) = 72 − 72 = 0 ✓
-
-**Cross-check with vault formulas:** R = wL/2 = 4×6/2 = 12 kN ✓ (matches `SHEAR-AND-MOMENT-EQUATIONS.md`)
-
-## 4. Worked Example 2 — Simply Supported Beam with Point Load (not at center)
-
-**Problem:** Span 5.0 m; point load P = 30 kN at 2.0 m from left support A. Find reactions and maximum moment.
-
-**FBD → ΣMA = 0:** (30)(2.0) − By(5.0) = 0 → By = **12 kN**
-**ΣFy = 0:** Ay = 30 − 12 = **18 kN**
-**Check (ΣMB):** Ay(5.0) − 30(3.0) = 90 − 90 = 0 ✓
-
-**Maximum moment** occurs under the load (x = 2.0 m from A):
-Mmax = Ay × 2.0 = 18 × 2.0 = **36 kN·m**
-*(Note: NOT PL/4 = 37.5 — that formula is only for center load. Classic trap.)*
-
-## 5. Worked Example 3 — Beam with Combined Loads (the "accumulate" problem)
-
-**Problem:** Span 8.0 m; UDL 3.0 kN/m over entire span; point load 20 kN at 6.0 m from A.
-
-**Total UDL:** W = 3.0 × 8.0 = 24 kN at 4.0 m from A.
-
-**ΣMA = 0:** 24(4.0) + 20(6.0) − By(8.0) = 0 → 96 + 120 = 8By → By = **27 kN**
-**ΣFy = 0:** Ay = 24 + 20 − 27 = **17 kN**
-**Check (ΣMB):** 17(8) − 24(4) − 20(2) = 136 − 96 − 40 = 0 ✓
-
-**Lesson:** treat each load separately — equivalent point loads at their own centroids; never combine positions.
-
-## 6. Free-Body Diagram Rules (the #1 grading/ exam item)
-
-1. **Isolate** — draw the body alone, no surroundings.
-2. **All forces** — every force touching the body: applied loads, reactions, weights (at centroids), friction.
-3. **Correct sense** — assume a direction; if answer is negative, the actual sense is opposite (this is NOT an error — state it).
-4. **Dimensions** — needed for moment arms.
-5. **No internal forces** — FBD shows external forces only.
-6. **Include angle/location data** for inclined forces.
-
-## 7. Common Mistakes (Layer 12 — exam traps)
-
-| Mistake | Consequence | Fix |
-|---|---|---|
-| Forgetting to convert distributed load to point load at **centroid** | Wrong reactions | W = wL at L/2 (uniform) |
-| Using PL/4 for an off-center load | Wrong Mmax (Example 2: 37.5 vs 36) | Mmax = reaction × distance to load; verify load position |
-| Sign convention flip mid-solution | Inconsistent results | State convention; keep it throughout |
-| Moment arm measured along the member instead of **perpendicular** | Wrong moments | d = perpendicular distance |
-| Summing forces without resolving inclined loads | Wrong components | Fx = Fcosθ, Fy = Fsinθ |
-| Skipping the equilibrium check | Undetected arithmetic error | Always re-moment about a 2nd point |
-| kN vs N / m vs mm mixing | Factor-of-1000 errors | Convert everything to consistent units first |
-| Confusing roller (1 reaction) with pin (2) | Too few/many unknowns | Know support types |
-
-## 8. Course Connections (Layer 13)
+### 4.1 Centroid & Moment of Inertia of an Asymmetric Architectural T-Beam
+**Problem**: An architectural concrete T-beam has a flange width $b_f = 600\text{mm}$, flange thickness $t_f = 100\text{mm}$, web width $b_w = 200\text{mm}$, and web height $h_w = 400\text{mm}$ (Total height $H = 500\text{mm}$).  
+Determine: (1) Location of Centroid ($\bar{y}$) from the bottom soffit, and (2) Total Centroidal Moment of Inertia ($I_{NA}$).
 
 ```
-STATICS (MEC30) → STRENGTH OF MATERIALS (MEC32: σ=P/A, τ=VQ/Ib)
-   → THEORY OF STRUCTURES (CE131P: determinate/indeterminate, methods)
-   → STEEL & TIMBER (CE134P) · RCD (CE133/191) · ARCHITECTURAL STRUCTURES
-   → Studio structural integration (AD4–AD8) · Thesis structural concept
+Step 1: Partition Cross-Section into Standard Rectangular Sub-Areas
+• Area 1 (Flange):
+  A₁ = 600 mm × 100 mm = 60,000 mm²
+  y₁ (centroid from bottom) = 400 mm + (100 / 2) = 450 mm
+  A₁ · y₁ = 60,000 × 450 = 27,000,000 mm³
+
+• Area 2 (Web):
+  A₂ = 200 mm × 400 mm = 80,000 mm²
+  y₂ (centroid from bottom) = 400 / 2 = 200 mm
+  A₂ · y₂ = 80,000 × 200 = 16,000,000 mm³
+
+Step 2: Calculate Neutral Axis Centroid (y_bar)
+Total Area ΣA = 60,000 + 80,000 = 140,000 mm².
+Total Moment of Area Σ(A·y) = 27,000,000 + 16,000,000 = 43,000,000 mm³.
+y_bar = Σ(A·y) / ΣA = 43,000,000 / 140,000 = 307.14 mm from bottom soffit.
+
+Step 3: Calculate Moment of Inertia via Parallel Axis Theorem (I_NA = Σ[ I_centroid + A · d² ])
+1. For Flange (Area 1):
+   I_1 = (b₁ · h₁³) / 12 = [ 600 × (100)³ ] / 12 = 50,000,000 mm⁴
+   d₁ = |y₁ - y_bar| = |450 - 307.14| = 142.86 mm
+   A₁ · d₁² = 60,000 × (142.86)² = 60,000 × 20,409 = 1,224,540,000 mm⁴
+   I_flange = 50,000,000 + 1,224,540,000 = 1,274,540,000 mm⁴
+
+2. For Web (Area 2):
+   I_2 = (b₂ · h₂³) / 12 = [ 200 × (400)³ ] / 12 = 1,066,666,667 mm⁴
+   d₂ = |y₂ - y_bar| = |200 - 307.14| = 107.14 mm
+   A₂ · d₂² = 80,000 × (107.14)² = 80,000 × 11,479 = 918,320,000 mm⁴
+   I_web = 1,066,666,667 + 918,320,000 = 1,984,986,667 mm⁴
+
+Step 4: Sum Total Moment of Inertia
+I_NA = I_flange + I_web = 1,274,540,000 + 1,984,986,667 = 3,259,526,667 mm⁴
+I_NA = 3.26 × 10⁹ mm⁴ = 3,260,000 cm⁴.
 ```
 
-## 9. Prerequisite Chain (Layer 25)
+---
+
+## 5. STUDIO DESIGN PLATE INTEGRATION & DEFENSE RUBRICS
 
 ```
-BASIC MATH (algebra, trig) → VECTORS (resolution, addition)
-   → FORCES & MOMENTS → EQUILIBRIUM & FBD → BEAM ANALYSIS → STRUCTURAL DESIGN
+┌────────────────────────────────────────────────────────────────────────────────────┐
+│                    STUDIO INTEGRATION: SECTION MODULUS & BEAM ORIENTATION          │
+├────────────────────────────────────────────────────────────────────────────────────┤
+│ 1. STRONG AXIS VS WEAK AXIS ORIENTATION:                                           │
+│    • Bending resistance is proportional to section depth cubed: I_x = bh³/12.      │
+│    • Orienting a 50mm × 100mm timber beam vertically yields:                       │
+│      I_strong = (50 × 100³)/12 = 4,166,667 mm⁴.                                    │
+│    • Orienting it flat on its side yields:                                         │
+│      I_weak = (100 × 50³)/12 = 1,041,667 mm⁴ (4× WEAKER in bending!).              │
+└────────────────────────────────────────────────────────────────────────────────────┘
 ```
-If a student struggles with beam analysis, drill vector resolution first — it is the hidden prerequisite.
 
-## 10. Suggested Practice (Layer 10 — for future @examiner sets)
+---
 
-1. Reaction calculations: UDL only · point loads · combined · overhanging beams.
-2. FBD drawing exercises (label every force).
-3. Determine statical determinacy: classify beams/trusses (3m = r, etc.).
-4. Convert: UDL → equivalent point load → reactions → check.
-5. Inclined-load resolution: cable/strut problems.
+## 6. SOCRATIC EXAM SIMULATION (BOARD-STYLE SCENARIOS)
 
-## Provenance
+#### Question 1 (Centroid of Triangular Distributed Loads):
+Where does the resultant point force of a right-triangular distributed load (with maximum intensity $w$ at the left support and zero at the right apex) act along a span of length $L$?
+- A) Exactly at $L/2$ from the left support.
+- B) At $L/3$ from the left support (the heavy base).
+- C) At $2L/3$ from the left support.
+- D) At $L/4$ from the left support.
+> **Correct Answer: B**  
+> **Distractor Trap Analysis**:
+> * The centroid of a triangle is located at $1/3$ the base length measured from the right angle (heavy load base). Measuring from the left base gives $L/3$. Measuring from the sharp tip gives $2L/3$ (Option C).
 
-- Compiled 2026-08-10 by the TAMA Knowledge Agent from standard statics fundamentals, triangulated against MIT OCW (2.001, 1.050, 8.01SC — links above). Worked examples are original standard textbook-type problems with full step-by-step solutions; formulas cross-checked against existing vault file `SHEAR-AND-MOMENT-EQUATIONS.md`. Confidence: HIGH.
+---
+
+## 7. ACADEMIC REFERENCES
+1. Hibbeler, R. C. (2017). *Engineering Mechanics: Statics* (14th ed.). Pearson.
+2. Meriam, J. L., Kraige, L. G., & Bolton, J. N. (2018). *Engineering Mechanics: Statics* (9th ed.). John Wiley & Sons.

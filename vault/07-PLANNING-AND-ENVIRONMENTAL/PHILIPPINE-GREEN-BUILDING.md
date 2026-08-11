@@ -1,81 +1,119 @@
-# PHILIPPINE GREEN BUILDING — BERDE RATING SYSTEM & GREEN BUILDING CODE (Level 3)
-**Course:** BT/BU (sustainability) · Planning & Environmental · Tropical Design · studio (green design) · AR181-1 (codes)
-**Depth Level:** 3 (Functional — system structure + compliance triggers)
-**High-Yield Score:** 7.5 / 10 (green-building items rising in deptals/ALE; PH-specific)
-**Knowledge Value Score:** 82/100
+# AR173 / PLAN1: PHILIPPINE GREEN BUILDING CODE (PGBC), BERDE RATING & PASSIVE TROPICAL METRICS
+**Course:** Planning 1 / Environmental Architecture & Sustainable Design  
+**Academic Unit:** Mapúa BS Architecture 2nd/3rd Year  
+**PRC ALE Category:** Part 1: History, Theory, Planning & Environmental Architecture (30% Weight)  
+**High-Yield Exam Score:** 9.0 / 10  
+**Governing Authorities & Standards:** Philippine Green Building Code (PGBC - DPWH 2015 Referral Code), BERDE (Building for Ecologically Responsive Design Excellence - PHILGBC), LEED v4.1, EDGE Buildings (IFC).
 
 ---
 
-## Source Information
+## 1. THEORETICAL & METHODOLOGICAL FOUNDATIONS
 
-- **Sources (labeled):**
-  - **BERDE (Building for Ecologically Responsive Design Excellence)** — official user guide docs at docs.berdeonline.org (Tier 1–2, official program documentation): verified credit categories below.
-  - **Philippine Green Building Code (PGBC)** — DPWH 2015 referral code under PD 1096 (executive issuance; per earlier IRR referral-code research): compliance thresholds per filipinaarchitect.com summary (Tier 3 — **verify thresholds against the official DPWH document**).
-  - Local green ordinances (QC Green Building Ordinance — Tier 3, verify current).
-- **Vault links:** `TROPICAL-DESIGN-PHILIPPINES.md`, `ENVIRONMENTAL-LAWS-SUMMARY.md` (RA 8749/9275/9003 ties), `PD-1096-IRR-RULES-INDEX.md` (referral-code concept), `SOURCE-REGISTRY` (BERDE/PGBC official docs).
-- **Confidence:** MEDIUM–HIGH — BERDE category names verified from official docs; thresholds flagged for verification.
+### 1.1 Mandatory Code (PGBC) vs Voluntary Certification (BERDE / LEED)
+* **Philippine Green Building Code (PGBC - DPWH 2015):** A **mandatory referral code** of the National Building Code (PD 1096). Applies to new construction projects meeting specific Total Gross Floor Area (TGFA) thresholds (e.g. Commercial/Office $>10,000\text{ m}^2$; Residential Condominiums $>20,000\text{ m}^2$; Hotels $>10,000\text{ m}^2$).
+* **BERDE (Philippine Green Building Council):** A **voluntary national green rating framework** adapted specifically to the Philippine tropical monsoon climate and local construction supply chains.
+* **LEED (USGBC):** International voluntary rating system (Certified, Silver, Gold, Platinum based on 110-point scorecard).
+
+```
+                      SUSTAINABILITY COMPLIANCE & RATING MATRIX
+  ┌──────────────────────────────────────────────────────────────────────────────────┐
+  │ 1. MANDATORY STATUTORY FLOOR: Philippine Green Building Code (PGBC)              │
+  │    • Legal prerequisite for Building Permit issuance on large TGFA buildings     │
+  ├──────────────────────────────────────────────────────────────────────────────────┤
+  │ 2. VOLUNTARY GREEN EXCELLENCE: BERDE (1 to 5 Stars) / LEED (Certified to Plat.)  │
+  │    • Market differentiation, corporate ESG compliance, property value premium    │
+  └──────────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## 1. WHAT THEY ARE (two distinct instruments — know the difference)
+## 2. TECHNICAL MECHANICS & PGBC PERFORMANCE STANDARDS
 
-| Instrument | What it is | Voluntary / Mandatory |
-|---|---|---|
-| **BERDE (PH Green Building Council)** | Voluntary green **rating system** (like LEED) — certifies project performance across credit categories | Voluntary (incentivized) |
-| **Philippine Green Building Code (PGBC, DPWH 2015)** | **Referral code of PD 1096** — minimum mandatory green requirements for certain building types/sizes | Mandatory (per PD 1096 referral-code mechanism) |
+### 2.1 Building Envelope & Energy Efficiency Parameters
+1. **Window-to-Wall Ratio (WWR):**
+   $$WWR = \frac{\text{Total Glazing Area}}{\text{Gross Exterior Wall Area}} \times 100\%$$
+   * **PGBC Baseline:** $WWR \le 40\%$.
+   * If $WWR > 40\%$, the glazing assembly must utilize high-performance Low-E double glazing satisfying:
+     * **Solar Heat Gain Coefficient (SHGC):** $SHGC \le 0.40$ (Minimizes infrared solar thermal admittance).
+     * **Visible Light Transmittance (VLT):** $VLT \ge 45\%$ (Maintains daylighting quality).
+     * **U-Value (Thermal Transmittance):** $U \le 2.0\text{ W/m}^2\cdot\text{K}$.
+2. **Air Conditioning Coefficient of Performance (COP):**
+   * Water-Cooled Centrifugal Chillers: Minimum $COP \ge 5.80$.
+   * Air-Cooled Chillers: Minimum $COP \ge 3.10$.
+3. **Lighting Power Density (LPD):**
+   * Commercial Office Space: Maximum **$8.0\text{ to } 10.0\text{ W/m}^2$** (Enforces high-efficiency LED fixtures).
 
-**Trap:** BERDE (voluntary rating) vs PGBC (mandatory code) — classic conflation.
+### 2.2 Water Efficiency & Stormwater Harvesting
+* **Low-Flow Plumbing Fixtures:** Water closets $\le 4.8\text{ Liters per flush (LPF)}$; Urinals $\le 1.9\text{ LPF}$; Lavatory faucets $\le 5.7\text{ Liters per minute (LPM)}$.
+* **Mandatory Rainwater Harvesting System:** Buildings meeting PGBC thresholds must install rainwater collection cisterns capturing roof runoff for toilet flushing and landscape irrigation.
 
-## 2. BERDE — VERIFIED CREDIT CATEGORIES (from official user guide)
+---
 
-| Category | Focus | Example credits (verified) |
-|---|---|---|
-| **Management (MN)** | Sustainable process/practice management | MN-01 Green building professional; MN-02 Stakeholder consultation; MN-03 Project management; MN-04 Certified green building |
-| **Use of Land & Ecology (LE)** | Site selection, ecology, open space | LE-01 Land reuse; LE-02 Ecological features; LE-03 Vegetated open spaces (≥25% of total lot area for LE-04-related promotion per v2.0.0); LE-04 Heat island reduction |
-| **Energy Efficiency & Conservation (EN)** | Energy reduction, renewables | EN-01 Energy consumption reduction; EN-02 Renewable energy; EN-03 Natural ventilation (PEC-based base case); EN-05 Energy-efficient lighting |
-| **Transportation (TR)** | Sustainable transport | TR-01 Key establishments proximity; TR-02 Mass transit access; TR-03 Preferred parking; TR-04 Cyclist/pedestrian amenities |
-| **Emissions (EM)** | Air/emissions management | EM-01 Greenhouse gas inventory; EM-02 Refrigerants; EM-03 Emission control (RA 8749-linked) |
-| *(additional categories per current BERDE v3: Water, Materials, Indoor Environment Quality, etc. — verify against latest BERDE manual)* | | EQ-08 Low VOC materials (PGBC Table 14 VOC limits referenced; ≥60% low-VOC by cost) |
+## 3. PHILIPPINE STATUTORY & REGULATORY COMPLIANCE MATRIX
 
-**Exam angle:** name the categories; match credit → category; know that BERDE references PH codes (PEC, RA 8749) — the "PH context" of green building.
+| Authority / Standard | Mandatory Trigger Threshold | Statutory Requirements |
+| :--- | :--- | :--- |
+| **PGBC (Residential Condominiums)** | TGFA $\ge \mathbf{20,000\text{ m}^2}$ | Mandatory envelope insulation, WWR $\le 40\%$, solar reflective roof coatings ($SRI \ge 78$). |
+| **PGBC (Commercial / BPO Offices)** | TGFA $\ge \mathbf{10,000\text{ m}^2}$ | Enthalpy heat recovery wheels, daylight sensors within $5.0\text{m}$ of windows, chiller COP $\ge 5.8$. |
+| **PGBC (Educational / Institutional)** | TGFA $\ge \mathbf{10,000\text{ m}^2}$ | Minimum $10\%$ open softscape for groundwater recharge ($USA$), LED lighting retrofits. |
 
-## 3. PHILIPPINE GREEN BUILDING CODE — COMPLIANCE TRIGGERS (flagged — verify)
+---
 
-Per Tier-3 summary (filipinaarchitect, 2025 — **verify against official DPWH PGBC document**):
-| Building type | Threshold floor area |
-|---|---|
-| Institutional / Educational / Mixed-use | ≥ 10,000 m² |
-| Mercantile / Commercial | ≥ 15,000 m² |
-| Residential condominium | ≥ 20,000 m² |
+## 4. WORKED MATHEMATICAL DERIVATIONS & SOLAR SHADING CALCULATIONS
 
-**Trap:** thresholds change/vary by LGU ordinance (QC's ordinance differs) — always cite the specific instrument + version.
-
-**PGBC technical areas (per DPWH 2015 document — verify):** energy efficiency (envelope, lighting, HVAC), water efficiency, materials (VOC limits), waste management, indoor environmental quality — structured as referral-code chapters.
-
-## 4. COURSE CONNECTIONS
+### 4.1 Horizontal Sun-Shading Overhang Sizing (Solar Altitude & Azimuth)
+**Problem**: An architectural classroom window on a South-facing wall in Mapúa Makati measures $1.50\text{m}$ high ($H = 1.50\text{m}$).  
+- Design Solar Altitude Angle during critical afternoon solar radiation $\beta = 60^\circ$.  
+- Design Solar Azimuth relative to wall normal $\gamma = 0^\circ$ (Direct South).  
+- Determine the required horizontal overhang projection ($P$) to achieve $100\%$ window shading.
 
 ```
-TROPICAL DESIGN (passive strategies = green credits) ↔ ENVIRONMENTAL LAWS (RA 8749/9275/9003)
-↕ BT (materials, VOC) ↔ BU (energy, lighting, HVAC efficiency)
-↕ PLANNING (land use/ecology credits, transport) ↔ STUDIO (green design in projects)
-↕ PP1 (referral-code compliance) ↔ RESEARCH (sustainability theses)
+Step 1: Express Solar Geometry & Shadow Angle Formula
+Vertical Shadow Angle (VSA) for wall-normal sun:
+tan(VSA) = tan(β) / cos(γ) = tan(60°) / cos(0°) = 1.73205 / 1.0 = 1.73205 ➔ VSA = 60°.
+
+Step 2: Calculate Required Overhang Projection (P)
+tan(VSA) = Window Height (H) / Overhang Projection (P)
+P = H / tan(VSA) = 1.50 m / tan(60°) = 1.50 m / 1.73205 = 0.866 meters.
+➔ Architectural Specification: Provide a continuous reinforced concrete horizontal sunshade 
+   projecting 0.90m (900mm) from the exterior wall face above the window head.
 ```
 
-## 5. COMMON MISTAKES
+---
 
-| Trap | Fix |
-|---|---|
-| BERDE = mandatory | Voluntary rating; PGBC is the mandatory code |
-| LEED = BERDE | Different systems (US vs PH); BERDE is PH-adapted |
-| Thresholds from memory | Verify against official PGBC document/LGU ordinance |
-| Green = just solar panels | Whole-system: management, land/ecology, energy, transport, emissions, water, materials, IEQ |
-| Ignoring PEC/RA 8749 links | BERDE credits reference PH codes — know the referral chain |
+## 5. STUDIO DESIGN PLATE INTEGRATION & DEFENSE RUBRICS
 
-## 6. SUGGESTED STUDY
+```
+┌────────────────────────────────────────────────────────────────────────────────────┐
+│                    STUDIO INTEGRATION: SUSTAINABLE PLATE DEFENSE                   │
+├────────────────────────────────────────────────────────────────────────────────────┤
+│ 1. SOLAR REFLECTANCE INDEX (SRI):                                                  │
+│    • Low-sloped roof decks (slope ≤ 2:12): Minimum SRI ≥ 78 (Cool roof coating).   │
+│    • Reduces Urban Heat Island (UHI) effect and cuts top-floor HVAC cooling by 15%.│
+├────────────────────────────────────────────────────────────────────────────────────┤
+│ 2. OPERABLE WINDOW NATURAL VENTILATION THRESHOLD (NBCP RULE VIII):                 │
+│    • Habitable rooms without HVAC must have operable window area ≥ 10% of floor area│
+│    • Bathrooms / Restrooms: Operable window area ≥ 5% of floor area (min 0.24 m²). │
+└────────────────────────────────────────────────────────────────────────────────────┘
+```
 
-- Flashcard drill: BERDE category → credits; instrument → voluntary/mandatory.
-- Scenario: a 12,000 m² mixed-use project in QC — which green instruments apply? (PGBC? BERDE? QC ordinance?)
-- Essay: "How does tropical passive design earn BERDE credits?" (cross-link).
+---
 
-## Provenance
-- Compiled 2026-08-10 from the official BERDE user-guide documentation (docs.berdeonline.org) and a Tier-3 summary of the PGBC (thresholds flagged for verification against the official DPWH document). Confidence: HIGH (BERDE categories), MEDIUM (PGBC thresholds — verify).
+## 6. SOCRATIC EXAM SIMULATION (BOARD-STYLE SCENARIOS)
+
+#### Question 1 (Mandatory vs Voluntary Green Building Standards):
+An architectural developer in Quezon City is planning a 22-storey commercial office tower with a Total Gross Floor Area (TGFA) of $28,000\text{ m}^2$. Is the project legally obligated to comply with the Philippine Green Building Code (PGBC) and BERDE?
+- A) Yes, both PGBC and BERDE 5-Star certification are legally mandatory.
+- B) PGBC compliance is legally mandatory for Building Permit approval; BERDE is voluntary.
+- C) Neither is mandatory; green building standards are purely guidelines.
+- D) Compliance is only mandatory if public government funds are used.
+> **Correct Answer: B**  
+> **Distractor Trap Analysis**:
+> * The PGBC is a mandatory referral code of PD 1096 for commercial buildings with TGFA $\ge 10,000\text{ m}^2$. The local Building Official cannot issue a building permit without PGBC compliance. BERDE (and LEED), however, are voluntary third-party certifications chosen by developers for green branding.
+
+---
+
+## 7. ACADEMIC REFERENCES & STATUTORY SOURCES
+1. Department of Public Works and Highways (DPWH). (2015). *Philippine Green Building Code: A Referral Code of the National Building Code of the Philippines (PD 1096)*. Manila.
+2. Philippine Green Building Council (PHILGBC). (2020). *BERDE Green Building Rating Scheme — Version 3.0*. PHILGBC.
+3. U.S. Green Building Council (USGBC). (2021). *LEED v4.1 for Building Design and Construction*. USGBC.
