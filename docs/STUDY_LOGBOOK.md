@@ -344,3 +344,22 @@ When you start a study session:
 * **Next Recommended Study Target:** TOA essay banks; per-cluster RESOURCES.md; professional-practice fees/admin depth
 
 # 3. TEMPLATE FOR FUTURE STUDY SESSIONS (APPEND AT END OF CHAT)
+
+### [ACADEMIC LEVEL-5 EXPANSION] Session K18: Phase 1 — 3rd-Year Core Courses Deep Academic Upgrade
+* **Date:** 2026-08-11
+* **Faculty in Charge:** `@curator` / `@architect` / `@mentor` / `@examiner`
+* **Topic Covered:** 3rd-Year Active Courses (`01-CURRENT-COURSES`):
+  1. Building Tech 3/4 & 5: Prestressed Concrete Load Balancing, Structural Steel W-Beams, CSI MasterFormat Specifications, Unitized & Structural Silicone Curtain Walls.
+  2. Structural Theory & RCD: Ultimate Strength Design (USD) Whitney Stress Block, Singly Reinforced Beams ($M_u \le \phi M_n$), Moment Distribution for Frames with Sidesway ($M = M_0 + k \cdot M_1$).
+  3. Building Utilities 3 (MEPFS): Chilled Water Central HVAC Cooling Load & Tonnage, Sabine Architectural Acoustics Reverberation Time ($RT_{60}$), Vertical Transportation Elevator Bank Sizing & 5-Min Handling Capacity ($HC_{5min}\%$).
+  4. Architectural Design 5: Advanced Space Programming ($NFA \rightarrow GFA \rightarrow TGFA$), PD 1096 Rule VII & VIII Lot Geometry ($AMBF, TOSL, USA, ISA, FLAR$), Tropical Microclimatic Site Planning.
+  5. Professional Practice 1: Tripartite Contracts, RA 9266 Instruments of Service Ownership, UAP Doc 301 Bidding & Retention, Civil Code Art. 1723 15-Year Liability.
+* **Activity Executed:** Systematic upgrade of 16 course modules and mirrors across `vault/01-CURRENT-COURSES/` to the **5-Layer Academic Course Standard** (Foundations $\rightarrow$ Assemblies $\rightarrow$ Statutory Compliance $\rightarrow$ Worked Engineering Math $\rightarrow$ Studio Plate Defense Rubrics & Socratic Scenarios).
+* **Score / Mastery Level:** `npm test` 100% GREEN · `npm run audit` 0 FAIL · `npm run ktest` 18/18 PASS.
+* **Identified Weak Spots / Trap Mistakes:**
+  * PT Slab Depth: $h \approx L/42$ vs RC $L/30$; transfer strength $f'_{ci} \ge 20.5\text{ MPa}$ before tensioning.
+  * Over-reinforced beams fail in brittle concrete crushing ($\rho > \rho_{max}$ prohibited by NSCP §409.6.1).
+  * Sidesway occurs from unsymmetric loads even on geometrically symmetric frames ($H_A + H_D \ne 0$).
+  * Governed building footprint is strictly the lesser bounding area between Table VIII.1 PSO formula and physical setback lines.
+  * Architectural drawings are Instruments of Service under RA 9266 Sec. 33; payment grants single-site license only.
+* **Next Recommended Study Target:** Phase 2: Technical Foundations & Engineering Sequence (`02-HISTORY-ARCHIVE`: Statics, Strength of Materials, BU1 Plumbing, BU2 Electrical, BT1 Timber Species).
