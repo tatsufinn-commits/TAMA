@@ -2,7 +2,7 @@
   "name": "tama",
   "version": "1.9.0-a",
   "private": true,
-  "description": "TAMA: 7-Cluster Academic Knowledge Vault, Socratic Exam Trainer & Map\u00faa Architecture Scaffolding",
+  "description": "TAMA: 7-Cluster Academic Knowledge Vault, Socratic Exam Trainer & Mapúa Architecture Scaffolding",
   "scripts": {
     "test": "node test-scaffold.js",
     "drill": "node study.js",
@@ -11,9 +11,7 @@
     "solve": "node solve.js",
     "code": "node query-code.js",
     "cards": "node -e \"console.log('Open reviewers/flashcard-app/index.html in your browser to launch the Visual Flashcard Studio!')\"",
-    "exam": "node -e \"console.log('Open reviewers/mock-exams/ for Departmental Sets 01-05 and 50-Item Simulation!')\"",
-    "audit": "node audit.js",
-    "ktest": "node knowledge-regression.js"
+    "exam": "node -e \"console.log('Open reviewers/mock-exams/ for Departmental Sets 01-05 and 50-Item Simulation!')\""
   },
   "keywords": [
     "tama",

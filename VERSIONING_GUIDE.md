@@ -11,7 +11,7 @@ The goal is to make every version label transparent and easy to understand at a 
 ## Current Version
 
 ```txt
-TAMA 1.9.0.0.a v
+TAMA 1.2.0.0.a v
 ```
 
 *(Publication 1, Major Milestone 2 Reviewers, Initial Subject Modules, Alpha Study Stage).*
@@ -84,7 +84,7 @@ Represents specific architectural subject domain expansions:
 
 ### 4. Iteration Number
 Increments with new mock exam sets, formula card updates, and bugfixes:
-* `TAMA 1.9.0.0.a v` $\rightarrow$ Initial Set 01 Mock Exam created.
+* `TAMA 1.2.0.0.a v` $\rightarrow$ Initial Set 01 Mock Exam created.
 * `TAMA 1.2.0.1.a v` $\rightarrow$ Added Set 02 Mock Exam & 15 new active recall cards.
 
 ---
@@ -105,7 +105,7 @@ Increments with new mock exam sets, formula card updates, and bugfixes:
 |---|---|---|
 | `TAMA 1.0.0.0.a v` | Foundation Scaffolding complete | `TAMA-1.0.0.0.a-v.zip` |
 | `TAMA 1.1.0.0.a v` | Milestone 1 Knowledge Vault populated | `TAMA-1.1.0.0.a-v.zip` |
-| `TAMA 1.9.0.0.a v` | Milestone 2 Socratic Mock Exams live | `TAMA-1.2.0.0.a-v.zip` |
+| `TAMA 1.2.0.0.a v` | Milestone 2 Socratic Mock Exams live | `TAMA-1.2.0.0.a-v.zip` |
 | `TAMA 1.3.0.0.a v` | Milestone 3 TheHUB Bridge integrated | `TAMA-1.3.0.0.a-v.zip` |
 
 ---
@@ -114,6 +114,6 @@ Increments with new mock exam sets, formula card updates, and bugfixes:
 
 Use the official version string in:
 1. `docs/BUILD_LOGBOOK.md` and `docs/STUDY_LOGBOOK.md` headers.
-2. Git commit messages (`git commit -m "Release TAMA 1.9.0.0.a v: Populated Core Laws & Mock Exams"`).
+2. Git commit messages (`git commit -m "Release TAMA 1.2.0.0.a v: Populated Core Laws & Mock Exams"`).
 3. Release zip archives (`TAMA-1.2.0.0.a-v.zip` and `TAMA_SCAFFOLDING_V1.0.zip`).
 4. Root `README.md` and `package.json`.

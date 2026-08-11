@@ -9,7 +9,7 @@ function assert(cond, msg) {
   console.log(`✅ PASS: ${msg}`);
 }
 
-console.log('--- Running TAMA Full 7-Cluster System Verification (v1.9.0) ---');
+console.log('--- Running TAMA Full System Verification (v1.9.0) ---');
 
 // 1. Verify docs suite
 const requiredDocs = [
@@ -23,7 +23,8 @@ const requiredDocs = [
   'docs/DIAGNOSTIC_AND_TESTING_GUIDE.md',
   'docs/FUTURE_BRAIN_UPGRADE_SPEC.md',
   'docs/REPAIR_DOSSIER.md',
-  'docs/VERSIONING_GUIDE.md'
+  'docs/VERSIONING_GUIDE.md',
+  'docs/TAMA_MASTER_VAULT_EXPANSION_PROMPT.md'
 ];
 
 requiredDocs.forEach(doc => {
@@ -118,9 +119,10 @@ requiredPlugins.forEach(plug => {
   assert(fs.existsSync(plug), `Plugin bridge exists: ${plug}`);
 });
 
-// 7. Verify roadmap & proposal
+// 7. Verify roadmap & directives
 assert(fs.existsSync('research/directives/roadmap/MASTER_ROADMAP_TAMA_V1.0.md'), 'Master Roadmap exists in research/directives/roadmap/');
 assert(fs.existsSync('research/directives/roadmap/TAMA_THEHUB_INTEGRATION_PROPOSAL_V1.0.md'), 'Integration Proposal exists in research/directives/roadmap/');
+assert(fs.existsSync('research/directives/# TAMA — MASTER VAULT KNOWLEDGE RESEARCH & EXPANSION DIRECTIVE.txt'), 'Master Expansion Directive exists in research/directives/');
 
-console.log('--- ALL TAMA 7-CLUSTER FULL-SYSTEM VERIFICATIONS PASSED (100% GREEN) ---');
+console.log('--- ALL TAMA FULL-SYSTEM VERIFICATIONS PASSED (BUILDS T00 – T32: 100% GREEN) ---');
 process.exit(0);
