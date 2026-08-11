@@ -1,0 +1,1409 @@
+{
+  "exam_id": "MAPUA-ALE-EXIT-100-GRAND-SIMULATION",
+  "title": "Map\u00faa BS Architecture Comprehensive Exit Exam \u2014 100-Item Grand Master Simulation",
+  "description": "Full 3-Part PRC Architecture Licensure Examination (ALE) Master Blueprint Simulation covering all 7 Knowledge Clusters",
+  "passing_score": 70,
+  "total_items": 100,
+  "questions": [
+    {
+      "id": 1,
+      "category": "Building Laws: PD 1096 NBCP",
+      "question": "Under Table VII.1 of the 2005 Revised IRR of PD 1096 (NBCP), what is the Maximum Allowable Percentage of Site Occupancy (PSO) for an Inside Lot in a C-2 (Commercial-2) zone without a firewall?",
+      "options": {
+        "A": "50%",
+        "B": "70%",
+        "C": "75%",
+        "D": "80%"
+      },
+      "correct": "C",
+      "citation": "PD 1096 NBCP Table VII.1",
+      "trap": "Option A is for R-1 inside lots; Option B is for R-2; Option D is for C-2 corner lots with firewall abutments."
+    },
+    {
+      "id": 2,
+      "category": "Building Laws: PD 1096 NBCP",
+      "question": "What is the required minimum front setback for an R-1 residential zone with an RROW of 10.00 meters?",
+      "options": {
+        "A": "3.00 m",
+        "B": "4.50 m",
+        "C": "5.00 m",
+        "D": "6.00 m"
+      },
+      "correct": "B",
+      "citation": "PD 1096 NBCP Table VIII.2",
+      "trap": "R-1 mandates 4.50m front setback (total 8.00m at grade when parking is provided outside the front yard)."
+    },
+    {
+      "id": 3,
+      "category": "Building Laws: RA 9514 Fire Code",
+      "question": "Under RA 9514 IRR Section 10.2.5.2, what is the statutory occupant load factor for an educational classroom?",
+      "options": {
+        "A": "0.65 sqm/person (net)",
+        "B": "1.40 sqm/person (net)",
+        "C": "1.80 sqm/person (net)",
+        "D": "4.60 sqm/person (net)"
+      },
+      "correct": "C",
+      "citation": "RA 9514 IRR Sec. 10.2.5.2",
+      "trap": "0.65 is concentrated assembly; 1.40 is unconcentrated dining; 4.60 is vocational shop/laboratory."
+    },
+    {
+      "id": 4,
+      "category": "Building Laws: RA 9514 Fire Code",
+      "question": "What is the maximum allowable travel distance to an exit in a building equipped with an approved automatic fire sprinkler system (AFSS)?",
+      "options": {
+        "A": "23.00 m",
+        "B": "46.00 m",
+        "C": "61.00 m (200 ft)",
+        "D": "76.00 m"
+      },
+      "correct": "C",
+      "citation": "RA 9514 IRR Sec. 10.2.5.2",
+      "trap": "46.00 m is the limit without sprinklers; with approved sprinklers it expands to 61.00 m."
+    },
+    {
+      "id": 5,
+      "category": "Building Laws: RA 9514 Fire Code",
+      "question": "What is the egress width capacity factor for stairways in an unsprinklered building under RA 9514?",
+      "options": {
+        "A": "3.8 mm per person",
+        "B": "5.0 mm per person",
+        "C": "7.6 mm per person (0.3 in/p)",
+        "D": "10.0 mm per person"
+      },
+      "correct": "C",
+      "citation": "RA 9514 IRR Sec. 10.2.5.2",
+      "trap": "5.0 mm/p is for level components and doors; 7.6 mm/p is for stairs."
+    },
+    {
+      "id": 6,
+      "category": "Building Laws: BP 344 Accessibility",
+      "question": "Under BP 344 Rule II Section 2, what is the maximum allowable gradient/slope for pedestrian accessible ramps?",
+      "options": {
+        "A": "1:8 (12.5%)",
+        "B": "1:10 (10.0%)",
+        "C": "1:12 (8.33%)",
+        "D": "1:16 (6.25%)"
+      },
+      "correct": "C",
+      "citation": "BP 344 Rule II Sec. 2",
+      "trap": "1:8 is permitted only for very short vertical rises under 50 mm."
+    },
+    {
+      "id": 7,
+      "category": "Building Laws: BP 344 Accessibility",
+      "question": "What is the maximum horizontal run permitted for a single accessible ramp section before a level landing of at least 1.50 m must be provided?",
+      "options": {
+        "A": "3.00 m",
+        "B": "4.50 m",
+        "C": "6.00 m",
+        "D": "9.00 m"
+      },
+      "correct": "C",
+      "citation": "BP 344 Rule II Sec. 2",
+      "trap": "Every 6.00 m run requires a 1.50 m intermediate landing."
+    },
+    {
+      "id": 8,
+      "category": "Building Laws: BP 344 Accessibility",
+      "question": "What is the minimum clear doorway opening width required for accessible doors under BP 344?",
+      "options": {
+        "A": "0.71 m",
+        "B": "0.75 m",
+        "C": "0.80 m (800 mm)",
+        "D": "0.90 m"
+      },
+      "correct": "C",
+      "citation": "BP 344 Rule II Sec. 3",
+      "trap": "0.71 m is NBCP minimum; BP 344 strictly requires 0.80 m clear opening."
+    },
+    {
+      "id": 9,
+      "category": "Building Laws: BP 344 Accessibility",
+      "question": "What are the standard internal dimensions for a fully compliant BP 344 accessible toilet stall?",
+      "options": {
+        "A": "1.20 m x 1.50 m",
+        "B": "1.50 m x 1.50 m",
+        "C": "1.70 m x 1.80 m",
+        "D": "2.00 m x 2.20 m"
+      },
+      "correct": "C",
+      "citation": "BP 344 Rule II Sec. 7",
+      "trap": "1.50m is the turning circle; 1.70m x 1.80m is the full cubicle footprint with outward-swinging door."
+    },
+    {
+      "id": 10,
+      "category": "Building Laws: BP 344 Accessibility",
+      "question": "What is the total minimum width required for an accessible parking slot under BP 344?",
+      "options": {
+        "A": "2.50 m",
+        "B": "3.00 m",
+        "C": "3.70 m",
+        "D": "4.20 m"
+      },
+      "correct": "C",
+      "citation": "BP 344 Rule II Sec. 1",
+      "trap": "Comprises 2.50 m vehicle bay plus 1.20 m dedicated transfer access aisle."
+    },
+    {
+      "id": 11,
+      "category": "Building Laws: RA 9266 Architecture Act",
+      "question": "Under Section 15 of RA 9266, what is the minimum weighted general average and minimum individual subject score required to pass the Architecture Licensure Examination (ALE)?",
+      "options": {
+        "A": "75% average, no subject below 60%",
+        "B": "70% average, no subject below 50%",
+        "C": "70% average, no subject below 60%",
+        "D": "75% average, no subject below 50%"
+      },
+      "correct": "B",
+      "citation": "RA 9266 Sec. 15",
+      "trap": "70% general average with no grade lower than 50% in any subject is statutory."
+    },
+    {
+      "id": 12,
+      "category": "Building Laws: RA 9266 Architecture Act",
+      "question": "Under Section 33 of RA 9266, who owns the intellectual property and copyright of architectural plans and specifications?",
+      "options": {
+        "A": "The Client who commissioned the work",
+        "B": "The Local Building Official",
+        "C": "The Registered and Licensed Architect (RLA)",
+        "D": "The General Contractor"
+      },
+      "correct": "C",
+      "citation": "RA 9266 Sec. 33",
+      "trap": "The client owns only the physical paper copies; copyright remains with the architect."
+    },
+    {
+      "id": 13,
+      "category": "Building Laws: RA 9266 Architecture Act",
+      "question": "What is the criminal penalty under Section 44 of RA 9266 for unauthorized practice of architecture by an unlicensed individual?",
+      "options": {
+        "A": "Fine of P10,000 to P50,000",
+        "B": "Fine of P50,000 to P500,000",
+        "C": "Fine of P100,000 to P5,000,000, or 6 months to 6 years imprisonment (or both)",
+        "D": "Permanent disqualification only"
+      },
+      "correct": "C",
+      "citation": "RA 9266 Sec. 44",
+      "trap": "P100k to P5M and/or 6 months to 6 years imprisonment is the exact statutory penalty."
+    },
+    {
+      "id": 14,
+      "category": "Professional Practice: SPP 202",
+      "question": "In SPP 202 Regular Design Services, what cumulative percentage of the Basic Professional Fee is due to the architect upon completion and delivery of the Contract Documents Phase?",
+      "options": {
+        "A": "35%",
+        "B": "50%",
+        "C": "75%",
+        "D": "80%"
+      },
+      "correct": "C",
+      "citation": "SPP Document 202 Sec. 6",
+      "trap": "15% (SD) + 20% (DD) + 40% (CD) = 75% cumulative."
+    },
+    {
+      "id": 15,
+      "category": "Professional Practice: SPP 202",
+      "question": "What fee percentage is allocated to the Construction Administration (Phase 5) of SPP 202 Regular Design Services?",
+      "options": {
+        "A": "10%",
+        "B": "15%",
+        "C": "20%",
+        "D": "25%"
+      },
+      "correct": "C",
+      "citation": "SPP Document 202 Sec. 6",
+      "trap": "Bidding is 5%; Construction Administration is 20%."
+    },
+    {
+      "id": 16,
+      "category": "Professional Practice: SPP 207",
+      "question": "Under SPP 207, what is the standard professional fee for Design-Build Services on a Guaranteed Maximum Cost (GMC) basis?",
+      "options": {
+        "A": "5%",
+        "B": "7%",
+        "C": "10%",
+        "D": "15%"
+      },
+      "correct": "C",
+      "citation": "SPP Document 207",
+      "trap": "7% is for Design-Build by Administration; 10% is for Guaranteed Maximum Cost."
+    },
+    {
+      "id": 17,
+      "category": "Professional Practice: UAP Doc 301",
+      "question": "Under UAP Document 301, what is the standard contractor guarantee/defects liability period for materials and workmanship following final acceptance?",
+      "options": {
+        "A": "6 months",
+        "B": "1 year (12 months)",
+        "C": "2 years",
+        "D": "15 years"
+      },
+      "correct": "B",
+      "citation": "UAP Document 301 Sec. 31",
+      "trap": "Contractor warranty under UAP Doc 301 is 1 year; 15 years is civil liability under Civil Code Art. 1723."
+    },
+    {
+      "id": 18,
+      "category": "Building Laws: Civil Code Art. 1723",
+      "question": "Under Article 1723 of the Philippine Civil Code, what is the duration of civil liability for the Architect-of-Record if a building collapses due to defect in plans?",
+      "options": {
+        "A": "5 years",
+        "B": "10 years",
+        "C": "15 years",
+        "D": "25 years"
+      },
+      "correct": "C",
+      "citation": "Philippine Civil Code Art. 1723",
+      "trap": "15 years from completion of structure; prescriptive period to sue is 10 years from collapse."
+    },
+    {
+      "id": 19,
+      "category": "Professional Practice: CIAC",
+      "question": "Under Executive Order No. 1008, what tribunal holds original and exclusive jurisdiction over construction contract disputes in the Philippines?",
+      "options": {
+        "A": "Regional Trial Court (RTC)",
+        "B": "Court of Appeals (CA)",
+        "C": "Construction Industry Arbitration Commission (CIAC)",
+        "D": "PRBoA"
+      },
+      "correct": "C",
+      "citation": "Executive Order No. 1008 (CIAC Law)",
+      "trap": "CIAC arbitral awards are final and unappealable on questions of fact."
+    },
+    {
+      "id": 20,
+      "category": "Building Laws: RA 9266 Corporate Practice",
+      "question": "Under RA 9266 Section 34, what minimum percentage of ownership and voting stock in an architectural corporation must be held by Registered and Licensed Architects?",
+      "options": {
+        "A": "51%",
+        "B": "60%",
+        "C": "75%",
+        "D": "100%"
+      },
+      "correct": "C",
+      "citation": "RA 9266 Sec. 34",
+      "trap": "75% minimum RLA voting stock ownership is mandatory."
+    },
+    {
+      "id": 21,
+      "category": "Building Laws: PD 1067 Water Code",
+      "question": "Under Article 51 of PD 1067 (Water Code of the Philippines), what is the mandatory riverbank easement in urban areas?",
+      "options": {
+        "A": "3.00 meters",
+        "B": "5.00 meters",
+        "C": "20.00 meters",
+        "D": "40.00 meters"
+      },
+      "correct": "A",
+      "citation": "PD 1067 Art. 51",
+      "trap": "3.00 m for urban; 20.00 m for agricultural; 40.00 m for forest areas."
+    },
+    {
+      "id": 22,
+      "category": "Building Laws: PD 705 Forestry Code",
+      "question": "Under Section 15 of PD 705 (Revised Forestry Code), what is the statutory slope threshold above which lands are classified as non-alienable forest reserve?",
+      "options": {
+        "A": "12%",
+        "B": "15%",
+        "C": "18%",
+        "D": "25%"
+      },
+      "correct": "C",
+      "citation": "PD 705 Sec. 15",
+      "trap": "Lands 18% or steeper cannot be classified as alienable or disposable."
+    },
+    {
+      "id": 23,
+      "category": "Building Laws: RA 9514 Fire Code",
+      "question": "What is the maximum allowable dead-end corridor length in a building without an automatic sprinkler system under RA 9514?",
+      "options": {
+        "A": "3.00 m",
+        "B": "6.00 m (20 ft)",
+        "C": "12.00 m",
+        "D": "15.00 m"
+      },
+      "correct": "B",
+      "citation": "RA 9514 IRR Sec. 10.2.5.2",
+      "trap": "6.00 m without sprinklers; 15.00 m with approved sprinklers."
+    },
+    {
+      "id": 24,
+      "category": "Building Laws: RA 9514 Fire Code",
+      "question": "According to the Half-Diagonal Rule under RA 9514, what is the minimum straight-line separation distance between two required exits in an unsprinklered building with overall diagonal D?",
+      "options": {
+        "A": "D / 4",
+        "B": "D / 3",
+        "C": "D / 2",
+        "D": "D"
+      },
+      "correct": "C",
+      "citation": "RA 9514 IRR Sec. 10.2.5.2",
+      "trap": "D / 2 for unsprinklered; reduced to D / 3 for sprinklered buildings."
+    },
+    {
+      "id": 25,
+      "category": "Building Laws: RA 9514 Fire Code",
+      "question": "What maximum force may be required to release panic hardware on an exit door under RA 9514?",
+      "options": {
+        "A": "30 N",
+        "B": "50 N",
+        "C": "66 N (15 lbf)",
+        "D": "100 N"
+      },
+      "correct": "C",
+      "citation": "RA 9514 IRR Sec. 10.2.5.3",
+      "trap": "66 N (15 lbf) maximum operating push force."
+    },
+    {
+      "id": 26,
+      "category": "History of Architecture: Ancient Egypt",
+      "question": "Who designed the Step Pyramid of Djoser at Saqqara, historically recognized as the first named architect in recorded history?",
+      "options": {
+        "A": "Senenmut",
+        "B": "Imhotep",
+        "C": "Callimachus",
+        "D": "Ictinus"
+      },
+      "correct": "B",
+      "citation": "HOA 1 / Banister Fletcher",
+      "trap": "Senenmut designed Hatshepsut temple; Imhotep built the first stone pyramid (c. 2670 BCE)."
+    },
+    {
+      "id": 27,
+      "category": "History of Architecture: Classical Greece",
+      "question": "What optical refinement was incorporated into the stylobate platform of the Parthenon in Athens?",
+      "options": {
+        "A": "Downward slope for drainage",
+        "B": "Convex upward curvature (60mm on long sides)",
+        "C": "Zig-zag steps",
+        "D": "Elliptical perimeter"
+      },
+      "correct": "B",
+      "citation": "HOA 1 / Vitruvius",
+      "trap": "Upward curvature corrects the optical illusion of center sagging."
+    },
+    {
+      "id": 28,
+      "category": "History of Architecture: Classical Greece",
+      "question": "Which classical Greek order is characterized by a capital with spiral volute scrolls and a molded base?",
+      "options": {
+        "A": "Doric Order",
+        "B": "Ionic Order",
+        "C": "Corinthian Order",
+        "D": "Tuscan Order"
+      },
+      "correct": "B",
+      "citation": "HOA 1",
+      "trap": "Doric has no base; Corinthian has acanthus leaves; Ionic has volute scrolls."
+    },
+    {
+      "id": 29,
+      "category": "History of Architecture: Imperial Rome",
+      "question": "What is the interior diameter of the unreinforced concrete dome of the Roman Pantheon?",
+      "options": {
+        "A": "31.00 m",
+        "B": "38.00 m",
+        "C": "43.30 m (142 ft)",
+        "D": "50.00 m"
+      },
+      "correct": "C",
+      "citation": "HOA 1 / Roman Pantheon",
+      "trap": "43.30 m exactly equals the interior height, forming a perfect sphere."
+    },
+    {
+      "id": 30,
+      "category": "History of Architecture: Byzantine",
+      "question": "What structural masonry element enabled Byzantine architects to support the circular central dome of Hagia Sophia over a square bay?",
+      "options": {
+        "A": "Flying buttresses",
+        "B": "Pendentives",
+        "C": "Corbeled squinches",
+        "D": "Caryatids"
+      },
+      "correct": "B",
+      "citation": "HOA 1 / Hagia Sophia",
+      "trap": "Pendentives are spherical triangular vaults; squinches are diagonal corner arches."
+    },
+    {
+      "id": 31,
+      "category": "History of Architecture: High Gothic",
+      "question": "Which triad of structural innovations defines High Gothic architecture?",
+      "options": {
+        "A": "Semicircular arch, barrel vault, thick wall",
+        "B": "Pointed arch, ribbed groin vault, flying buttress",
+        "C": "Dome, pendentive, squinch",
+        "D": "Trabeated beam, entasis, stylobate"
+      },
+      "correct": "B",
+      "citation": "HOA 1 / Gothic Architecture",
+      "trap": "Pointed arches reduce lateral thrust, ribbed vaults concentrate loads, flying buttresses transfer forces outward."
+    },
+    {
+      "id": 32,
+      "category": "History of Architecture: High Gothic",
+      "question": "Which historic basilica is universally recognized as the birthplace of Gothic architecture under Abbot Suger?",
+      "options": {
+        "A": "Basilica of Saint-Denis",
+        "B": "Notre-Dame de Paris",
+        "C": "Chartres Cathedral",
+        "D": "Sainte-Chapelle"
+      },
+      "correct": "A",
+      "citation": "HOA 1 / Abbot Suger",
+      "trap": "Abbot Suger consecrated Saint-Denis choir in 1144 pioneering Lux Nova."
+    },
+    {
+      "id": 33,
+      "category": "Theory of Architecture: Ching Principles",
+      "question": "In Francis D.K. Ching's Theory of Architecture, what primary ordering principle describes a line, plane, or volume to which other elements in a composition can relate?",
+      "options": {
+        "A": "Axis",
+        "B": "Symmetry",
+        "C": "Hierarchy",
+        "D": "Datum"
+      },
+      "correct": "D",
+      "citation": "TOA / Ching Form, Space & Order",
+      "trap": "A datum organizes an irregular pattern of elements through regularity and continuity."
+    },
+    {
+      "id": 34,
+      "category": "Theory of Architecture: Vitruvian Triad",
+      "question": "What are the three fundamental qualities of architecture defined by Vitruvius in De Architectura?",
+      "options": {
+        "A": "Form, Function, Economy",
+        "B": "Firmitas, Utilitas, Venustas",
+        "C": "Proportion, Scale, Rhythm",
+        "D": "Space, Structure, Light"
+      },
+      "correct": "B",
+      "citation": "TOA / Vitruvius",
+      "trap": "Strength (Firmitas), Utility (Utilitas), and Beauty (Venustas)."
+    },
+    {
+      "id": 35,
+      "category": "History of Architecture: Philippine Colonial",
+      "question": "Which UNESCO World Heritage church in Manila is the oldest stone church in the Philippines, featuring earthquake-baroque barrel vaulting?",
+      "options": {
+        "A": "Manila Cathedral",
+        "B": "San Agustin Church (Intramuros)",
+        "C": "Paoay Church",
+        "D": "Miagao Church"
+      },
+      "correct": "B",
+      "citation": "HOA 4 / Philippine Architecture",
+      "trap": "San Agustin (Juan Macias, completed 1607) survived all major Philippine earthquakes."
+    },
+    {
+      "id": 36,
+      "category": "Site Planning: Slope Calculation",
+      "question": "A terrain rises 4.00 meters vertically across a horizontal run of 80.00 meters. What is the slope percentage?",
+      "options": {
+        "A": "2.5%",
+        "B": "5.0%",
+        "C": "7.5%",
+        "D": "10.0%"
+      },
+      "correct": "B",
+      "citation": "PLAN 1 / Slope Mechanics",
+      "trap": "Slope S = (Rise / Run) x 100% = (4 / 80) x 100% = 5.0%."
+    },
+    {
+      "id": 37,
+      "category": "Site Planning: Stormwater Hydrology",
+      "question": "In the Rational Method formula Q = (C * I * A) / 360, what is the unit of runoff discharge Q when rainfall intensity I is in mm/hr and area A is in hectares?",
+      "options": {
+        "A": "Liters per hour",
+        "B": "Gallons per minute",
+        "C": "Cubic meters per second (m\u00b3/s)",
+        "D": "Cubic feet per second"
+      },
+      "correct": "C",
+      "citation": "PLAN 1 / Hydrology",
+      "trap": "In metric Rational Formula with 360 denominator, Q is in cubic meters per second (m\u00b3/s)."
+    },
+    {
+      "id": 38,
+      "category": "Site Planning: Theory",
+      "question": "Who pioneered the layer-cake environmental overlay method in his 1969 book \"Design with Nature\", establishing the basis for modern GIS site planning?",
+      "options": {
+        "A": "Kevin Lynch",
+        "B": "Ian McHarg",
+        "C": "Ebenezer Howard",
+        "D": "Jane Jacobs"
+      },
+      "correct": "B",
+      "citation": "PLAN 1 / Ecological Planning",
+      "trap": "Ian McHarg pioneered the ecological layer-cake method."
+    },
+    {
+      "id": 39,
+      "category": "Site Planning: Retaining Walls",
+      "question": "What is the primary function of weep holes installed in structural concrete retaining walls?",
+      "options": {
+        "A": "Reduce concrete volume",
+        "B": "Relieve hydrostatic water pressure behind the wall",
+        "C": "Ventilate soil",
+        "D": "Allow plant roots"
+      },
+      "correct": "B",
+      "citation": "PLAN 1 / Earthworks",
+      "trap": "Weep holes prevent hydrostatic water pressure buildup, the #1 cause of retaining wall failure."
+    },
+    {
+      "id": 40,
+      "category": "Site Planning: Cut-and-Fill",
+      "question": "What is the earthwork volume by the End-Area method for a 50-meter trench with cross-sectional areas A1 = 10.0 sqm and A2 = 20.0 sqm?",
+      "options": {
+        "A": "500 m\u00b3",
+        "B": "750 m\u00b3",
+        "C": "1,000 m\u00b3",
+        "D": "1,500 m\u00b3"
+      },
+      "correct": "B",
+      "citation": "PLAN 1 / Earthworks",
+      "trap": "V = ((10 + 20) / 2) x 50 = 15 x 50 = 750 m\u00b3."
+    },
+    {
+      "id": 41,
+      "category": "Building Technology: Concrete",
+      "question": "What is the standard water-cement ratio by weight for Class A structural concrete (3,000 psi)?",
+      "options": {
+        "A": "0.25 to 0.35",
+        "B": "0.45 to 0.55",
+        "C": "0.65 to 0.75",
+        "D": "0.80 to 0.90"
+      },
+      "correct": "B",
+      "citation": "BT 3 / Concrete Technology",
+      "trap": "0.45-0.55 provides optimal workability and 28-day compressive strength without excessive porosity."
+    },
+    {
+      "id": 42,
+      "category": "Building Technology: Prestressed Concrete",
+      "question": "What is the minimum concrete compressive strength (f'ci) required before transferring post-tensioning prestress forces per ACI 318?",
+      "options": {
+        "A": "15.0 MPa",
+        "B": "20.5 MPa (3,000 psi)",
+        "C": "27.6 MPa (4,000 psi)",
+        "D": "35.0 MPa"
+      },
+      "correct": "B",
+      "citation": "ACI 318 / NSCP 2015 Sec. 418",
+      "trap": "20.5 MPa (3,000 psi) is the statutory minimum transfer strength."
+    },
+    {
+      "id": 43,
+      "category": "Building Technology: Prestressing Loss",
+      "question": "Which of the following is an immediate (elastic) loss of prestress in post-tensioned members?",
+      "options": {
+        "A": "Concrete creep",
+        "B": "Concrete shrinkage",
+        "C": "Friction and Anchorage slip",
+        "D": "Steel relaxation"
+      },
+      "correct": "C",
+      "citation": "BT 3 / Prestressed Concrete",
+      "trap": "Friction and wedge anchorage slip occur immediately during jacking; creep/shrinkage/relaxation are time-dependent."
+    },
+    {
+      "id": 44,
+      "category": "Building Technology: Timber Joinery",
+      "question": "Which timber wood joint is strongest for resisting longitudinal tensile pull along a spliced beam?",
+      "options": {
+        "A": "Lap joint",
+        "B": "Scarf joint with key/bolts",
+        "C": "Butt joint",
+        "D": "Miter joint"
+      },
+      "correct": "B",
+      "citation": "BT 1 / Wood Construction",
+      "trap": "A keyed/bolted scarf joint transfers tension across the spliced timber cross-section."
+    },
+    {
+      "id": 45,
+      "category": "Building Technology: Masonry CHB",
+      "question": "In Philippine construction practice, what is the nominal thickness of a non-load-bearing interior Concrete Hollow Block (CHB) partition?",
+      "options": {
+        "A": "50 mm (2 in)",
+        "B": "100 mm (4 in)",
+        "C": "150 mm (6 in)",
+        "D": "200 mm (8 in)"
+      },
+      "correct": "B",
+      "citation": "BT 1 / Masonry",
+      "trap": "100 mm (4 in) is for interior partitions; 150 mm (6 in) is for exterior walls."
+    },
+    {
+      "id": 46,
+      "category": "Building Technology: Steel",
+      "question": "In structural steel designations such as W 310 x 38.7, what does the number \"38.7\" represent?",
+      "options": {
+        "A": "Nominal depth in mm",
+        "B": "Flange width in mm",
+        "C": "Nominal mass in kilograms per meter (kg/m)",
+        "D": "Yield strength in MPa"
+      },
+      "correct": "C",
+      "citation": "AISC / BT 3",
+      "trap": "310 is nominal depth in mm; 38.7 is weight/mass in kg/m."
+    },
+    {
+      "id": 47,
+      "category": "Building Technology: Curtain Walls",
+      "question": "In high-rise curtain wall engineering, what design principle uses an equalized air pressure chamber to prevent wind-driven rainwater penetration?",
+      "options": {
+        "A": "Face-sealed barrier",
+        "B": "Rainscreen Pressure-Equalization Principle",
+        "C": "Structural silicone sealant",
+        "D": "Double glazing vacuum"
+      },
+      "correct": "B",
+      "citation": "BT 4 / Curtain Walls",
+      "trap": "The rainscreen principle neutralizes air pressure difference across the outer facade."
+    },
+    {
+      "id": 48,
+      "category": "Building Technology: Waterproofing",
+      "question": "Which waterproofing system is most recommended for exposed concrete roof decks subject to extreme tropical UV and thermal movement in the Philippines?",
+      "options": {
+        "A": "Integral waterproofing powder",
+        "B": "Multi-ply torch-applied elastomeric bituminous membrane",
+        "C": "Cementitious slurry paint",
+        "D": "Asphalt prime coat"
+      },
+      "correct": "B",
+      "citation": "BT 2 / Waterproofing",
+      "trap": "Torch-applied elastomeric SBS membranes accommodate concrete thermal expansion and contraction."
+    },
+    {
+      "id": 49,
+      "category": "Building Technology: Glass",
+      "question": "What type of safety glass breaks into small, relatively harmless granular cubes rather than jagged shards upon impact?",
+      "options": {
+        "A": "Annealed float glass",
+        "B": "Fully Tempered glass",
+        "C": "Laminated glass",
+        "D": "Wired glass"
+      },
+      "correct": "B",
+      "citation": "BT 2 / Glass Systems",
+      "trap": "Tempered glass shatters into blunt granular cubes due to surface compressive prestress."
+    },
+    {
+      "id": 50,
+      "category": "Building Technology: Paints",
+      "question": "What type of paint base is standardly used for exterior masonry concrete walls in the Philippines due to its alkali resistance and water-thinned breathability?",
+      "options": {
+        "A": "Oil-based alkyd enamel",
+        "B": "100% Acrylic latex paint",
+        "C": "Lacquer",
+        "D": "Epoxy resin"
+      },
+      "correct": "B",
+      "citation": "BT 1 / Paints",
+      "trap": "Acrylic latex is water-based, alkali-resistant, and allows concrete moisture vapor to escape."
+    },
+    {
+      "id": 51,
+      "category": "Building Technology: Deep Foundations",
+      "question": "When building on soft saturated soil with bedrock 25 meters deep, which foundation system transfers building loads via end-bearing and skin friction?",
+      "options": {
+        "A": "Isolated spread footing",
+        "B": "Mat / Raft foundation",
+        "C": "Cast-in-place drilled bored piles",
+        "D": "Wall footing"
+      },
+      "correct": "C",
+      "citation": "BT 2 / Deep Foundations",
+      "trap": "Bored piles penetrate soft strata to transfer massive column loads to deep bedrock."
+    },
+    {
+      "id": 52,
+      "category": "Building Technology: Moisture Control",
+      "question": "Where should a polyethylene vapor barrier be installed in a concrete slab-on-ground construction?",
+      "options": {
+        "A": "On top of the tile finish",
+        "B": "Between the compacted gravel bed and the concrete slab",
+        "C": "Inside the ceiling plenum",
+        "D": "Above the reinforcement rebar"
+      },
+      "correct": "B",
+      "citation": "BT 2 / Slabs",
+      "trap": "Placing vapor barrier beneath the slab prevents subsoil moisture from rising into floor finishes."
+    },
+    {
+      "id": 53,
+      "category": "Building Utilities: HVAC",
+      "question": "What is the cooling capacity equivalent of 1 Ton of Refrigeration (TR) in BTU/hr and Kilowatts?",
+      "options": {
+        "A": "6,000 BTU/hr (1.75 kW)",
+        "B": "12,000 BTU/hr (3.517 kW)",
+        "C": "18,000 BTU/hr (5.27 kW)",
+        "D": "24,000 BTU/hr (7.03 kW)"
+      },
+      "correct": "B",
+      "citation": "BU 3 / ASHRAE Standards",
+      "trap": "1 TR = 12,000 BTU/hr = 3.517 kW of heat extraction rate."
+    },
+    {
+      "id": 54,
+      "category": "Building Utilities: Acoustics",
+      "question": "Using Sabine's metric formula (RT60 = 0.161 V / A), what is the reverberation time for a 1,000 m\u00b3 hall with total absorption A = 161 metric sabins?",
+      "options": {
+        "A": "0.50 seconds",
+        "B": "1.00 second",
+        "C": "1.61 seconds",
+        "D": "2.00 seconds"
+      },
+      "correct": "B",
+      "citation": "BU 3 / Sabine Acoustics",
+      "trap": "RT60 = (0.161 x 1,000) / 161 = 161 / 161 = 1.00 second."
+    },
+    {
+      "id": 55,
+      "category": "Building Utilities: Electrical PEC",
+      "question": "Under the Philippine Electrical Code (PEC 2017), what is the standard nominal single-phase voltage in the Philippines?",
+      "options": {
+        "A": "110 V / 50 Hz",
+        "B": "120 V / 60 Hz",
+        "C": "220 V / 50 Hz",
+        "D": "230 V / 60 Hz"
+      },
+      "correct": "D",
+      "citation": "PEC 2017 Part 1",
+      "trap": "230V / 60Hz is the official standard nominal voltage in the Philippines."
+    },
+    {
+      "id": 56,
+      "category": "Building Utilities: Electrical PEC",
+      "question": "What is the minimum conductor size permitted for a standard 20-Ampere branch circuit using copper wire under PEC?",
+      "options": {
+        "A": "1.25 mm\u00b2",
+        "B": "2.0 mm\u00b2 (#14 AWG)",
+        "C": "3.5 mm\u00b2 (#12 AWG)",
+        "D": "5.5 mm\u00b2 (#10 AWG)"
+      },
+      "correct": "C",
+      "citation": "PEC 2017 Table 3.10.2.6",
+      "trap": "3.5 mm\u00b2 (#12 AWG) is mandatory for 20A; 2.0 mm\u00b2 is capped at 15A."
+    },
+    {
+      "id": 57,
+      "category": "Building Utilities: Electrical PEC",
+      "question": "What is the maximum allowable voltage drop on an electrical branch circuit under the Philippine Electrical Code?",
+      "options": {
+        "A": "1%",
+        "B": "3%",
+        "C": "5%",
+        "D": "8%"
+      },
+      "correct": "B",
+      "citation": "PEC 2017 Sec. 2.10.1.19",
+      "trap": "3% max on branch circuits; 5% total combined feeder + branch."
+    },
+    {
+      "id": 58,
+      "category": "Building Utilities: Lighting Design",
+      "question": "An architectural studio measuring 100 sqm requires 500 Lux. Using luminaires of 5,000 lumens with CU = 0.60 and LLF = 0.80, how many fixtures are needed?",
+      "options": {
+        "A": "12 fixtures",
+        "B": "18 fixtures",
+        "C": "21 fixtures",
+        "D": "26 fixtures"
+      },
+      "correct": "C",
+      "citation": "BU 2 / Lumen Method",
+      "trap": "N = (500 x 100) / (5,000 x 0.60 x 0.80) = 50,000 / 2,400 = 20.83 -> 21 fixtures."
+    },
+    {
+      "id": 59,
+      "category": "Building Utilities: FDAS",
+      "question": "What is the maximum statutory coverage radius for a photoelectric smoke detector on a flat smooth ceiling under NFPA 72 and RA 9514?",
+      "options": {
+        "A": "4.50 m",
+        "B": "6.00 m",
+        "C": "9.00 m (30 ft)",
+        "D": "12.00 m"
+      },
+      "correct": "C",
+      "citation": "NFPA 72 / RA 9514",
+      "trap": "9.00 m radius provides 80.00 sqm coverage area per smoke detector."
+    },
+    {
+      "id": 60,
+      "category": "Building Utilities: FDAS Emergency Power",
+      "question": "Within how many seconds must an emergency standby generator start and transfer life safety power through an Automatic Transfer Switch (ATS)?",
+      "options": {
+        "A": "10 seconds or less",
+        "B": "30 seconds",
+        "C": "60 seconds",
+        "D": "2 minutes"
+      },
+      "correct": "A",
+      "citation": "RA 9514 / NFPA 110",
+      "trap": "10 seconds maximum start and transfer time for emergency life safety loads."
+    },
+    {
+      "id": 61,
+      "category": "Building Utilities: Plumbing",
+      "question": "Under the Revised National Plumbing Code of the Philippines (NPCP), what is the minimum slope required for horizontal building drainage pipes 100 mm (4 in) and smaller?",
+      "options": {
+        "A": "0.5% (1:200)",
+        "B": "1.0% (1:100)",
+        "C": "2.0% (1:50 / 1/4 in per ft)",
+        "D": "4.0% (1:25)"
+      },
+      "correct": "C",
+      "citation": "NPCP / Plumbing Code",
+      "trap": "2.0% (1:50) is the standard self-scouring minimum slope for 100 mm drains."
+    },
+    {
+      "id": 62,
+      "category": "Building Utilities: Plumbing Septic Tanks",
+      "question": "In a 2-chamber septic tank, what percentage of the total liquid capacity must be allocated to the digestion (primary) chamber?",
+      "options": {
+        "A": "33% (1/3)",
+        "B": "50% (1/2)",
+        "C": "66.7% (2/3)",
+        "D": "80%"
+      },
+      "correct": "C",
+      "citation": "NPCP / Sanitation Code",
+      "trap": "Primary digestion chamber must hold 2/3 of total capacity; secondary leaching chamber holds 1/3."
+    },
+    {
+      "id": 63,
+      "category": "Building Utilities: Elevators",
+      "question": "What is the standard maximum car speed for passenger traction elevators in low-to-midrise buildings (4-10 storeys)?",
+      "options": {
+        "A": "0.50 to 0.75 m/s",
+        "B": "1.00 to 1.75 m/s",
+        "C": "2.50 to 4.00 m/s",
+        "D": "6.00 to 8.00 m/s"
+      },
+      "correct": "B",
+      "citation": "BU 3 / Vertical Transportation",
+      "trap": "1.00-1.75 m/s is standard for midrise; high-rise gearless elevators exceed 2.5-6.0 m/s."
+    },
+    {
+      "id": 64,
+      "category": "Building Utilities: Acoustics",
+      "question": "Which acoustic metric measures the ability of a partition wall to block airborne sound transmission between adjacent rooms?",
+      "options": {
+        "A": "Noise Reduction Coefficient (NRC)",
+        "B": "Sound Transmission Class (STC)",
+        "C": "Reverberation Time (RT60)",
+        "D": "Decibel A-weighting (dBA)"
+      },
+      "correct": "B",
+      "citation": "BU 3 / Architectural Acoustics",
+      "trap": "STC measures transmission loss through walls; NRC measures surface absorption."
+    },
+    {
+      "id": 65,
+      "category": "Structural Studies: Beam Moments",
+      "question": "What is the maximum bending moment for a simply supported beam of span L = 6.00 m carrying a uniformly distributed load of w = 20.00 kN/m?",
+      "options": {
+        "A": "45.00 kN\u00b7m",
+        "B": "60.00 kN\u00b7m",
+        "C": "90.00 kN\u00b7m",
+        "D": "180.00 kN\u00b7m"
+      },
+      "correct": "C",
+      "citation": "STRUC 1 / Statics",
+      "trap": "Mmax = wL\u00b2/8 = (20 x 36) / 8 = 720 / 8 = 90.00 kN\u00b7m at midspan."
+    },
+    {
+      "id": 66,
+      "category": "Structural Studies: Beam Moments",
+      "question": "What is the maximum bending moment for a simply supported beam of span L = 8.00 m carrying a center concentrated load P = 50.00 kN?",
+      "options": {
+        "A": "50.00 kN\u00b7m",
+        "B": "100.00 kN\u00b7m",
+        "C": "200.00 kN\u00b7m",
+        "D": "400.00 kN\u00b7m"
+      },
+      "correct": "B",
+      "citation": "STRUC 1 / Statics",
+      "trap": "Mmax = PL/4 = (50 x 8) / 4 = 400 / 4 = 100.00 kN\u00b7m."
+    },
+    {
+      "id": 67,
+      "category": "Structural Studies: Cantilever Moments",
+      "question": "What is the maximum bending moment in a cantilever beam of span L = 3.00 m carrying a uniform load w = 12.00 kN/m?",
+      "options": {
+        "A": "-18.00 kN\u00b7m",
+        "B": "-36.00 kN\u00b7m",
+        "C": "-54.00 kN\u00b7m",
+        "D": "-108.00 kN\u00b7m"
+      },
+      "correct": "C",
+      "citation": "STRUC 1 / Statics",
+      "trap": "Mmax = -wL\u00b2/2 = -(12 x 9) / 2 = -54.00 kN\u00b7m at fixed support."
+    },
+    {
+      "id": 68,
+      "category": "Structural Studies: Section Properties",
+      "question": "What is the Section Modulus (S) of a rectangular beam with width b = 200 mm and depth h = 400 mm?",
+      "options": {
+        "A": "2.67 x 10\u2076 mm\u00b3",
+        "B": "5.33 x 10\u2076 mm\u00b3",
+        "C": "10.67 x 10\u2076 mm\u00b3",
+        "D": "16.00 x 10\u2076 mm\u00b3"
+      },
+      "correct": "B",
+      "citation": "STRUC 2 / Strength of Materials",
+      "trap": "S = bh\u00b2/6 = (200 x 400\u00b2) / 6 = (200 x 160,000) / 6 = 5,333,333 mm\u00b3 = 5.33 x 10\u2076 mm\u00b3."
+    },
+    {
+      "id": 69,
+      "category": "Structural Studies: Flexural Stress",
+      "question": "A beam with S = 2.0 x 10\u2076 mm\u00b3 resists a maximum bending moment M = 80.00 kN\u00b7m. What is the maximum bending stress?",
+      "options": {
+        "A": "20.00 MPa",
+        "B": "40.00 MPa",
+        "C": "80.00 MPa",
+        "D": "160.00 MPa"
+      },
+      "correct": "B",
+      "citation": "STRUC 2 / Flexure Formula",
+      "trap": "\u03c3 = M/S = (80 x 10\u2076 N\u00b7mm) / (2.0 x 10\u2076 mm\u00b3) = 40.00 MPa."
+    },
+    {
+      "id": 70,
+      "category": "Structural Studies: Trusses",
+      "question": "In a planar truss, if two non-collinear members meet at an unloaded joint with no support reactions, what are the member forces?",
+      "options": {
+        "A": "Equal tension",
+        "B": "Equal compression",
+        "C": "Both are zero-force members",
+        "D": "Indeterminate"
+      },
+      "correct": "C",
+      "citation": "STRUC 1 / Truss Analysis",
+      "trap": "By static equilibrium at the 2-member unloaded joint, both members carry zero force."
+    },
+    {
+      "id": 71,
+      "category": "Structural Studies: Moment Distribution",
+      "question": "What is the Fixed-End Moment (FEM) at the supports of a fixed-ended beam of span L = 6.00 m with uniform load w = 18.00 kN/m?",
+      "options": {
+        "A": "\u00b1 27.00 kN\u00b7m",
+        "B": "\u00b1 54.00 kN\u00b7m",
+        "C": "\u00b1 81.00 kN\u00b7m",
+        "D": "\u00b1 108.00 kN\u00b7m"
+      },
+      "correct": "B",
+      "citation": "STRUC 3 / Hardy Cross",
+      "trap": "FEM = \u00b1 wL\u00b2/12 = \u00b1 (18 x 36) / 12 = \u00b1 54.00 kN\u00b7m."
+    },
+    {
+      "id": 72,
+      "category": "Structural Studies: Moment Distribution",
+      "question": "In the Moment Distribution Method, what is the modified stiffness K' of a beam member whose far end is pinned/roller?",
+      "options": {
+        "A": "K' = 1/2 K",
+        "B": "K' = 3/4 K (3EI/L)",
+        "C": "K' = 4/3 K",
+        "D": "K' = K"
+      },
+      "correct": "B",
+      "citation": "STRUC 3 / Hardy Cross",
+      "trap": "Pinned far end stiffness is 3EI/L = 3/4 of fixed stiffness 4EI/L."
+    },
+    {
+      "id": 73,
+      "category": "Structural Studies: Moment Distribution",
+      "question": "What is the Distribution Factor (DF) for an interior joint connecting member BA (K=3) and member BC (K=5)?",
+      "options": {
+        "A": "DF_BA = 0.375, DF_BC = 0.625",
+        "B": "DF_BA = 0.500, DF_BC = 0.500",
+        "C": "DF_BA = 0.600, DF_BC = 0.400",
+        "D": "DF_BA = 0.750, DF_BC = 0.250"
+      },
+      "correct": "A",
+      "citation": "STRUC 3 / Hardy Cross",
+      "trap": "DF_BA = 3 / (3 + 5) = 3/8 = 0.375; DF_BC = 5/8 = 0.625."
+    },
+    {
+      "id": 74,
+      "category": "Structural Studies: RCD Beams",
+      "question": "Under NSCP 2015, what is the strength reduction factor (phi) for tension-controlled flexural reinforced concrete members?",
+      "options": {
+        "A": "0.65",
+        "B": "0.75",
+        "C": "0.90",
+        "D": "1.00"
+      },
+      "correct": "C",
+      "citation": "NSCP 2015 Sec. 421.2",
+      "trap": "0.90 is the flexural reduction factor for ductile tension-controlled beams; 0.65 is for tied columns."
+    },
+    {
+      "id": 75,
+      "category": "Structural Studies: Load Combinations",
+      "question": "What is the primary ultimate gravity load combination factor under NSCP 2015 / ACI 318?",
+      "options": {
+        "A": "1.4 D + 1.7 L",
+        "B": "1.2 D + 1.6 L",
+        "C": "1.0 D + 1.0 L",
+        "D": "0.9 D + 1.3 W"
+      },
+      "correct": "B",
+      "citation": "NSCP 2015 Sec. 203",
+      "trap": "1.2D + 1.6L is standard in NSCP 2015; 1.4D + 1.7L was older ACI 318-99 code."
+    },
+    {
+      "id": 76,
+      "category": "Design Studio: Space Programming",
+      "question": "In space programming for hospital and medical facilities, what standard circulation multiplier (Cm) is typically added to Net Floor Area?",
+      "options": {
+        "A": "+15% to 20%",
+        "B": "+20% to 25%",
+        "C": "+25% to 30%",
+        "D": "+35% to 45%"
+      },
+      "correct": "D",
+      "citation": "AD 5 / Space Programming",
+      "trap": "Hospitals require +35% to +45% due to 2.44m stretcher corridors, airlocks, and sterile chases."
+    },
+    {
+      "id": 77,
+      "category": "Design Studio: Orientation",
+      "question": "In Philippine tropical architecture, why is orienting a building with its long axis along the East-West line recommended?",
+      "options": {
+        "A": "To maximize earthquake resistance",
+        "B": "To face the primary road right-of-way",
+        "C": "To minimize direct solar heat gain on large wall expanses while maximizing North-South daylighting",
+        "D": "To prevent wind from entering"
+      },
+      "correct": "C",
+      "citation": "AD 5 / Tropical Architecture",
+      "trap": "East-West axis orientation keeps major glazed facades facing North and South for glare-free light."
+    },
+    {
+      "id": 78,
+      "category": "Design Studio: Service Core",
+      "question": "Why are service cores (restrooms, stairwells, elevator banks) ideally situated on the Western fa\u00e7ade of tropical buildings?",
+      "options": {
+        "A": "To give elevators sunset views",
+        "B": "To act as a thermal buffer zone absorbing harsh afternoon solar heat gain",
+        "C": "To comply with Feng Shui",
+        "D": "To reduce plumbing pipe costs"
+      },
+      "correct": "B",
+      "citation": "AD 5 / Tropical Passive Design",
+      "trap": "Placing non-habitable buffer rooms on the west shields interior workspaces from 13:00-16:00 heat."
+    },
+    {
+      "id": 79,
+      "category": "Design Studio: Adjacencies",
+      "question": "In an adjacency matrix, what is the required relationship between a sterile surgical suite and a general public visitor lobby?",
+      "options": {
+        "A": "Direct Adjacency",
+        "B": "Convenient Adjacency",
+        "C": "Neutral",
+        "D": "Incompatible / Strictly Segregated"
+      },
+      "correct": "D",
+      "citation": "AD 5 / Hospital Programming",
+      "trap": "Public circulation must never cross sterile hospital corridors to prevent contamination."
+    },
+    {
+      "id": 80,
+      "category": "Design Studio: Core Typology",
+      "question": "Which service core typology provides the most symmetrical torsional stiffness for high-rise seismic resistance?",
+      "options": {
+        "A": "Central Core",
+        "B": "Single Edge Core",
+        "C": "Detached Core",
+        "D": "Corner Core"
+      },
+      "correct": "A",
+      "citation": "AD 5 / Core Typologies",
+      "trap": "A central shear core provides balanced stiffness and short walking distances to all perimeters."
+    },
+    {
+      "id": 81,
+      "category": "Design Studio: Circulation",
+      "question": "What is the primary spatial efficiency advantage of a double-loaded corridor over a single-loaded corridor?",
+      "options": {
+        "A": "Better natural cross-ventilation",
+        "B": "One central circulation spine serves functional rooms on both sides, minimizing circulation area percentage",
+        "C": "Eliminates fire exits",
+        "D": "Cheaper doors"
+      },
+      "correct": "B",
+      "citation": "AD 5 / Space Efficiency",
+      "trap": "Double-loaded corridors maximize usable area per meter of corridor length."
+    },
+    {
+      "id": 82,
+      "category": "Design Studio: Space Programming",
+      "question": "A project brief lists 600 sqm of net functional office rooms. Applying a +25% circulation factor, what is the resulting Gross Floor Area (GFA)?",
+      "options": {
+        "A": "675 sqm",
+        "B": "750 sqm",
+        "C": "800 sqm",
+        "D": "850 sqm"
+      },
+      "correct": "B",
+      "citation": "AD 5 / Space Math",
+      "trap": "GFA = 600 x (1 + 0.25) = 600 x 1.25 = 750 sqm."
+    },
+    {
+      "id": 83,
+      "category": "Design Studio: Hospital Corridors",
+      "question": "What is the minimum clear corridor width for patient-occupied hospital wings under RA 9514 and BP 344?",
+      "options": {
+        "A": "1.12 m",
+        "B": "1.50 m",
+        "C": "1.83 m",
+        "D": "2.44 m (8 ft)"
+      },
+      "correct": "D",
+      "citation": "RA 9514 / BP 344",
+      "trap": "2.44 m (8 ft) allows two hospital gurneys to pass during emergency evacuation."
+    },
+    {
+      "id": 84,
+      "category": "Design Studio: Diagramming",
+      "question": "Which diagrammatic drawing translates tabular adjacency matrices into proportional spatial clusters and circulation flow vectors?",
+      "options": {
+        "A": "Gantt Chart",
+        "B": "Bubble Diagram",
+        "C": "Reflected Ceiling Plan",
+        "D": "Elevation Section"
+      },
+      "correct": "B",
+      "citation": "AD 5 / Design Process",
+      "trap": "Bubble diagrams represent functional topological connections before drafting rigid walls."
+    },
+    {
+      "id": 85,
+      "category": "Design Studio: Vertical Stacking",
+      "question": "In a multi-level commercial building, where should heavy public traffic functions like pharmacy and emergency triage be located?",
+      "options": {
+        "A": "Top executive floor",
+        "B": "Basement parking only",
+        "C": "Ground floor with direct exterior street access",
+        "D": "Mezzanine level"
+      },
+      "correct": "C",
+      "citation": "AD 5 / Vertical Stacking",
+      "trap": "High-volume public and emergency services must occupy the ground floor for immediate access."
+    },
+    {
+      "id": 86,
+      "category": "Integrated Scenario: Zoning & AMBF",
+      "question": "A commercial lot measures 20.00 m wide by 30.00 m deep (TLA = 600 sqm) in a C-2 zone with PSO = 75%. What is the Allowable Maximum Building Footprint (AMBF)?",
+      "options": {
+        "A": "300 sqm",
+        "B": "400 sqm",
+        "C": "450 sqm",
+        "D": "500 sqm"
+      },
+      "correct": "C",
+      "citation": "PD 1096 Table VII.1",
+      "trap": "AMBF = TLA x PSO = 600 x 0.75 = 450.00 sqm."
+    },
+    {
+      "id": 87,
+      "category": "Integrated Scenario: Fire Code Egress Width",
+      "question": "A 4-storey commercial building has an occupant load of 600 persons on the 3rd floor in an unsprinklered building. What is the total required stair egress width?",
+      "options": {
+        "A": "2.28 m",
+        "B": "3.00 m",
+        "C": "4.56 m",
+        "D": "6.00 m"
+      },
+      "correct": "C",
+      "citation": "RA 9514 Sec. 10.2.5.2",
+      "trap": "W = 600 persons x 7.6 mm/person = 4,560 mm = 4.56 m."
+    },
+    {
+      "id": 88,
+      "category": "Integrated Scenario: BP 344 Ramp Design",
+      "question": "A building entrance is elevated 1.50 m above sidewalk grade. At the maximum statutory slope of 1:12, what is the minimum total sloped ramp run length required?",
+      "options": {
+        "A": "12.00 m",
+        "B": "15.00 m",
+        "C": "18.00 m",
+        "D": "24.00 m"
+      },
+      "correct": "C",
+      "citation": "BP 344 Rule II Sec. 2",
+      "trap": "Run L = Height x 12 = 1.50 x 12 = 18.00 m (divided into three 6.00m runs with intermediate landings)."
+    },
+    {
+      "id": 89,
+      "category": "Integrated Scenario: Parking Ratio",
+      "question": "A commercial shopping center has 250 standard parking slots. How many accessible parking slots are required under BP 344?",
+      "options": {
+        "A": "4 slots",
+        "B": "6 slots",
+        "C": "7 slots",
+        "D": "10 slots"
+      },
+      "correct": "C",
+      "citation": "BP 344 Rule II Sec. 1",
+      "trap": "First 100 slots require 4 accessible slots; remaining 150 require ceil(150/50) = 3 -> Total = 4 + 3 = 7 slots."
+    },
+    {
+      "id": 90,
+      "category": "Integrated Scenario: SPP 202 Fee Schedule",
+      "question": "A project has an agreed Basic Professional Fee (BPF) of P5,000,000. How much cumulative fee is payable upon completion of the Schematic Design Phase (Phase 1)?",
+      "options": {
+        "A": "P250,000",
+        "B": "P500,000",
+        "C": "P750,000 (15%)",
+        "D": "P1,000,000"
+      },
+      "correct": "C",
+      "citation": "SPP 202 Sec. 6",
+      "trap": "Phase 1 Schematic Design fee is 15% = P5,000,000 x 0.15 = P750,000."
+    },
+    {
+      "id": 91,
+      "category": "Integrated Scenario: Structural Beam Reactions",
+      "question": "A simply supported beam of span L = 6.00 m carries a point load P = 40 kN at 2.00 m from left support A. What is the reaction at support A?",
+      "options": {
+        "A": "13.33 kN",
+        "B": "20.00 kN",
+        "C": "26.67 kN",
+        "D": "40.00 kN"
+      },
+      "correct": "C",
+      "citation": "STRUC 1 / Statics",
+      "trap": "RA = P x b / L = (40 x 4.00) / 6.00 = 160 / 6 = 26.67 kN."
+    },
+    {
+      "id": 92,
+      "category": "Integrated Scenario: Electrical Power Current",
+      "question": "A 230V single-phase air conditioning unit has a rated load of 3,450 Watts with PF = 1.0. What is the operating current?",
+      "options": {
+        "A": "10 Amperes",
+        "B": "15 Amperes",
+        "C": "20 Amperes",
+        "D": "25 Amperes"
+      },
+      "correct": "B",
+      "citation": "PEC 2017 / Power Math",
+      "trap": "I = P / V = 3,450 / 230 = 15.00 Amperes."
+    },
+    {
+      "id": 93,
+      "category": "Integrated Scenario: Acoustic Reverberation",
+      "question": "What happens to the reverberation time (RT60) of a lecture hall if total room absorption (A) is doubled while room volume remains unchanged?",
+      "options": {
+        "A": "RT60 is doubled",
+        "B": "RT60 is halved (reduced by 50%)",
+        "C": "RT60 remains constant",
+        "D": "RT60 quadruples"
+      },
+      "correct": "B",
+      "citation": "BU 3 / Sabine Formula",
+      "trap": "Sabine formula RT60 = 0.161 V / A is inversely proportional to absorption."
+    },
+    {
+      "id": 94,
+      "category": "Integrated Scenario: Fire Code Door Swing",
+      "question": "Under RA 9514, what occupant load threshold mandates that room exit doors MUST swing in the direction of exit travel (outward)?",
+      "options": {
+        "A": "10 occupants",
+        "B": "20 occupants",
+        "C": "50 occupants or more",
+        "D": "100 occupants"
+      },
+      "correct": "C",
+      "citation": "RA 9514 IRR Sec. 10.2.5.3",
+      "trap": "Any room serving 50 or more occupants must have outward-swinging doors."
+    },
+    {
+      "id": 95,
+      "category": "Integrated Scenario: Prestressing Strand",
+      "question": "What is the nominal ultimate tensile strength (fpu) of standard 7-wire low-relaxation prestressing steel strand (Grade 270)?",
+      "options": {
+        "A": "275 MPa (40 ksi)",
+        "B": "414 MPa (60 ksi)",
+        "C": "1,860 MPa (270 ksi)",
+        "D": "2,400 MPa"
+      },
+      "correct": "C",
+      "citation": "ASTM A416 / BT 3",
+      "trap": "Grade 270 prestressing strand has an ultimate tensile strength of 1,860 MPa (270,000 psi)."
+    },
+    {
+      "id": 96,
+      "category": "Integrated Scenario: Continuous Beam Moment",
+      "question": "In a 2-span continuous beam under uniform load w = 24 kN/m with span lengths L = 5.00 m, what is the approximate ACI negative design moment over the interior support?",
+      "options": {
+        "A": "-30.00 kN\u00b7m",
+        "B": "-60.00 kN\u00b7m",
+        "C": "-75.00 kN\u00b7m",
+        "D": "-120.00 kN\u00b7m"
+      },
+      "correct": "B",
+      "citation": "NSCP 2015 Sec. 406.5",
+      "trap": "Mu = -Wu Ln\u00b2 / 10 = -(24 x 25) / 10 = -600 / 10 = -60.00 kN\u00b7m."
+    },
+    {
+      "id": 97,
+      "category": "Integrated Scenario: Lighting Design",
+      "question": "If a lighting fixture is mounted at a height twice as far from the workplane (distance 2d vs d), how is the illuminance on the surface affected per the Inverse Square Law?",
+      "options": {
+        "A": "Halved (1/2)",
+        "B": "Reduced to one-fourth (1/4)",
+        "C": "Doubled",
+        "D": "Unchanged"
+      },
+      "correct": "B",
+      "citation": "BU 2 / Photometry",
+      "trap": "Illuminance follows the inverse square law E = I / d\u00b2; doubling distance reduces light to 1/4."
+    },
+    {
+      "id": 98,
+      "category": "Integrated Scenario: Professional Ethics",
+      "question": "Under the PRBoA Code of Ethical Conduct, when is an architect permitted to quote professional fees for a project already being designed by another architect?",
+      "options": {
+        "A": "Whenever the client asks",
+        "B": "If the fee quoted is 20% lower",
+        "C": "Only after the prior architect's contract is officially terminated in writing and the prior architect is formally notified",
+        "D": "Never under any circumstances"
+      },
+      "correct": "C",
+      "citation": "PRBoA Code of Ethics Art. 5",
+      "trap": "An architect cannot intervene until the prior architect's commission is legally terminated in writing."
+    },
+    {
+      "id": 99,
+      "category": "Integrated Scenario: Stormwater Runoff",
+      "question": "A 1.0-hectare completely paved concrete roof deck (C = 0.90) experiences a storm of intensity I = 100 mm/hr. What is the peak runoff discharge Q?",
+      "options": {
+        "A": "0.10 m\u00b3/s",
+        "B": "0.25 m\u00b3/s (250 L/s)",
+        "C": "0.50 m\u00b3/s",
+        "D": "0.90 m\u00b3/s"
+      },
+      "correct": "B",
+      "citation": "PLAN 1 / Rational Method",
+      "trap": "Q = (0.90 x 100 x 1.0) / 360 = 90 / 360 = 0.25 m\u00b3/s (250 Liters/second)."
+    },
+    {
+      "id": 100,
+      "category": "Integrated Scenario: Comprehensive Synthesis",
+      "question": "Which of the following architectural design decisions violates BOTH RA 9514 (Fire Code) and BP 344 (Accessibility Law)?",
+      "options": {
+        "A": "Installing dual handrails on a 1:12 ramp",
+        "B": "A main public classroom door with a 0.70 m clear opening swinging inward into the room",
+        "C": "Providing an outward swinging door in a 1.70 x 1.80 m toilet stall",
+        "D": "Placing accessible parking 25 meters from the entrance"
+      },
+      "correct": "B",
+      "citation": "RA 9514 & BP 344 Joint Violation",
+      "trap": "0.70m violates BP 344 (min 0.80m); inward swing for classrooms serving >=50 violates RA 9514!"
+    }
+  ]
+}

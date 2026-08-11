@@ -89,6 +89,8 @@ const requiredReviewers = [
   'reviewers/mock-exams/MAPUA_DEPT_EXAM_SET_05_UTILITIES_MEPFS.md',
   'reviewers/mock-exams/MAPUA_EXIT_EXAM_50_ITEM_MASTER_SIMULATION.md',
   'reviewers/mock-exams/MAPUA_EXIT_EXAM_50_ITEM_MASTER_SIMULATION.json',
+  'reviewers/mock-exams/MAPUA_EXIT_EXAM_100_ITEM_GRAND_SIMULATION.md',
+  'reviewers/mock-exams/MAPUA_EXIT_EXAM_100_ITEM_GRAND_SIMULATION.json',
   'reviewers/mock-exams/SOCRATIC_EXAM_GENERATOR_TEMPLATE.md',
   'reviewers/formula-cheatsheets/AMBF_TGFA_STRUCTURES_FORMULAS.md',
   'reviewers/formula-cheatsheets/PHILIPPINE_BUILDING_LAWS_MASTER_MATRIX.md',

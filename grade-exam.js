@@ -14,7 +14,13 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-const examFile = path.join(__dirname, 'reviewers/mock-exams/MAPUA_EXIT_EXAM_50_ITEM_MASTER_SIMULATION.json');
+const default100 = path.join(__dirname, 'reviewers/mock-exams/MAPUA_EXIT_EXAM_100_ITEM_GRAND_SIMULATION.json');
+const default50 = path.join(__dirname, 'reviewers/mock-exams/MAPUA_EXIT_EXAM_50_ITEM_MASTER_SIMULATION.json');
+
+const targetArg = process.argv[2];
+const examFile = (targetArg === '50' || targetArg === 'set02')
+  ? default50
+  : (fs.existsSync(default100) ? default100 : default50);
 const logbookFile = path.join(__dirname, 'docs/STUDY_LOGBOOK.md');
 
 if (!fs.existsSync(examFile)) {
