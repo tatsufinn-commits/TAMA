@@ -89,7 +89,17 @@ When you start a study session:
   * **Build T35 (RA 9514 Canonical Compendium):** Ingested `vault/00-CORE-BUILDING-LAWS/RA-9514-FIRE-CODE/RA-9514-CANONICAL-FIRE-CODE-EGRESS-COMPENDIUM.md` and mirrored to `vault/01-BUILDING-LAWS-AND-PROFPRAC/RA-9514-FIRE-CODE/` (10-Section Canonical Reference, complete Occupant Load Table, Stair/Door Egress Capacity factors $7.6\text{mm}$ and $5.0\text{mm}$, Half-Diagonal $D/2$ and $D/3$ rule, $46\text{m}/61\text{m}$ travel distances, $6\text{m}/15\text{m}$ dead-end corridor caps, 2 worked calculation scenarios, 3 disaster case studies: Ozone Disco, Manor Hotel, Kentex, 2 ASCII diagrams, and a 10-Question Socratic Board Simulation Drill).
   * **Flashcard Deck Expansion:** Upgraded `reviewers/flashcards/FIRE_CODE_AND_BUILDING_TECH_DECK.md` from 7 to 20 comprehensive board exam flashcards.
 * **Current Production State:** Version `TAMA 2.1.0.0.a v` operational. Full Fire Code life safety calculations and active recall cards synchronized.
-* **Next Recommended Study Target:** **Phase 2 Expansion: `BP-344-CANONICAL-ACCESSIBILITY-COMPENDIUM.md` or `RA-9266-CANONICAL-SPP-DOCUMENTS-COMPENDIUM.md`**.
+
+---
+
+### [COMPLETED] Milestone 10: Canonical Accessibility Law & Wheelchair Geometry Compendium (Build T36)
+* **Date:** 2026-08-11
+* **Faculty in Charge:** `@curator` (Lead Architectural Researcher) / `@drillmaster`
+* **Changes Delivered:**
+  * **Build T36 (BP 344 Canonical Compendium):** Ingested `vault/00-CORE-BUILDING-LAWS/BP-344-ACCESSIBILITY/BP-344-CANONICAL-ACCESSIBILITY-COMPENDIUM.md` and mirrored to `vault/01-BUILDING-LAWS-AND-PROFPRAC/BP-344-ACCESSIBILITY/` (10-Section Canonical Manual, standard wheelchair turning radius $1.50\text{m}$, $1:12$ max ramp slope, $6.00\text{m}$ max run per landing, $0.70\text{m}/0.90\text{m}$ dual handrails with $0.30\text{m}$ extensions, $0.10\text{m}$ curb lips, $0.80\text{m}$ clear door opening, $1.70\text{m} \times 1.80\text{m}$ accessible toilet stall, $3.70\text{m}$ parking stall width, 2 worked calculation scenarios: University entrance ramp & 320-slot mall parking allocation, 2 ASCII diagrams, and a 10-Question Socratic Board Simulation Drill).
+  * **Flashcard Deck Expansion:** Upgraded `reviewers/flashcards/BP344_AND_NBCP_ACTIVE_RECALL_DECK.md` from 8 to 20 comprehensive active recall flashcards.
+* **Current Production State:** Version `TAMA 2.2.0.0.a v` operational. Both major Philippine life safety & accessibility codes (RA 9514 & BP 344) are at Level 5 Comprehensive depth.
+* **Next Recommended Study Target:** **Phase 2 Expansion: `RA-9266-CANONICAL-SPP-DOCUMENTS-COMPENDIUM.md` or `AD5-CANONICAL-SPACE-PROGRAMMING-MANUAL.md`**.
 
 ---
 
